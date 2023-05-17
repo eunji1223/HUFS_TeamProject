@@ -7,14 +7,10 @@ public class BossChildAlien : Alien
 {
     private BossAlien bossAlien;
     private int BossChildAlienHP;
-    private Vector2 BossChildAlienMoveDirection;
-
-    //public AlienData alienData;
     protected override void Start()
     {
         base.Start();
         BossChildAlienHP = 3;
-        BossChildAlienMoveDirection=Vector2.left;
     }
     public void SetBossAlien(BossAlien boss)
     {
@@ -26,7 +22,7 @@ public class BossChildAlien : Alien
 
         if (BossChildAlienHP <= 0)
         {
-            Debug.Log("Plant's Attack");
+            Debug.Log("Astronaut's Attack");
             Destroy(gameObject);
         }
     }
