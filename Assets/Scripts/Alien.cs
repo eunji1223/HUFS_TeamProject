@@ -45,7 +45,7 @@ public class Alien : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("plant"))
+        if (collision.gameObject.CompareTag("Astronaut"))
         {
             moveDirection = Vector2.zero;
             collision.GetComponent<Plant>().TakeDamage(attack);
@@ -54,7 +54,7 @@ public class Alien : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("plant"))
+        if (collision.gameObject.CompareTag("Astronaut"))
         {
             moveDirection=Vector2.left;
         }
