@@ -5,7 +5,7 @@ using UnityEngine;
 public class AlienAttack : MonoBehaviour
 {
     public float speed;
-    public float damage;
+    public int damage;
     public float attackRange;
 
     void Update() {
@@ -24,7 +24,7 @@ public class AlienAttack : MonoBehaviour
         speed = newSpeed;
     }
 
-    public void SetDamage(float newDamage) {
+    public void SetDamage(int newDamage) {
         damage = newDamage;
     }
 
