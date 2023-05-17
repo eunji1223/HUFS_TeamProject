@@ -12,8 +12,9 @@ public class Alien : MonoBehaviour
 
     private Rigidbody2D rb;
 
-    public GameObject plant;
-    // Start is called before the first frame update
+    public GameObject Astronaut;
+
+
     protected virtual void Start()
     {
         gameObject.tag = "Alien";
@@ -21,7 +22,7 @@ public class Alien : MonoBehaviour
         moveDirection = Vector2.left;
     }
 
-    // Update is called once per frame
+
     void Update()
     {
         transform.Translate(moveDirection * moveSpeed * Time.deltaTime);
@@ -43,20 +44,20 @@ public class Alien : MonoBehaviour
         Destroy(gameObject);
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    protected void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Astronaut"))
         {
             moveDirection = Vector2.zero;
-            collision.GetComponent<Plant>().TakeDamage(attack);
+            collision.GetComponent<Astronaut>().TakeDamage(attack);
         }
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
+    protected void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Astronaut"))
         {
-            moveDirection=Vector2.left;
+            moveDirection = Vector2.left;
         }
     }
 
