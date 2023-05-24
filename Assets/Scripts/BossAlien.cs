@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class BossAlien : Alien
 {
-    private int BossAlienHP;
+    [SerializeField]
     private int maxChildAlien;
+    private int BossAlienHP;
 
-    //분열 할 몬스터 변수// 보스 사망위치 , 분열 위치 조정 , 자식 오브젝트
+    //Boss Rocation , division Rocation Control , Child object
     private Vector2 spawnPoint;
     public float ControlPosition = 0.5f;
     public GameObject ChildAlien;
@@ -15,7 +16,7 @@ public class BossAlien : Alien
     protected override void Start()
     {
         base.Start();
-        BossAlienHP = 3;
+        BossAlienHP = 4;
         maxChildAlien = 4;
     }
 
