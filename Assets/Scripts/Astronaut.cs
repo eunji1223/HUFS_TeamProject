@@ -1,14 +1,23 @@
+using Packages.Rider.Editor.UnitTesting;
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Net;
 using UnityEngine;
+
 using Debug = UnityEngine.Debug;
 
 public class Astronaut : MonoBehaviour
 {
     private Item myAstronaut;
     private int health;
+
+    [SerializeField]
+    private GameObject obstacleRay;
+    [SerializeField]
+    private LayerMask layermask;
+
+    private float TestMaxDistance = 5.0f;
 
     private void Update()
     {
@@ -17,7 +26,7 @@ public class Astronaut : MonoBehaviour
 
     private void OnEnable()
     {
-        health = myAstronaut.health;
+        //health = myAstronaut.health;
     }
 
     public void AllocateItem(Item item)
@@ -63,16 +72,20 @@ public class Astronaut : MonoBehaviour
 
     protected void StopRange()
     {
-        RaycastHit2D hit = Physics2D.Raycast(this.transform.position, transform.right, 8.0f);
-        Debug.DrawRay(transform.position, transform.right * myAstronaut.maxDistance, Color.blue, 0.3f);
+        RaycastHit2D hit = Physics2D.Raycast(obstacleRay.transform.position, Vector3.right * 10, 15.0f, layermask);
         Debug.Log(hit);
-        if (hit.collider != null && hit.collider.CompareTag("Enemy"))
+        if (hit.collider != null)
         {
-            float distance = hit.collider.transform.position.x - this.transform.position.x;
-            if (distance < myAstronaut.maxDistance)
+            Debug.DrawRay(obstacleRay.transform.position, Vector3.right * 10, Color.red);
+            Debug.Log(hit.collider.name);
+            float distance = hit.collider.transform.position.x - obstacleRay.transform.position.x;
+            if (distance > TestMaxDistance)
             {
-                this.transform.position = Vector2.zero;
-                Attack();
+                this.transform.position += Vector3.right * Time.deltaTime;
+            }
+            else
+            {
+                //Attack();
                 //StartCoroutine("CreateBullet", myAstronaut.regenTime);    
             }
         }
