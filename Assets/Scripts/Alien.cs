@@ -1,25 +1,48 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
+using System.Threading;
 using UnityEngine;
 
 public class Alien : MonoBehaviour
 {
-    private int HP = 5;
+    [SerializeField]
+    public float moveSpeed;
+    [SerializeField]
     private int AlienHP;
-    public float moveSpeed = 3;
-    public int attack = 1;
-    private Vector2 moveDirection;
+    private Vector2 moveDirection = Vector2.left;
+
+
+    [SerializeField]
+    private float Attacktimer;
+    private float timer;
+    private bool InAttackRange = false;
 
     private Rigidbody2D rb;
+    public GameObject astronaut;
+    public GameObject AlienAttack;
 
-    public GameObject Astronaut;
+    private Collider attackRangeCollider;
 
 
     protected virtual void Start()
     {
-        gameObject.tag = "Alien";
-        AlienHP = HP;
-        moveDirection = Vector2.left;
+        attackRangeCollider = GetComponentInChildren<Collider>();
+    }
+
+    public void SetHP(int newHP)
+    {
+        AlienHP = newHP;
+    }
+
+    public void SetMoveSpeed(float newSpeed)
+    {
+        moveSpeed = newSpeed;
+    }
+
+    public void SetAttackTimer(float newAttackTimer)
+    {
+        Attacktimer = newAttackTimer;
     }
 
 
@@ -28,7 +51,11 @@ public class Alien : MonoBehaviour
         transform.Translate(moveDirection * moveSpeed * Time.deltaTime);
 
         rb = GetComponent<Rigidbody2D>();
+
+        timer += Time.deltaTime;
+
     }
+
     public virtual void TakeDamage(int damage)
     {
         AlienHP -= damage;
@@ -48,8 +75,14 @@ public class Alien : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Astronaut"))
         {
+            InAttackRange = true;
             moveDirection = Vector2.zero;
-            collision.GetComponent<Astronaut>().TakeDamage(attack);
+
+            if (timer >= Attacktimer)
+            {
+                spawnAlienAttack();
+                timer = 0;
+            }
         }
     }
 
@@ -57,8 +90,13 @@ public class Alien : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Astronaut"))
         {
+            InAttackRange = false;
             moveDirection = Vector2.left;
         }
+    }
+    private void spawnAlienAttack()
+    {
+        Instantiate(AlienAttack, transform.position, transform.rotation);
     }
 
 }
