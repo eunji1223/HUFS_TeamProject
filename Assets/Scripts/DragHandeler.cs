@@ -16,13 +16,13 @@ public class DragHandeler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEnd
         itemBeingDragged = gameObject;
         startPosition = transform.position;
         startParent = transform.parent;
-        GetComponent<CanvasGroup>().blocksRaycasts = false;
+       
 
     }
 
     public void OnDrag(PointerEventData eventData)
     {
-        transform.position = Input.mousePosition;
+        transform.position = eventData.position;
     }
 
     public void OnEndDrag(PointerEventData eventData)
@@ -30,7 +30,7 @@ public class DragHandeler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEnd
         transform.SetParent(startParent);
         transform.localPosition = Vector3.zero;
         itemBeingDragged = null;
-        GetComponent<CanvasGroup>().blocksRaycasts = true;
+
 
 
     }
