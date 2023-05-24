@@ -16,8 +16,6 @@ public class Spawner : MonoBehaviour, IDropHandler
     [SerializeField]
     private Item[] itemSO;
 
-   // public static bool spawnerCondition = true; 
-
     public void OnDrop(PointerEventData eventData)
     {
 
