@@ -11,6 +11,7 @@ public class AlienAttack : MonoBehaviour
     void Update() {
         Move();
 
+
         if (transform.position.x <= attackRange) {
             Destroy(gameObject);
         }
