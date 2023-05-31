@@ -11,13 +11,9 @@ public class SceneChange : MonoBehaviour
 {
     public void StartToMain()
     {
-        SceneManager.LoadScene("Astronaut"); // 추후 이름을 MainScene으로 변경해야 함.
+        SceneManager.LoadScene("MainScene"); // 추후 이름을 MainScene으로 변경해야 함.
     }
 
-    public void MainToStart()
-    {
-        SceneManager.LoadScene("StartScene");
-    }
 
     public void StartToOption()
     {
