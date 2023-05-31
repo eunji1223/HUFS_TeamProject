@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e44f2e1e2bd0cc54ea41c84666b1bf92
+guid: 835ce4478221bc144912fdf3a6f58162
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -105,159 +105,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: character_idle_red_0
+      name: idle_gray_0
       rect:
         serializedVersion: 2
-        x: 113
-        y: 1532
-        width: 132
-        height: 180
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f87e57af5e45e704baf4afe8f217ce47
-      internalID: -17039058
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_red_1
-      rect:
-        serializedVersion: 2
-        x: 473
-        y: 1532
-        width: 133
-        height: 180
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f4b3f66cf37488747ba7e646a5bdbfdb
-      internalID: 1864313125
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_red_2
-      rect:
-        serializedVersion: 2
-        x: 832
-        y: 1532
-        width: 134
-        height: 180
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 99b7d074906ba6144b9a7f6710bcdabd
-      internalID: 1014103113
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_red_3
-      rect:
-        serializedVersion: 2
-        x: 1192
-        y: 1530
-        width: 133
-        height: 182
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d20adfb7d709192449ff42aa69c8760c
-      internalID: -1021143194
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_red_4
-      rect:
-        serializedVersion: 2
-        x: 1554
-        y: 1532
-        width: 131
-        height: 178
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 86f9e62cb7aeab4408d6c8d5e22af84e
-      internalID: -722788347
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_red_5
-      rect:
-        serializedVersion: 2
-        x: 1913
-        y: 1530
-        width: 132
-        height: 180
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b248a4324c6b6904494075a55eb04cfc
-      internalID: 696098906
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_red_6
-      rect:
-        serializedVersion: 2
-        x: 2273
-        y: 1530
-        width: 131
-        height: 178
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 955c3efd8b85ba34f9fd4dd58a5e02e7
-      internalID: -1348955290
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_red_7
-      rect:
-        serializedVersion: 2
-        x: 2633
-        y: 1532
-        width: 133
+        x: 115
+        y: 1534
+        width: 128
         height: 176
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -266,19 +119,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 570fd57ba17f51c418aa57b8ad95f19a
-      internalID: -2032643508
+      spriteID: 632e29399d23754499644bc536406133
+      internalID: 1890024665
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_idle_red_8
+      name: idle_gray_1
       rect:
         serializedVersion: 2
-        x: 2992
-        y: 1530
-        width: 134
+        x: 475
+        y: 1534
+        width: 128
         height: 176
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -287,19 +140,40 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 994c50b84c13ebb4ab4e7b242ff852bd
-      internalID: 172238905
+      spriteID: 8771f18528284004b8ce9f28515a5f05
+      internalID: -193417712
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_idle_red_9
+      name: idle_gray_2
       rect:
         serializedVersion: 2
-        x: 3354
-        y: 1530
-        width: 131
+        x: 835
+        y: 1534
+        width: 128
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6237b476e56482046985a94ce6e5372c
+      internalID: -1649886400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_gray_3
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 1533
+        width: 128
         height: 176
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -308,334 +182,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5d74fa62f75dba4b9bf519cf16fbca8
-      internalID: 1501344806
+      spriteID: 7044412ba0cb59f4e93886614ecc8a9b
+      internalID: 1247971523
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_idle_red_10
+      name: idle_gray_4
       rect:
         serializedVersion: 2
-        x: 3713
-        y: 1530
-        width: 132
-        height: 176
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1e2bc26920ee3e24d9de27d837fa6a30
-      internalID: -461470635
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_red_11
-      rect:
-        serializedVersion: 2
-        x: 113
-        y: 1231
-        width: 132
-        height: 176
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b8acf19d5a2dfab4e9540830a2856b49
-      internalID: -989614938
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_red_12
-      rect:
-        serializedVersion: 2
-        x: 473
-        y: 1231
-        width: 133
-        height: 176
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6b4288a5c6045474c950322caa87cfe5
-      internalID: -1268428140
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_red_13
-      rect:
-        serializedVersion: 2
-        x: 832
-        y: 1231
-        width: 134
-        height: 176
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9f28ae3220c27714290989d434820a12
-      internalID: 1710382358
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_red_14
-      rect:
-        serializedVersion: 2
-        x: 1193
-        y: 1231
-        width: 132
-        height: 177
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3e371ff7d23e2d244ba2f1cb40f922e4
-      internalID: 1442174106
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_red_15
-      rect:
-        serializedVersion: 2
-        x: 1554
-        y: 1231
-        width: 131
-        height: 177
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 19bcc4a101bb37441ae82486067ebac2
-      internalID: -661350968
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_red_16
-      rect:
-        serializedVersion: 2
-        x: 1913
-        y: 1231
-        width: 132
-        height: 179
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f3dae79e1abbb65418095e2a12ad434e
-      internalID: -277956658
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_red_17
-      rect:
-        serializedVersion: 2
-        x: 2273
-        y: 1231
-        width: 131
-        height: 179
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7b163f10d31d38f478b3680fd4622e2e
-      internalID: 1449673064
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_red_18
-      rect:
-        serializedVersion: 2
-        x: 2633
-        y: 1231
-        width: 133
-        height: 181
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4fe6e51b3531bde48a85df86f63dfdef
-      internalID: -1622382744
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_red_19
-      rect:
-        serializedVersion: 2
-        x: 2992
-        y: 1231
-        width: 134
-        height: 181
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 00e60874678f9fb498eb803a2e07d842
-      internalID: -69766551
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_red_20
-      rect:
-        serializedVersion: 2
-        x: 3354
-        y: 1231
-        width: 131
-        height: 181
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7d91175f3b8b1a3459b95efbe1dfad1f
-      internalID: -21928681
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_red_21
-      rect:
-        serializedVersion: 2
-        x: 3717
-        y: 1231
-        width: 136
-        height: 177
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a4a5ffae1aa6762448edcc0c5a3a205b
-      internalID: -421895678
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_red_22
-      rect:
-        serializedVersion: 2
-        x: 117
-        y: 931
-        width: 136
-        height: 178
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e3d8b383a543f0f449a5eade1b665aaf
-      internalID: 833524553
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_red_23
-      rect:
-        serializedVersion: 2
-        x: 477
-        y: 931
-        width: 137
-        height: 178
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 37214c603d9b3f34b85b96efd9e38339
-      internalID: -1966332114
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_red_24
-      rect:
-        serializedVersion: 2
-        x: 836
-        y: 931
-        width: 138
-        height: 176
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: daf4073461af0f24190d1c6fb9681114
-      internalID: 1524397633
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_red_25
-      rect:
-        serializedVersion: 2
-        x: 1194
-        y: 931
-        width: 139
+        x: 1555
+        y: 1534
+        width: 128
         height: 174
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -644,439 +203,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ebdbd476dced3c4db6f89c98115a688
-      internalID: -910192747
+      spriteID: fe18f539e69e8bb44bb3ab6f8a2944bc
+      internalID: -856530287
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_idle_red_26
-      rect:
-        serializedVersion: 2
-        x: 1554
-        y: 931
-        width: 139
-        height: 172
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f11ce3a54db434640aa2ef86205fab11
-      internalID: 498443901
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_red_27
-      rect:
-        serializedVersion: 2
-        x: 1911
-        y: 931
-        width: 141
-        height: 170
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1187c6ccdeb7377428be4eb44e1e7424
-      internalID: -226597074
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_red_28
-      rect:
-        serializedVersion: 2
-        x: 2271
-        y: 931
-        width: 143
-        height: 168
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9bc0f5b49f4b4544d8cceef60f6eac2a
-      internalID: -783367395
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_red_29
-      rect:
-        serializedVersion: 2
-        x: 2631
-        y: 931
-        width: 143
-        height: 168
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a30981c459d8a5d4f8fa5f52d25a9181
-      internalID: 1317067145
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_red_30
-      rect:
-        serializedVersion: 2
-        x: 2990
-        y: 930
-        width: 143
-        height: 167
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c0835c496985f4c4883a527711ad7463
-      internalID: -1372431469
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_red_31
-      rect:
-        serializedVersion: 2
-        x: 3350
-        y: 931
-        width: 143
-        height: 166
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 446e2169d86998c4ba49511f15a35af6
-      internalID: 1604419943
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_red_32
-      rect:
-        serializedVersion: 2
-        x: 3710
-        y: 931
-        width: 143
-        height: 166
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3e7da2a08255bcb48a0ee387cd3d4a4d
-      internalID: 1744083347
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_red_33
-      rect:
-        serializedVersion: 2
-        x: 111
-        y: 631
-        width: 142
-        height: 167
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ae8581fdb0dd2be43a6141fd2afe0efb
-      internalID: 1325797596
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_red_34
-      rect:
-        serializedVersion: 2
-        x: 471
-        y: 631
-        width: 143
-        height: 168
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 387ba02710c1ac042a9a657d3a698c37
-      internalID: 1661669503
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_red_35
-      rect:
-        serializedVersion: 2
-        x: 832
-        y: 631
-        width: 142
-        height: 168
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 76512a5901c2a9b42b9c5ef9ac169d9b
-      internalID: -1043784013
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_red_36
-      rect:
-        serializedVersion: 2
-        x: 1192
-        y: 631
-        width: 141
-        height: 172
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a96195fc0e3f56742b0cbe241f15941b
-      internalID: 2035943209
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_red_37
-      rect:
-        serializedVersion: 2
-        x: 1556
-        y: 631
-        width: 137
-        height: 174
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8cc39d4c3112d794091bdca4a441032e
-      internalID: 563887593
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_red_38
+      name: idle_gray_5
       rect:
         serializedVersion: 2
         x: 1915
-        y: 631
-        width: 137
-        height: 176
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cd555d3cbf9b20443a45e962904f58b1
-      internalID: -1107513823
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_red_39
-      rect:
-        serializedVersion: 2
-        x: 2277
-        y: 631
-        width: 137
-        height: 176
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8684f9680fcf05d4880a3e5888730e95
-      internalID: 304279320
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_red_40
-      rect:
-        serializedVersion: 2
-        x: 2636
-        y: 631
-        width: 138
-        height: 178
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 95710866cf7a99e41911542742a26a81
-      internalID: 944265728
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_red_41
-      rect:
-        serializedVersion: 2
-        x: 2996
-        y: 631
-        width: 137
-        height: 178
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 587b1491bf058144e8374b435155d35b
-      internalID: -1997364775
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_red_42
-      rect:
-        serializedVersion: 2
-        x: 3354
-        y: 631
-        width: 131
-        height: 180
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 22709b3e90e384a4a8ebf698850ad1e1
-      internalID: -246331231
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_red_43
-      rect:
-        serializedVersion: 2
-        x: 3713
-        y: 631
-        width: 132
-        height: 178
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 060bca6729a82cc488157e86a8f1c9cb
-      internalID: 1785179856
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_red_44
-      rect:
-        serializedVersion: 2
-        x: 113
-        y: 332
-        width: 132
-        height: 177
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7b0699ec3cff91c4396938e38ad86ece
-      internalID: -1182404969
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_red_45
-      rect:
-        serializedVersion: 2
-        x: 473
-        y: 332
-        width: 133
-        height: 176
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: be1ec99e5c3f3b1459af453ddae40a41
-      internalID: -7978266
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_red_46
-      rect:
-        serializedVersion: 2
-        x: 832
-        y: 332
-        width: 134
+        y: 1533
+        width: 128
         height: 174
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1085,19 +224,418 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bbd5d6149e2ef784d89176c60cdbfa81
-      internalID: 540071735
+      spriteID: ab1121c0cffc494459e3cc9265c9e5f1
+      internalID: 213280913
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_idle_red_47
+      name: idle_gray_6
       rect:
         serializedVersion: 2
-        x: 1193
-        y: 332
+        x: 2275
+        y: 1533
+        width: 128
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e95cf1678880af049a62edc9e35b43e8
+      internalID: 621133741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_gray_7
+      rect:
+        serializedVersion: 2
+        x: 2635
+        y: 1534
+        width: 128
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b703d4fb2f06444ae009fbff665e77
+      internalID: 1754602014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_gray_8
+      rect:
+        serializedVersion: 2
+        x: 2995
+        y: 1533
+        width: 128
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca3c922c7844ec24e842981e581b70f7
+      internalID: -1069986760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_gray_9
+      rect:
+        serializedVersion: 2
+        x: 3355
+        y: 1533
+        width: 128
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f0e0f5725f8034883d27c3af0f86df
+      internalID: 199182947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_gray_10
+      rect:
+        serializedVersion: 2
+        x: 3715
+        y: 1533
+        width: 128
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29bd02e66c78d484dbc8facc29fb1e52
+      internalID: -1419150817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_gray_11
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 1233
+        width: 128
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 944193b659c91124d84c08ad32fcf7ed
+      internalID: 57364074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_gray_12
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 1233
+        width: 128
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6391eedc06587ad45b43cf6c35ae3d5a
+      internalID: -1568312444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_gray_13
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 1234
+        width: 128
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acebbeb442cffb945b0aa1fa74ff37b2
+      internalID: -50655720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_gray_14
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 1233
+        width: 128
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfa0692799a8a5941bb6be04dccf2e24
+      internalID: 1044732446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_gray_15
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 1233
+        width: 128
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df075f4db7b5acc479e4803664f65b03
+      internalID: -236562033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_gray_16
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 1234
+        width: 128
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5209befd94668946a18b829b5cf0b49
+      internalID: -591911337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_gray_17
+      rect:
+        serializedVersion: 2
+        x: 2275
+        y: 1233
+        width: 128
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce42745296ff454bb41413c6d7b5754
+      internalID: 1432985917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_gray_18
+      rect:
+        serializedVersion: 2
+        x: 2635
+        y: 1234
+        width: 128
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d7024b052bb0e946a0ad3ed2c5a7452
+      internalID: -809529314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_gray_19
+      rect:
+        serializedVersion: 2
+        x: 2995
+        y: 1234
+        width: 128
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 986cf152036e4804fb6aa19aaca25359
+      internalID: -499211924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_gray_20
+      rect:
+        serializedVersion: 2
+        x: 3355
+        y: 1234
+        width: 128
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68fde94702cc78c4bb8022c5344d4df6
+      internalID: -967992566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_gray_21
+      rect:
+        serializedVersion: 2
+        x: 3719
+        y: 1233
         width: 132
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c9f374f0d3ee34e96ebf2e2f4eba3e
+      internalID: -551403003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_gray_22
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 933
+        width: 132
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9779c6f182459047b119204c6cce6fb
+      internalID: 1598821264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_gray_23
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 933
+        width: 133
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5385083d0e301574ebd40d25de2b9c02
+      internalID: 174625322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_gray_24
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 933
+        width: 133
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff6c5c9136f26340bd18d0df5d3ce29
+      internalID: -1726486045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_gray_25
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 933
+        width: 134
         height: 170
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1106,20 +644,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d7addfe19bb2744ba44bfed9bd8ab55
-      internalID: 958457009
+      spriteID: aa52d3ed371be6e42b570d718046472b
+      internalID: -2031943829
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_idle_red_48
+      name: idle_gray_26
       rect:
         serializedVersion: 2
-        x: 1554
-        y: 332
-        width: 131
-        height: 166
+        x: 1555
+        y: 933
+        width: 136
+        height: 168
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1127,145 +665,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a24dcbe3a97991641b9a3f4cee399590
-      internalID: 1023225019
+      spriteID: d0e3eb40d91b4d24780818df06c75dda
+      internalID: 792172199
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_idle_red_49
+      name: idle_gray_27
       rect:
         serializedVersion: 2
-        x: 1913
-        y: 332
-        width: 132
-        height: 164
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8690157087ce23f438d6a493bdf98c40
-      internalID: -1962194420
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_red_50
-      rect:
-        serializedVersion: 2
-        x: 2273
-        y: 332
-        width: 131
-        height: 164
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fd7fffd82f3aece4da60d36c23d7a6d0
-      internalID: 1611436978
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_red_51
-      rect:
-        serializedVersion: 2
-        x: 2633
-        y: 332
-        width: 133
-        height: 162
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 80083fac1515cbc45b87c1c66dab4183
-      internalID: -1689735866
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_red_52
-      rect:
-        serializedVersion: 2
-        x: 2992
-        y: 332
-        width: 134
-        height: 162
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2372c7b4f0c0a7943ab246873eddaf2e
-      internalID: 1997172377
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_red_53
-      rect:
-        serializedVersion: 2
-        x: 3354
-        y: 332
-        width: 131
-        height: 162
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e2110978d95dba94496f07883b0edaba
-      internalID: -153322836
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_red_54
-      rect:
-        serializedVersion: 2
-        x: 3713
-        y: 332
-        width: 132
-        height: 164
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7d2a6f3f2bd56cb499def70f77af05e4
-      internalID: -995290085
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_red_55
-      rect:
-        serializedVersion: 2
-        x: 113
-        y: 31
-        width: 132
+        x: 1914
+        y: 933
+        width: 137
         height: 165
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1274,20 +686,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b21e651e88b317488fcbfe063c4beb2
-      internalID: 1576038211
+      spriteID: 8873c7c44db894541b1297ed44a83c7c
+      internalID: 1131068765
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_idle_red_56
+      name: idle_gray_28
       rect:
         serializedVersion: 2
-        x: 473
-        y: 32
-        width: 133
-        height: 166
+        x: 2273
+        y: 933
+        width: 138
+        height: 164
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1295,18 +707,186 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2be30c2ddbe88324aa7a07c0b92dab15
-      internalID: -1819304714
+      spriteID: d66b0b963a4b9f449ae89a54d65276f1
+      internalID: 677422178
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_idle_red_57
+      name: idle_gray_29
       rect:
         serializedVersion: 2
-        x: 832
-        y: 32
+        x: 2633
+        y: 933
+        width: 138
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e1ba346aa396bb47804f670086ed482
+      internalID: -483853038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_gray_30
+      rect:
+        serializedVersion: 2
+        x: 2993
+        y: 932
+        width: 138
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c165241ffbaeb8478762abb712d338b
+      internalID: 723158015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_gray_31
+      rect:
+        serializedVersion: 2
+        x: 3353
+        y: 933
+        width: 138
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0936aceb20304894882e9ca9fed78eef
+      internalID: -1850627883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_gray_32
+      rect:
+        serializedVersion: 2
+        x: 3713
+        y: 933
+        width: 138
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846c5f960583ca844b520f9589d18bf3
+      internalID: 1961526692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_gray_33
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 633
+        width: 138
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db92128b6aeb4584cbd8aac7f80b4d5a
+      internalID: 1048988236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_gray_34
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 633
+        width: 138
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8d149963afeaab49a24b6bba6ce1c5e
+      internalID: -1891350178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_gray_35
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 633
+        width: 137
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19818dfa3409de14f97bd7906573e21d
+      internalID: -2109835245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_gray_36
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 633
+        width: 136
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f72a4aca5dda546812a6cc5d6cc7c0
+      internalID: 246105399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_gray_37
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 633
         width: 134
         height: 170
       alignment: 0
@@ -1316,19 +896,103 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 81cb94173d3449e438fc5d62d92b2ad7
-      internalID: -471293855
+      spriteID: ad86e81a7d6935e44ba10027940559f8
+      internalID: 1930620280
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_idle_red_58
+      name: idle_gray_38
       rect:
         serializedVersion: 2
-        x: 1193
-        y: 32
+        x: 1918
+        y: 633
+        width: 133
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a41ab6cc62dac074386ef239f8113903
+      internalID: -1794319068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_gray_39
+      rect:
+        serializedVersion: 2
+        x: 2278
+        y: 633
+        width: 133
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff5651020b3660d44b7982c38d03eda9
+      internalID: -1379269137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_gray_40
+      rect:
+        serializedVersion: 2
+        x: 2639
+        y: 633
         width: 132
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 025d4f43adf5c5146875d842b0afcd2c
+      internalID: 1420607023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_gray_41
+      rect:
+        serializedVersion: 2
+        x: 2999
+        y: 633
+        width: 132
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e043646220d5844d82640c635c24d33
+      internalID: -1024590992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_gray_42
+      rect:
+        serializedVersion: 2
+        x: 3355
+        y: 634
+        width: 128
         height: 174
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1337,20 +1001,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5db4ddca7dc09da4eb6bd5af4786f447
-      internalID: 27681732
+      spriteID: c490aacca3190674185f0faa27a557d5
+      internalID: 843512977
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_idle_red_59
+      name: idle_gray_43
       rect:
         serializedVersion: 2
-        x: 1554
-        y: 32
-        width: 131
-        height: 176
+        x: 3715
+        y: 634
+        width: 128
+        height: 174
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1358,20 +1022,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 565be58d604c3d94a9f806b9bc5dd00f
-      internalID: -120325210
+      spriteID: cadbf0c9aae212f439b951b451733023
+      internalID: -899981892
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_idle_red_60
+      name: idle_gray_44
       rect:
         serializedVersion: 2
-        x: 1913
-        y: 32
-        width: 132
-        height: 178
+        x: 115
+        y: 334
+        width: 128
+        height: 173
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1379,20 +1043,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99991a3cb6dcdc942aeba2bbdc8634ea
-      internalID: -248658263
+      spriteID: cd5ac49776f8d1445bcaacc7812e84c5
+      internalID: -213477718
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_idle_red_61
+      name: idle_gray_45
       rect:
         serializedVersion: 2
-        x: 2273
-        y: 32
-        width: 131
-        height: 178
+        x: 475
+        y: 334
+        width: 128
+        height: 172
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1400,20 +1064,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df6559871292ad240b4def47846c8c2d
-      internalID: 1898913728
+      spriteID: cd7890a713b7e2546b33b265d111a2d2
+      internalID: -174017634
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_idle_red_62
+      name: idle_gray_46
       rect:
         serializedVersion: 2
-        x: 2633
-        y: 32
-        width: 133
-        height: 178
+        x: 835
+        y: 334
+        width: 128
+        height: 170
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1421,8 +1085,344 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1bb25e0e23205434983dd373081c721e
-      internalID: 610031618
+      spriteID: 5254a0cfd19ff374ba2912816e866214
+      internalID: -493584419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_gray_47
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 333
+        width: 128
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1b792f03ac99da4bade2abc636bf3a3
+      internalID: 1683435124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_gray_48
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 333
+        width: 128
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff88021519e74a7458c2a2666fcb3ac2
+      internalID: -1771174267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_gray_49
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 333
+        width: 128
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4002f1ccf0c996845ad308b882767d4f
+      internalID: -1902025414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_gray_50
+      rect:
+        serializedVersion: 2
+        x: 2275
+        y: 333
+        width: 128
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8be4d174704f4542b228a903f9dc2ed
+      internalID: 388502870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_gray_51
+      rect:
+        serializedVersion: 2
+        x: 2635
+        y: 333
+        width: 128
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c16bf86ef8faac844aa670a76294b99a
+      internalID: -513508895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_gray_52
+      rect:
+        serializedVersion: 2
+        x: 2995
+        y: 334
+        width: 128
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb72dd3465376b47900ab921e73c5b8
+      internalID: -1863799430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_gray_53
+      rect:
+        serializedVersion: 2
+        x: 3355
+        y: 333
+        width: 128
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b58fe802e62bf442a3e433c68f870d2
+      internalID: 2067267374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_gray_54
+      rect:
+        serializedVersion: 2
+        x: 3715
+        y: 333
+        width: 128
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 416a50f000e19d244b8daa395aaa02b5
+      internalID: -425554651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_gray_55
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 33
+        width: 128
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 173acb6622f0e0f4687bd74d82d6933f
+      internalID: 1254001721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_gray_56
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 34
+        width: 128
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 280b2b40e8ad3f745980d8f13fec2e78
+      internalID: 2078832686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_gray_57
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 34
+        width: 128
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6bf2583809bff4da0589a792796af0
+      internalID: 221936952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_gray_58
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 34
+        width: 128
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7620551ecdf4a3b409369b3a608c93c7
+      internalID: 213213353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_gray_59
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 34
+        width: 128
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a31a9e0b262d6a4396c781d351a81c5
+      internalID: 697965300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_gray_60
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 34
+        width: 128
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc4c49636d28a414fbee359923ff44ab
+      internalID: 1361946112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_gray_61
+      rect:
+        serializedVersion: 2
+        x: 2275
+        y: 34
+        width: 128
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 334aeface6e43b547a323ea32f22df9c
+      internalID: 1896520936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_gray_62
+      rect:
+        serializedVersion: 2
+        x: 2635
+        y: 34
+        width: 128
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72de7ae282538464d87051319995bbd3
+      internalID: -467632789
       vertices: []
       indices: 
       edges: []
@@ -1438,69 +1438,69 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      character_idle_red_0: -17039058
-      character_idle_red_1: 1864313125
-      character_idle_red_10: -461470635
-      character_idle_red_11: -989614938
-      character_idle_red_12: -1268428140
-      character_idle_red_13: 1710382358
-      character_idle_red_14: 1442174106
-      character_idle_red_15: -661350968
-      character_idle_red_16: -277956658
-      character_idle_red_17: 1449673064
-      character_idle_red_18: -1622382744
-      character_idle_red_19: -69766551
-      character_idle_red_2: 1014103113
-      character_idle_red_20: -21928681
-      character_idle_red_21: -421895678
-      character_idle_red_22: 833524553
-      character_idle_red_23: -1966332114
-      character_idle_red_24: 1524397633
-      character_idle_red_25: -910192747
-      character_idle_red_26: 498443901
-      character_idle_red_27: -226597074
-      character_idle_red_28: -783367395
-      character_idle_red_29: 1317067145
-      character_idle_red_3: -1021143194
-      character_idle_red_30: -1372431469
-      character_idle_red_31: 1604419943
-      character_idle_red_32: 1744083347
-      character_idle_red_33: 1325797596
-      character_idle_red_34: 1661669503
-      character_idle_red_35: -1043784013
-      character_idle_red_36: 2035943209
-      character_idle_red_37: 563887593
-      character_idle_red_38: -1107513823
-      character_idle_red_39: 304279320
-      character_idle_red_4: -722788347
-      character_idle_red_40: 944265728
-      character_idle_red_41: -1997364775
-      character_idle_red_42: -246331231
-      character_idle_red_43: 1785179856
-      character_idle_red_44: -1182404969
-      character_idle_red_45: -7978266
-      character_idle_red_46: 540071735
-      character_idle_red_47: 958457009
-      character_idle_red_48: 1023225019
-      character_idle_red_49: -1962194420
-      character_idle_red_5: 696098906
-      character_idle_red_50: 1611436978
-      character_idle_red_51: -1689735866
-      character_idle_red_52: 1997172377
-      character_idle_red_53: -153322836
-      character_idle_red_54: -995290085
-      character_idle_red_55: 1576038211
-      character_idle_red_56: -1819304714
-      character_idle_red_57: -471293855
-      character_idle_red_58: 27681732
-      character_idle_red_59: -120325210
-      character_idle_red_6: -1348955290
-      character_idle_red_60: -248658263
-      character_idle_red_61: 1898913728
-      character_idle_red_62: 610031618
-      character_idle_red_7: -2032643508
-      character_idle_red_8: 172238905
-      character_idle_red_9: 1501344806
+      idle_gray_0: 1890024665
+      idle_gray_1: -193417712
+      idle_gray_10: -1419150817
+      idle_gray_11: 57364074
+      idle_gray_12: -1568312444
+      idle_gray_13: -50655720
+      idle_gray_14: 1044732446
+      idle_gray_15: -236562033
+      idle_gray_16: -591911337
+      idle_gray_17: 1432985917
+      idle_gray_18: -809529314
+      idle_gray_19: -499211924
+      idle_gray_2: -1649886400
+      idle_gray_20: -967992566
+      idle_gray_21: -551403003
+      idle_gray_22: 1598821264
+      idle_gray_23: 174625322
+      idle_gray_24: -1726486045
+      idle_gray_25: -2031943829
+      idle_gray_26: 792172199
+      idle_gray_27: 1131068765
+      idle_gray_28: 677422178
+      idle_gray_29: -483853038
+      idle_gray_3: 1247971523
+      idle_gray_30: 723158015
+      idle_gray_31: -1850627883
+      idle_gray_32: 1961526692
+      idle_gray_33: 1048988236
+      idle_gray_34: -1891350178
+      idle_gray_35: -2109835245
+      idle_gray_36: 246105399
+      idle_gray_37: 1930620280
+      idle_gray_38: -1794319068
+      idle_gray_39: -1379269137
+      idle_gray_4: -856530287
+      idle_gray_40: 1420607023
+      idle_gray_41: -1024590992
+      idle_gray_42: 843512977
+      idle_gray_43: -899981892
+      idle_gray_44: -213477718
+      idle_gray_45: -174017634
+      idle_gray_46: -493584419
+      idle_gray_47: 1683435124
+      idle_gray_48: -1771174267
+      idle_gray_49: -1902025414
+      idle_gray_5: 213280913
+      idle_gray_50: 388502870
+      idle_gray_51: -513508895
+      idle_gray_52: -1863799430
+      idle_gray_53: 2067267374
+      idle_gray_54: -425554651
+      idle_gray_55: 1254001721
+      idle_gray_56: 2078832686
+      idle_gray_57: 221936952
+      idle_gray_58: 213213353
+      idle_gray_59: 697965300
+      idle_gray_6: 621133741
+      idle_gray_60: 1361946112
+      idle_gray_61: 1896520936
+      idle_gray_62: -467632789
+      idle_gray_7: 1754602014
+      idle_gray_8: -1069986760
+      idle_gray_9: 199182947
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
