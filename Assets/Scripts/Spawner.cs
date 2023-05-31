@@ -5,16 +5,24 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using static UnityEditor.Progress;
 
+using Debug = UnityEngine.Debug;
+
 public class Spawner : MonoBehaviour, IDropHandler
 {
     public static Spawner instance { get; private set; }
 
-    void Awake() => instance = this;
+    [SerializeField]
+    private GameObject[] character;
+    [SerializeField]
+    private AstronautItem[] AstronautSO;
 
-    [SerializeField]
-    private GameObject character;
-    [SerializeField]
-    private Item[] itemSO;
+    CoinManager coinManager;
+
+    private void Awake()
+    {
+        instance = this;
+        coinManager = GameObject.Find("CoinManager").GetComponent<CoinManager>();
+    }
 
     public void OnDrop(PointerEventData eventData)
     {
@@ -22,13 +30,16 @@ public class Spawner : MonoBehaviour, IDropHandler
        var item = DragHandeler.itemBeingDragged;
        if (item != null)
        {
-                for (int i = 0; i < itemSO.Length; i++)
+                for (int i = 0; i < AstronautSO.Length; i++)
                 {
-                    if (itemSO[i].name == item.name)
+                    if (AstronautSO[i].name == item.name)
                     {
-                        GetComponent<Astronaut>().AllocateItem(itemSO[i]);
-                        Instantiate(itemSO[i].AstroPre, new Vector3(-8, 0, 0), transform.rotation);
+                        //Debug.Log(itemSO[i].name);
+                        Instantiate(character[i], new Vector3(-8, 0, 0), transform.rotation);
+                        character[i].GetComponent<Astronaut>().AllocateItem(AstronautSO[i]);
                     }
+                    int num = 0;
+                    coinManager.DecreaseCoin(num);
                 }
        }
         

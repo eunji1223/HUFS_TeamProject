@@ -10,7 +10,6 @@ public class DragHandeler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEnd
     public static GameObject itemBeingDragged;
     Transform startParent;
 
-
     public void OnBeginDrag(PointerEventData eventData)
     {
         itemBeingDragged = gameObject;

@@ -9,7 +9,12 @@ using Debug = UnityEngine.Debug;
 
 public class Astronaut : MonoBehaviour
 {
-    private Item myAstronaut;
+
+    public static Astronaut instance { get; private set; }
+
+    void Awake() => instance = this;
+
+    private AstronautItem myAstronaut;
     private int health;
 
     [SerializeField]
@@ -29,18 +34,18 @@ public class Astronaut : MonoBehaviour
         //health = myAstronaut.health;
     }
 
-    public void AllocateItem(Item item)
+    public void AllocateItem(AstronautItem item)
     {
+        Debug.Log("½ÇÇà");
         myAstronaut = item;
     }
 
     private void Attack()
     {
-        switch (myAstronaut.hitType)
+        switch (0)
         {
             case 0:
             case 1:
-                StartCoroutine("CreateBullet", myAstronaut.regenTime);
                 break;
             case 2:
 
@@ -73,11 +78,9 @@ public class Astronaut : MonoBehaviour
     protected void StopRange()
     {
         RaycastHit2D hit = Physics2D.Raycast(obstacleRay.transform.position, Vector3.right * 10, 15.0f, layermask);
-        Debug.Log(hit);
         if (hit.collider != null)
         {
             Debug.DrawRay(obstacleRay.transform.position, Vector3.right * 10, Color.red);
-            Debug.Log(hit.collider.name);
             float distance = hit.collider.transform.position.x - obstacleRay.transform.position.x;
             if (distance > TestMaxDistance)
             {
@@ -93,7 +96,7 @@ public class Astronaut : MonoBehaviour
 
     private void CreateBullet()
     {
-        myAstronaut.bulletPre.GetComponent<bullet>().SetBullet(myAstronaut.gunSpeed);
-        Instantiate(myAstronaut.bulletPre, this.transform.position, this.transform.rotation);
+        //myAstronaut.bulletPre.GetComponent<bullet>().SetBullet(myAstronaut.gunSpeed);
+        //Instantiate(myAstronaut.bulletPre, this.transform.position, this.transform.rotation);
     }
 }
