@@ -1,99 +1,75 @@
-using Packages.Rider.Editor.UnitTesting;
 using System.Collections;
 using System.Collections.Generic;
-using System.Diagnostics;
-using System.Net;
 using UnityEngine;
 
 using Debug = UnityEngine.Debug;
 
 public class Astronaut : MonoBehaviour
 {
-    private Item myAstronaut;
+    private AstronautItem myAstronaut;
     private int health;
+    private int moveSpeed; // 0: Stop, !0: Move
+    private bool isAttacking;
 
     [SerializeField]
     private GameObject obstacleRay;
-    [SerializeField]
     private LayerMask layermask;
 
-    private float TestMaxDistance = 5.0f;
-
-    private void Update()
-    {
-        StopRange();
+    private void Start() {
+        health = myAstronaut.health;
     }
 
-    private void OnEnable()
-    {
-        //health = myAstronaut.health;
+    private void Update() {
+
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector3.right, myAstronaut.attackRange, layermask);
+
+        /* moveSpeed = 0: Stop, !0: Move */
+        transform.Translate(Vector3.right * moveSpeed * Time.deltaTime);
+
+        if (hit.collider != null) {
+            Stop();
+            Attack();
+        }
+        else {
+            Move();
+        }
     }
 
-    public void AllocateItem(Item item)
-    {
+    public void AllocateItem(AstronautItem item) {
         myAstronaut = item;
     }
 
     private void Attack()
     {
-        switch (myAstronaut.hitType)
+        if (!isAttacking)
         {
-            case 0:
-            case 1:
-                StartCoroutine("CreateBullet", myAstronaut.regenTime);
-                break;
-            case 2:
-
-            case 3:
-            case 4:
-                break;
-            case 5:
-
-                break;
-            case 6:
-
-                break;
-            default:
-
-                break;
+            isAttacking = true;
+            StartCoroutine("CreateBullet", myAstronaut);
         }
     }
 
+    private void CreateBullet() {
+        myAstronaut.BulletPrefab.GetComponent<Bullet>().SetBullet(myAstronaut);
+        Instantiate(myAstronaut.BulletPrefab, transform.position, transform.rotation);
+    }
+
+    private void Move() {
+        moveSpeed = myAstronaut.moveSpeed;
+    }
+
+    private void Stop() {
+        moveSpeed = 0;
+    }
+
+    public void Die() {
+        Destroy(gameObject);
+    }
     public void TakeDamage(int damage)
     {
         health -= damage;
-        if (health < 0)
-        {
-            // 죽는 애니메이션 실행
-            Destroy(this.gameObject);
+        if (health <= 0) {
+            Die();
         }
 
-    }
-
-    protected void StopRange()
-    {
-        RaycastHit2D hit = Physics2D.Raycast(obstacleRay.transform.position, Vector3.right * 10, 15.0f, layermask);
-        Debug.Log(hit);
-        if (hit.collider != null)
-        {
-            Debug.DrawRay(obstacleRay.transform.position, Vector3.right * 10, Color.red);
-            Debug.Log(hit.collider.name);
-            float distance = hit.collider.transform.position.x - obstacleRay.transform.position.x;
-            if (distance > TestMaxDistance)
-            {
-                this.transform.position += Vector3.right * Time.deltaTime;
-            }
-            else
-            {
-                //Attack();
-                //StartCoroutine("CreateBullet", myAstronaut.regenTime);    
-            }
-        }
-    }
-
-    private void CreateBullet()
-    {
-        myAstronaut.bulletPre.GetComponent<bullet>().SetBullet(myAstronaut.gunSpeed);
-        Instantiate(myAstronaut.bulletPre, this.transform.position, this.transform.rotation);
     }
 }

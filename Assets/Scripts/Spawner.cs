@@ -5,18 +5,17 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using static UnityEditor.Progress;
 
+using Debug = UnityEngine.Debug;
+
 public class Spawner : MonoBehaviour, IDropHandler
 {
     public static Spawner instance { get; private set; }
-
     void Awake() => instance = this;
 
     [SerializeField]
-    private GameObject character;
+    private GameObject[] character;
     [SerializeField]
-    private Item[] itemSO;
-
-   // public static bool spawnerCondition = true; 
+    private AstronautItem[] itemSO;
 
     public void OnDrop(PointerEventData eventData)
     {
@@ -28,8 +27,9 @@ public class Spawner : MonoBehaviour, IDropHandler
                 {
                     if (itemSO[i].name == item.name)
                     {
-                        GetComponent<Astronaut>().AllocateItem(itemSO[i]);
-                        Instantiate(itemSO[i].AstroPre, new Vector3(-8, 0, 0), transform.rotation);
+                        Debug.Log(itemSO[i].name);
+                        Instantiate(character[i], new Vector3(-8, 0, 0), transform.rotation);
+                        character[i].GetComponent<Astronaut>().AllocateItem(itemSO[i]);
                     }
                 }
        }
