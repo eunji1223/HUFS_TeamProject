@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    
     private BulletItem myBullet;
 
     void Update()
@@ -16,8 +15,7 @@ public class Bullet : MonoBehaviour
 
         transform.Translate(Vector3.right * myBullet.attackSpeed * Time.deltaTime);
         
-        if (transform.position.x >= myBullet.attackRange)
-        {
+        if (transform.position.x >= myBullet.attackRange) {
             Destroy(gameObject);
         }
     }

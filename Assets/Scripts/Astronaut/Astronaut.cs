@@ -61,7 +61,7 @@ public class Astronaut : MonoBehaviour
         moveSpeed = 0;
     }
 
-    public void Die() {
+    private void Die() {
         Destroy(gameObject);
     }
     public void TakeDamage(int damage)

@@ -8,6 +8,8 @@ TagManager:
   - Missile
   - Alien
   - Enemy
+  - Bullet
+  - Attack
   layers:
   - Default
   - TransparentFX
