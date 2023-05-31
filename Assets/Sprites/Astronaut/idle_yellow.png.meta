@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9b6bcdd4c083eb7448b3c4aaab425149
+guid: 412b89665a6727b48acd2c49286f8ddf
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -105,159 +105,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: character_idle_yellow_0
+      name: idle_yellow_0
       rect:
         serializedVersion: 2
-        x: 113
-        y: 1532
-        width: 132
-        height: 180
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 14e9de2273caf7a4c92e7827604d944a
-      internalID: 420039248
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_yellow_1
-      rect:
-        serializedVersion: 2
-        x: 473
-        y: 1532
-        width: 133
-        height: 180
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3d98565e1f7039d43a603ccd929c31e5
-      internalID: 1388280160
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_yellow_2
-      rect:
-        serializedVersion: 2
-        x: 832
-        y: 1532
-        width: 134
-        height: 180
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1360d95ff5e92e845900a758b4dc8b60
-      internalID: 898703400
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_yellow_3
-      rect:
-        serializedVersion: 2
-        x: 1192
-        y: 1530
-        width: 133
-        height: 182
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8494573d46ff3904581d3386e6efce96
-      internalID: 1099148523
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_yellow_4
-      rect:
-        serializedVersion: 2
-        x: 1554
-        y: 1532
-        width: 131
-        height: 178
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7f1f62d31fd700c4f8bad7b795269dd3
-      internalID: 1047461824
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_yellow_5
-      rect:
-        serializedVersion: 2
-        x: 1913
-        y: 1530
-        width: 132
-        height: 180
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 42f589c13d829574a9ad51e627de88fc
-      internalID: -1918007361
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_yellow_6
-      rect:
-        serializedVersion: 2
-        x: 2273
-        y: 1530
-        width: 131
-        height: 178
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4c72aa8016760ba439e883825767540d
-      internalID: -1462568465
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_yellow_7
-      rect:
-        serializedVersion: 2
-        x: 2633
-        y: 1532
-        width: 133
+        x: 115
+        y: 1534
+        width: 128
         height: 176
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -266,19 +119,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6641183b8fc869c47b76fb8cccc3a3d3
-      internalID: 1724812313
+      spriteID: 081d4fa50220f3c4f86fbd7155c9f4a9
+      internalID: 2040142390
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_idle_yellow_8
+      name: idle_yellow_1
       rect:
         serializedVersion: 2
-        x: 2992
-        y: 1530
-        width: 134
+        x: 475
+        y: 1534
+        width: 128
         height: 176
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -287,19 +140,40 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a0476f964192074c96dc90d7fec4a74
-      internalID: -1918651094
+      spriteID: 7f2f71cc5daf81442aef1dd537954159
+      internalID: -1451464729
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_idle_yellow_9
+      name: idle_yellow_2
       rect:
         serializedVersion: 2
-        x: 3354
-        y: 1530
-        width: 131
+        x: 835
+        y: 1534
+        width: 128
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b612fa475d82a147acd537377c23692
+      internalID: 1858009827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_yellow_3
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 1533
+        width: 128
         height: 176
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -308,334 +182,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e48bd9e5a1553e140a7d8f54ad17894f
-      internalID: -91471242
+      spriteID: 63c0c146499519e4b8297068ba77861b
+      internalID: 1854601406
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_idle_yellow_10
+      name: idle_yellow_4
       rect:
         serializedVersion: 2
-        x: 3713
-        y: 1530
-        width: 132
-        height: 176
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 96ae8ee8fc9cac3439cf7075126aed5e
-      internalID: -203976084
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_yellow_11
-      rect:
-        serializedVersion: 2
-        x: 113
-        y: 1231
-        width: 132
-        height: 176
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a568d020f323b4847bfa87103b42ad2e
-      internalID: -9311915
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_yellow_12
-      rect:
-        serializedVersion: 2
-        x: 473
-        y: 1231
-        width: 133
-        height: 176
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eeed4958229ab8046a4bcb599cd06d95
-      internalID: -976097069
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_yellow_13
-      rect:
-        serializedVersion: 2
-        x: 832
-        y: 1231
-        width: 134
-        height: 176
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1d1239179d89af642a8f8e3ba18aa880
-      internalID: 1265203524
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_yellow_14
-      rect:
-        serializedVersion: 2
-        x: 1193
-        y: 1231
-        width: 132
-        height: 177
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7e12dac6d4a6fda41adabe9d0ad04ab3
-      internalID: -251224845
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_yellow_15
-      rect:
-        serializedVersion: 2
-        x: 1554
-        y: 1231
-        width: 131
-        height: 177
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1d019f8cb84777e42a869e51124cfa27
-      internalID: -736904915
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_yellow_16
-      rect:
-        serializedVersion: 2
-        x: 1913
-        y: 1231
-        width: 132
-        height: 179
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 48573bbdf005426488954fcfad6713fc
-      internalID: 1769175377
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_yellow_17
-      rect:
-        serializedVersion: 2
-        x: 2273
-        y: 1231
-        width: 131
-        height: 179
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a52551ea5f2087f45903c1133cf1d7f8
-      internalID: 115263125
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_yellow_18
-      rect:
-        serializedVersion: 2
-        x: 2633
-        y: 1231
-        width: 133
-        height: 181
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 69a606a4fa3d80f43b6e9cdc97ea7a26
-      internalID: -1196566385
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_yellow_19
-      rect:
-        serializedVersion: 2
-        x: 2992
-        y: 1231
-        width: 134
-        height: 181
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eae148902f4f89744b73b96684829035
-      internalID: -222675544
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_yellow_20
-      rect:
-        serializedVersion: 2
-        x: 3354
-        y: 1231
-        width: 131
-        height: 181
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 05a6dd871aee7d54da714b29f23ded79
-      internalID: 1926463679
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_yellow_21
-      rect:
-        serializedVersion: 2
-        x: 3717
-        y: 1231
-        width: 136
-        height: 177
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c536bb292c6530545b4b8fa16215c894
-      internalID: -1700805023
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_yellow_22
-      rect:
-        serializedVersion: 2
-        x: 117
-        y: 931
-        width: 136
-        height: 178
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 307c2b4d91c84834fb1bcbd17dc8c47d
-      internalID: 818736658
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_yellow_23
-      rect:
-        serializedVersion: 2
-        x: 477
-        y: 931
-        width: 137
-        height: 178
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: df145c3f1e8b9334b903891db14a7bf1
-      internalID: -225941380
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_yellow_24
-      rect:
-        serializedVersion: 2
-        x: 836
-        y: 931
-        width: 138
-        height: 176
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7a4ec0f96a8a7384a87e8e85b768f659
-      internalID: 867710188
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_yellow_25
-      rect:
-        serializedVersion: 2
-        x: 1194
-        y: 931
-        width: 139
+        x: 1555
+        y: 1534
+        width: 128
         height: 174
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -644,439 +203,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ac0faac60a82b74fab44860233c1f3c
-      internalID: 1280698184
+      spriteID: e62e7f409d2e8cf4a83d19ab9ba67741
+      internalID: -2144450996
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_idle_yellow_26
-      rect:
-        serializedVersion: 2
-        x: 1554
-        y: 931
-        width: 139
-        height: 172
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 38bed9286dba9e843af6edc143d539b1
-      internalID: 1812896434
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_yellow_27
-      rect:
-        serializedVersion: 2
-        x: 1911
-        y: 931
-        width: 141
-        height: 170
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f1d1646b2f6ace54e91d559960adc248
-      internalID: 184545873
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_yellow_28
-      rect:
-        serializedVersion: 2
-        x: 2271
-        y: 931
-        width: 143
-        height: 168
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2949ee54e776fde47bf549a9ead16b4b
-      internalID: -99356359
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_yellow_29
-      rect:
-        serializedVersion: 2
-        x: 2631
-        y: 931
-        width: 143
-        height: 168
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 66513dc214a556447884fa9f5648f322
-      internalID: 551242545
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_yellow_30
-      rect:
-        serializedVersion: 2
-        x: 2990
-        y: 930
-        width: 143
-        height: 167
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a3cef4e3351f1914296e0395002aae15
-      internalID: 2118529715
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_yellow_31
-      rect:
-        serializedVersion: 2
-        x: 3350
-        y: 931
-        width: 143
-        height: 166
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6f7aa2696678645439bca059632bcfd4
-      internalID: 1561489945
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_yellow_32
-      rect:
-        serializedVersion: 2
-        x: 3710
-        y: 931
-        width: 143
-        height: 166
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 766772d826cd4da49bb670b33d193dc6
-      internalID: 486394591
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_yellow_33
-      rect:
-        serializedVersion: 2
-        x: 111
-        y: 631
-        width: 142
-        height: 167
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8cf581e9a33cacb448dc868e81378e50
-      internalID: -1807152754
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_yellow_34
-      rect:
-        serializedVersion: 2
-        x: 471
-        y: 631
-        width: 143
-        height: 168
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0cf8c98c4352a464ab6efacc32711ce8
-      internalID: -661251483
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_yellow_35
-      rect:
-        serializedVersion: 2
-        x: 832
-        y: 631
-        width: 142
-        height: 168
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2bd8937097244894d8bcb6403299c244
-      internalID: 1741549873
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_yellow_36
-      rect:
-        serializedVersion: 2
-        x: 1192
-        y: 631
-        width: 141
-        height: 172
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c906c10dcdd2ab9469ef753fd7279dcf
-      internalID: 2086624979
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_yellow_37
-      rect:
-        serializedVersion: 2
-        x: 1556
-        y: 631
-        width: 137
-        height: 174
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 092833e8b6b599745898a88123db1833
-      internalID: 1645204096
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_yellow_38
+      name: idle_yellow_5
       rect:
         serializedVersion: 2
         x: 1915
-        y: 631
-        width: 137
-        height: 176
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2a9c43b2895f712458d7f16fcddebf9b
-      internalID: 2027018479
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_yellow_39
-      rect:
-        serializedVersion: 2
-        x: 2277
-        y: 631
-        width: 137
-        height: 176
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e0ce3a4d291dbd74c87fc339fe00d560
-      internalID: -1560639337
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_yellow_40
-      rect:
-        serializedVersion: 2
-        x: 2636
-        y: 631
-        width: 138
-        height: 178
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b3851713a97c02a4a8eba547b185fb56
-      internalID: -1450191308
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_yellow_41
-      rect:
-        serializedVersion: 2
-        x: 2996
-        y: 631
-        width: 137
-        height: 178
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bcb00436e8695fd429c08d40081dfff0
-      internalID: 368755667
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_yellow_42
-      rect:
-        serializedVersion: 2
-        x: 3354
-        y: 631
-        width: 131
-        height: 180
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fde1e8a7bb078e64582b647f5b56ca2e
-      internalID: -1843257764
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_yellow_43
-      rect:
-        serializedVersion: 2
-        x: 3713
-        y: 631
-        width: 132
-        height: 178
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 58097ab850155654cbc96055a4d19c9d
-      internalID: 257293154
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_yellow_44
-      rect:
-        serializedVersion: 2
-        x: 113
-        y: 332
-        width: 132
-        height: 177
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 979fc38623365e141824823c80b4ab6c
-      internalID: 1489171882
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_yellow_45
-      rect:
-        serializedVersion: 2
-        x: 473
-        y: 332
-        width: 133
-        height: 176
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c50d78abed0690348bf1d22b6fe36e2f
-      internalID: 1158585148
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_yellow_46
-      rect:
-        serializedVersion: 2
-        x: 832
-        y: 332
-        width: 134
+        y: 1533
+        width: 128
         height: 174
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1085,19 +224,418 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99e67c76b4756894e8b44766fc955b74
-      internalID: -124020457
+      spriteID: 94521ec465139fd41a40b8c2e5c3ff89
+      internalID: 229225136
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_idle_yellow_47
+      name: idle_yellow_6
       rect:
         serializedVersion: 2
-        x: 1193
-        y: 332
+        x: 2275
+        y: 1533
+        width: 128
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8db90226a9b2c774887384e501c87e96
+      internalID: -834971942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_yellow_7
+      rect:
+        serializedVersion: 2
+        x: 2635
+        y: 1534
+        width: 128
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 223966c879e757a438e04a693824601e
+      internalID: 1585637441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_yellow_8
+      rect:
+        serializedVersion: 2
+        x: 2995
+        y: 1533
+        width: 128
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b4c18c7f74191f458a1fe6d9b4b64b9
+      internalID: 970183787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_yellow_9
+      rect:
+        serializedVersion: 2
+        x: 3355
+        y: 1533
+        width: 128
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 817fe12387f711c459a6c046abe95f02
+      internalID: -162400021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_yellow_10
+      rect:
+        serializedVersion: 2
+        x: 3715
+        y: 1533
+        width: 128
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5fe80bfeaa53874c956afef839b2c0b
+      internalID: -808989700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_yellow_11
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 1233
+        width: 128
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd345e6592cf8bf4d95f817e487a9e6b
+      internalID: 1059852867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_yellow_12
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 1233
+        width: 128
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 806168fa65383a14480fd9a1f04ee787
+      internalID: 1947326517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_yellow_13
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 1234
+        width: 128
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94a455d06a972614886a89a710dd7c9f
+      internalID: 317568754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_yellow_14
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 1233
+        width: 128
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e656b0158f2eea34aa73c039b72a9112
+      internalID: -367597705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_yellow_15
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 1233
+        width: 128
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ce21b09dbec25241a8cfe1a1de8b090
+      internalID: 536883587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_yellow_16
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 1234
+        width: 128
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59cd84b6f96e6b24cac74c8cb1fcd561
+      internalID: -2144426807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_yellow_17
+      rect:
+        serializedVersion: 2
+        x: 2275
+        y: 1233
+        width: 128
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e7e9faf15e5d2b4ca5ef1deca53faa5
+      internalID: -2034055297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_yellow_18
+      rect:
+        serializedVersion: 2
+        x: 2635
+        y: 1234
+        width: 128
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1832425fbe77b30459e358011147a1df
+      internalID: -2094612114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_yellow_19
+      rect:
+        serializedVersion: 2
+        x: 2995
+        y: 1234
+        width: 128
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f41021ea1b6ce9247973ea3a82af2ea6
+      internalID: -1748398127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_yellow_20
+      rect:
+        serializedVersion: 2
+        x: 3355
+        y: 1234
+        width: 128
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c07d2d155409a49a37e1162766cb7d
+      internalID: 1644574366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_yellow_21
+      rect:
+        serializedVersion: 2
+        x: 3719
+        y: 1233
         width: 132
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 473b68b7ffe76c24f982e391e1a9379d
+      internalID: -193716642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_yellow_22
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 933
+        width: 132
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 075f09215d73c2e4b85cc05c148e4f85
+      internalID: -1360867997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_yellow_23
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 933
+        width: 133
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c5ecfc7b9cf4ac43a5a3c10915b2e55
+      internalID: 1352948190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_yellow_24
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 933
+        width: 133
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89684513b4ceab2469b26d61d9d819ca
+      internalID: 1842402128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_yellow_25
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 933
+        width: 134
         height: 170
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1106,20 +644,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a737a3e4e68be7f48b32f3e887f5849d
-      internalID: -436491396
+      spriteID: aaee68d1b7609504b9a5468c7bec4e66
+      internalID: 551375153
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_idle_yellow_48
+      name: idle_yellow_26
       rect:
         serializedVersion: 2
-        x: 1554
-        y: 332
-        width: 131
-        height: 166
+        x: 1555
+        y: 933
+        width: 136
+        height: 168
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1127,145 +665,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2455e0d956e627b4db22d205effc91f2
-      internalID: -77248952
+      spriteID: 63b0466c7ff7fe4478205a1214892a78
+      internalID: -951663541
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_idle_yellow_49
+      name: idle_yellow_27
       rect:
         serializedVersion: 2
-        x: 1913
-        y: 332
-        width: 132
-        height: 164
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 52a334fd678d80440ad485fc1a75f65f
-      internalID: -362574930
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_yellow_50
-      rect:
-        serializedVersion: 2
-        x: 2273
-        y: 332
-        width: 131
-        height: 164
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9d428228330e02c4d817387141af8aff
-      internalID: 907539075
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_yellow_51
-      rect:
-        serializedVersion: 2
-        x: 2633
-        y: 332
-        width: 133
-        height: 162
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 68b5dc6f5e4a63e429df290d66c50611
-      internalID: 483385343
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_yellow_52
-      rect:
-        serializedVersion: 2
-        x: 2992
-        y: 332
-        width: 134
-        height: 162
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0fa9763b62068aa4890c88640321ee9d
-      internalID: -582267394
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_yellow_53
-      rect:
-        serializedVersion: 2
-        x: 3354
-        y: 332
-        width: 131
-        height: 162
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 603b63d0c2581174da8f6e4ee5d9860d
-      internalID: 1788418997
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_yellow_54
-      rect:
-        serializedVersion: 2
-        x: 3713
-        y: 332
-        width: 132
-        height: 164
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 83cb9001e4ed4a844b05d8a355104775
-      internalID: -681143177
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: character_idle_yellow_55
-      rect:
-        serializedVersion: 2
-        x: 113
-        y: 31
-        width: 132
+        x: 1914
+        y: 933
+        width: 137
         height: 165
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1274,20 +686,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e390aa6c3941f0c4e835f5b5f42564cf
-      internalID: -806105604
+      spriteID: 332187326f4087049846f2526489c0ac
+      internalID: -2014715822
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_idle_yellow_56
+      name: idle_yellow_28
       rect:
         serializedVersion: 2
-        x: 473
-        y: 32
-        width: 133
-        height: 166
+        x: 2273
+        y: 933
+        width: 138
+        height: 164
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1295,18 +707,186 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1f995f6fa619e9648b84934ff78ff00a
-      internalID: -1583180984
+      spriteID: dbcd4e39c06162a4f8c80269e2303fad
+      internalID: 370080424
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_idle_yellow_57
+      name: idle_yellow_29
       rect:
         serializedVersion: 2
-        x: 832
-        y: 32
+        x: 2633
+        y: 933
+        width: 138
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da2923009cfdb546ba1b1327ac37161
+      internalID: 525166745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_yellow_30
+      rect:
+        serializedVersion: 2
+        x: 2993
+        y: 932
+        width: 138
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb45c38f4519a174cbc5f4a041601ef0
+      internalID: -847331488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_yellow_31
+      rect:
+        serializedVersion: 2
+        x: 3353
+        y: 933
+        width: 138
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea091b5e5dbda044f9c8399b8089bbd2
+      internalID: 1536984272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_yellow_32
+      rect:
+        serializedVersion: 2
+        x: 3713
+        y: 933
+        width: 138
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3210a733bd626ca4598d8d3f9e510726
+      internalID: -376248244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_yellow_33
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 633
+        width: 138
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d51b9e9714288fa48bcb9ca01d552b00
+      internalID: -690679567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_yellow_34
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 633
+        width: 138
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e446ed15872a42d4d962ceb54f3423a8
+      internalID: 1773358811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_yellow_35
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 633
+        width: 137
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86e6a61406989d3459aca464ca6708dc
+      internalID: 904413141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_yellow_36
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 633
+        width: 136
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3785714fa99d2814c86d3dbd3c5279cb
+      internalID: 176903010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_yellow_37
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 633
         width: 134
         height: 170
       alignment: 0
@@ -1316,19 +896,103 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e130365e0e7ed7748a9c6d2fadf5c012
-      internalID: -593239276
+      spriteID: ebf5568e580a4ee49a9b104562389928
+      internalID: 1159268400
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_idle_yellow_58
+      name: idle_yellow_38
       rect:
         serializedVersion: 2
-        x: 1193
-        y: 32
+        x: 1918
+        y: 633
+        width: 133
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c30fb0f3747245744a795841e1456819
+      internalID: -608096911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_yellow_39
+      rect:
+        serializedVersion: 2
+        x: 2278
+        y: 633
+        width: 133
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f5e21560083880489f0fee6ba488ab8
+      internalID: 637107328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_yellow_40
+      rect:
+        serializedVersion: 2
+        x: 2639
+        y: 633
         width: 132
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6029970e09b7b8245aa4b2862bea7a0d
+      internalID: 1792462005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_yellow_41
+      rect:
+        serializedVersion: 2
+        x: 2999
+        y: 633
+        width: 132
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2412c2c2a3d084f4894020d580edd99a
+      internalID: 52567568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_yellow_42
+      rect:
+        serializedVersion: 2
+        x: 3355
+        y: 634
+        width: 128
         height: 174
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1337,20 +1001,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d105d39fb470621418d2daf324dc20b4
-      internalID: -1217417011
+      spriteID: 700e785765e450545af783128b1cef53
+      internalID: -273551836
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_idle_yellow_59
+      name: idle_yellow_43
       rect:
         serializedVersion: 2
-        x: 1554
-        y: 32
-        width: 131
-        height: 176
+        x: 3715
+        y: 634
+        width: 128
+        height: 174
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1358,20 +1022,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0156e4830af63d44d925a2efdce5ff46
-      internalID: 563647492
+      spriteID: c755049f6188ca146aa985ce827ffb32
+      internalID: -348428916
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_idle_yellow_60
+      name: idle_yellow_44
       rect:
         serializedVersion: 2
-        x: 1913
-        y: 32
-        width: 132
-        height: 178
+        x: 115
+        y: 334
+        width: 128
+        height: 173
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1379,20 +1043,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c692bf0db767b0549b77c6fa36df8276
-      internalID: 758934425
+      spriteID: ba3a1c20c2f4d0448a72902b800a2edd
+      internalID: 2024515403
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_idle_yellow_61
+      name: idle_yellow_45
       rect:
         serializedVersion: 2
-        x: 2273
-        y: 32
-        width: 131
-        height: 178
+        x: 475
+        y: 334
+        width: 128
+        height: 172
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1400,20 +1064,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df046028f8c5dd640abe841c7e5261f4
-      internalID: -418139519
+      spriteID: d7ee4714f6e63df42b1fbfbb21f7e627
+      internalID: 1314582542
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_idle_yellow_62
+      name: idle_yellow_46
       rect:
         serializedVersion: 2
-        x: 2633
-        y: 32
-        width: 133
-        height: 178
+        x: 835
+        y: 334
+        width: 128
+        height: 170
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1421,8 +1085,344 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d6ed7499ffdb524f9b7f9daa7b43a31
-      internalID: -1949911570
+      spriteID: 432375a5ee7edac409f4f053e796be25
+      internalID: 1018665556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_yellow_47
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 333
+        width: 128
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79745fb026b16d744b85f3dfb5682b75
+      internalID: 1198894422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_yellow_48
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 333
+        width: 128
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c92acc34ab658fe41856262375082632
+      internalID: 767449220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_yellow_49
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 333
+        width: 128
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f1ceec294c820443a4dce4aceaff616
+      internalID: 913248575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_yellow_50
+      rect:
+        serializedVersion: 2
+        x: 2275
+        y: 333
+        width: 128
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf1ec620b4a85b848b117e7f5006b6cb
+      internalID: 1545093289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_yellow_51
+      rect:
+        serializedVersion: 2
+        x: 2635
+        y: 333
+        width: 128
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 807f2df25d6cdb648a7586cfa3d46f7a
+      internalID: 1480126023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_yellow_52
+      rect:
+        serializedVersion: 2
+        x: 2995
+        y: 334
+        width: 128
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 004ce18a05870ee4b845c5c5d8570913
+      internalID: 1579891154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_yellow_53
+      rect:
+        serializedVersion: 2
+        x: 3355
+        y: 333
+        width: 128
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 722e9ab731869924f91e44f6a19f97ca
+      internalID: -368483727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_yellow_54
+      rect:
+        serializedVersion: 2
+        x: 3715
+        y: 333
+        width: 128
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ebc3a71d5aa09c4bbaab4b3ecd37e62
+      internalID: -2099960460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_yellow_55
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 33
+        width: 128
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca32a58d261984c4b985fb29937ffd54
+      internalID: -765435520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_yellow_56
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 34
+        width: 128
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dced50f87fe1b34498e271e3cd078a36
+      internalID: 1941437599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_yellow_57
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 34
+        width: 128
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0db57926380d90c42b6e0b30e52db180
+      internalID: 1372631007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_yellow_58
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 34
+        width: 128
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3c12681f2177224d95150b57bcc0026
+      internalID: -453536157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_yellow_59
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 34
+        width: 128
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca64fc3fb4fbc444a8d195371291440
+      internalID: -807464492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_yellow_60
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 34
+        width: 128
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b34af9f4b138158448e0435ef81ab9b5
+      internalID: -1285896737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_yellow_61
+      rect:
+        serializedVersion: 2
+        x: 2275
+        y: 34
+        width: 128
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 437d136b0f1d14d44b9387de357b9f00
+      internalID: -2032231837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_yellow_62
+      rect:
+        serializedVersion: 2
+        x: 2635
+        y: 34
+        width: 128
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c31475f1bb0809419816ca9b4e1f239
+      internalID: -1973311118
       vertices: []
       indices: 
       edges: []
@@ -1438,69 +1438,69 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      character_idle_yellow_0: 420039248
-      character_idle_yellow_1: 1388280160
-      character_idle_yellow_10: -203976084
-      character_idle_yellow_11: -9311915
-      character_idle_yellow_12: -976097069
-      character_idle_yellow_13: 1265203524
-      character_idle_yellow_14: -251224845
-      character_idle_yellow_15: -736904915
-      character_idle_yellow_16: 1769175377
-      character_idle_yellow_17: 115263125
-      character_idle_yellow_18: -1196566385
-      character_idle_yellow_19: -222675544
-      character_idle_yellow_2: 898703400
-      character_idle_yellow_20: 1926463679
-      character_idle_yellow_21: -1700805023
-      character_idle_yellow_22: 818736658
-      character_idle_yellow_23: -225941380
-      character_idle_yellow_24: 867710188
-      character_idle_yellow_25: 1280698184
-      character_idle_yellow_26: 1812896434
-      character_idle_yellow_27: 184545873
-      character_idle_yellow_28: -99356359
-      character_idle_yellow_29: 551242545
-      character_idle_yellow_3: 1099148523
-      character_idle_yellow_30: 2118529715
-      character_idle_yellow_31: 1561489945
-      character_idle_yellow_32: 486394591
-      character_idle_yellow_33: -1807152754
-      character_idle_yellow_34: -661251483
-      character_idle_yellow_35: 1741549873
-      character_idle_yellow_36: 2086624979
-      character_idle_yellow_37: 1645204096
-      character_idle_yellow_38: 2027018479
-      character_idle_yellow_39: -1560639337
-      character_idle_yellow_4: 1047461824
-      character_idle_yellow_40: -1450191308
-      character_idle_yellow_41: 368755667
-      character_idle_yellow_42: -1843257764
-      character_idle_yellow_43: 257293154
-      character_idle_yellow_44: 1489171882
-      character_idle_yellow_45: 1158585148
-      character_idle_yellow_46: -124020457
-      character_idle_yellow_47: -436491396
-      character_idle_yellow_48: -77248952
-      character_idle_yellow_49: -362574930
-      character_idle_yellow_5: -1918007361
-      character_idle_yellow_50: 907539075
-      character_idle_yellow_51: 483385343
-      character_idle_yellow_52: -582267394
-      character_idle_yellow_53: 1788418997
-      character_idle_yellow_54: -681143177
-      character_idle_yellow_55: -806105604
-      character_idle_yellow_56: -1583180984
-      character_idle_yellow_57: -593239276
-      character_idle_yellow_58: -1217417011
-      character_idle_yellow_59: 563647492
-      character_idle_yellow_6: -1462568465
-      character_idle_yellow_60: 758934425
-      character_idle_yellow_61: -418139519
-      character_idle_yellow_62: -1949911570
-      character_idle_yellow_7: 1724812313
-      character_idle_yellow_8: -1918651094
-      character_idle_yellow_9: -91471242
+      idle_yellow_0: 2040142390
+      idle_yellow_1: -1451464729
+      idle_yellow_10: -808989700
+      idle_yellow_11: 1059852867
+      idle_yellow_12: 1947326517
+      idle_yellow_13: 317568754
+      idle_yellow_14: -367597705
+      idle_yellow_15: 536883587
+      idle_yellow_16: -2144426807
+      idle_yellow_17: -2034055297
+      idle_yellow_18: -2094612114
+      idle_yellow_19: -1748398127
+      idle_yellow_2: 1858009827
+      idle_yellow_20: 1644574366
+      idle_yellow_21: -193716642
+      idle_yellow_22: -1360867997
+      idle_yellow_23: 1352948190
+      idle_yellow_24: 1842402128
+      idle_yellow_25: 551375153
+      idle_yellow_26: -951663541
+      idle_yellow_27: -2014715822
+      idle_yellow_28: 370080424
+      idle_yellow_29: 525166745
+      idle_yellow_3: 1854601406
+      idle_yellow_30: -847331488
+      idle_yellow_31: 1536984272
+      idle_yellow_32: -376248244
+      idle_yellow_33: -690679567
+      idle_yellow_34: 1773358811
+      idle_yellow_35: 904413141
+      idle_yellow_36: 176903010
+      idle_yellow_37: 1159268400
+      idle_yellow_38: -608096911
+      idle_yellow_39: 637107328
+      idle_yellow_4: -2144450996
+      idle_yellow_40: 1792462005
+      idle_yellow_41: 52567568
+      idle_yellow_42: -273551836
+      idle_yellow_43: -348428916
+      idle_yellow_44: 2024515403
+      idle_yellow_45: 1314582542
+      idle_yellow_46: 1018665556
+      idle_yellow_47: 1198894422
+      idle_yellow_48: 767449220
+      idle_yellow_49: 913248575
+      idle_yellow_5: 229225136
+      idle_yellow_50: 1545093289
+      idle_yellow_51: 1480126023
+      idle_yellow_52: 1579891154
+      idle_yellow_53: -368483727
+      idle_yellow_54: -2099960460
+      idle_yellow_55: -765435520
+      idle_yellow_56: 1941437599
+      idle_yellow_57: 1372631007
+      idle_yellow_58: -453536157
+      idle_yellow_59: -807464492
+      idle_yellow_6: -834971942
+      idle_yellow_60: -1285896737
+      idle_yellow_61: -2032231837
+      idle_yellow_62: -1973311118
+      idle_yellow_7: 1585637441
+      idle_yellow_8: 970183787
+      idle_yellow_9: -162400021
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

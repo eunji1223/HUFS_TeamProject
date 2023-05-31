@@ -1,0 +1,1883 @@
+fileFormatVersion: 2
+guid: 4582190561a58e143a116941dbce3608
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 130
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: carryBomb_0
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 2133
+        width: 132
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdd98108fc5a95a4499611afa627baa8
+      internalID: 1016832925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_1
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 2135
+        width: 134
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf15e78930d13b428c980600fe1dc57
+      internalID: 2074862581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_2
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 2137
+        width: 137
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b346f280eecd8154ebc850982250656d
+      internalID: -1106977371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_3
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 2138
+        width: 137
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cedf37d6609beb4287042ac0c0babb4
+      internalID: 285242428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_4
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 2138
+        width: 137
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0d4123e965b5e94699300980db5e3e4
+      internalID: -191066488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_5
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 2138
+        width: 137
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4661d8ebb19400468c0e28e4218cbbb
+      internalID: -1095113704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_6
+      rect:
+        serializedVersion: 2
+        x: 2269
+        y: 2137
+        width: 136
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be629539c70f8ad46a0d57289213175c
+      internalID: 1899189812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_7
+      rect:
+        serializedVersion: 2
+        x: 2630
+        y: 2135
+        width: 135
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 551714427f4aa7d4fa7a3cf860da689e
+      internalID: -720562997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_8
+      rect:
+        serializedVersion: 2
+        x: 2992
+        y: 2133
+        width: 132
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aca61364d3bdd944bae47fd624c3169
+      internalID: 2040653179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_9
+      rect:
+        serializedVersion: 2
+        x: 3354
+        y: 2133
+        width: 130
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 439b6fd5353e7784e81797c0e575c9f8
+      internalID: 859790623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_10
+      rect:
+        serializedVersion: 2
+        x: 3715
+        y: 2134
+        width: 131
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a73107da79800f64ea96c8916d8f520b
+      internalID: -232420267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_11
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 1835
+        width: 131
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c2607c2c5c34764d941f310bbd65bab
+      internalID: 470717819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_12
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 1836
+        width: 133
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89a87b3cf4533e3468b8702a3a42fa31
+      internalID: 1568637450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_13
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 1837
+        width: 133
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c41146a7af59848ae93ddf40e67805
+      internalID: -1555842963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_14
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 1837
+        width: 133
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e516f681c39371d48823bfb8267f88a6
+      internalID: -2000199024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_15
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 1837
+        width: 132
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b4a43defef36624abf5cde756ad8fdf
+      internalID: 795951349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_16
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 1836
+        width: 132
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8598b3c3e7921b94e9b2840b14dcbb93
+      internalID: -623100463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_17
+      rect:
+        serializedVersion: 2
+        x: 2276
+        y: 1835
+        width: 131
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fd79c665f8570249a3e1e56070ad1cf
+      internalID: -752226412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_18
+      rect:
+        serializedVersion: 2
+        x: 2635
+        y: 1834
+        width: 130
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c20ab4bc12d93ca47a7ef51d812158d8
+      internalID: -110436898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_19
+      rect:
+        serializedVersion: 2
+        x: 2994
+        y: 1833
+        width: 130
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a389d2443421e14f8ec20ece4413aa3
+      internalID: -1588226633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_20
+      rect:
+        serializedVersion: 2
+        x: 3345
+        y: 1834
+        width: 153
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff583d9ab5b4e54c91311d6ca15beda
+      internalID: -1341586449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_21
+      rect:
+        serializedVersion: 2
+        x: 3706
+        y: 1839
+        width: 151
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf842cdc43571e4a927b6eb2f5d9f63
+      internalID: 823713219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_22
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1542
+        width: 150
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74f24dea6f73db34a8fc8f4e3f13d4b9
+      internalID: 625418068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_23
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 1544
+        width: 149
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e382ec35a2617694da18040ed9075d70
+      internalID: -199163808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_24
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 1545
+        width: 149
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1189c94690fffdf4daae30871f354ccb
+      internalID: -830454364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_25
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 1544
+        width: 149
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a7bf278468edb4b8bf01292e2d3130
+      internalID: 1675538558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_26
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 1543
+        width: 149
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ffbfab58cc89c48894c84ad576beb4
+      internalID: 453243953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_27
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 1540
+        width: 150
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b779e932e5929f04393b7dffcd44f665
+      internalID: -2106301766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_28
+      rect:
+        serializedVersion: 2
+        x: 2274
+        y: 1536
+        width: 150
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e499196c13dec1549be03249559d42fa
+      internalID: 1135489007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_29
+      rect:
+        serializedVersion: 2
+        x: 2638
+        y: 1531
+        width: 150
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2554b77806b84ba4e8f6c5fb2e198d81
+      internalID: -15197634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_30
+      rect:
+        serializedVersion: 2
+        x: 2998
+        y: 1536
+        width: 152
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089e00a89a0f0bc46952aab283876bdd
+      internalID: 2133715871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_31
+      rect:
+        serializedVersion: 2
+        x: 3359
+        y: 1540
+        width: 153
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c331bbc6c5e892748913281fb3f113fe
+      internalID: -1088120109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_32
+      rect:
+        serializedVersion: 2
+        x: 3719
+        y: 1543
+        width: 155
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70d13d9bd4388fc478bc97821386220f
+      internalID: 471631348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_33
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 1245
+        width: 155
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a4a452c4a4cb2a41b90602a77899f48
+      internalID: 1817074189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_34
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1245
+        width: 156
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f4088d4a3bde234b96c8c71f992a650
+      internalID: 2048411313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_35
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 1245
+        width: 155
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3208a801f4d5ca4f84f83adf9ee5fe6
+      internalID: 228173572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_36
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 1244
+        width: 155
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2bd76e8bccb4ab4abf4f094089931b7
+      internalID: 698418592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_37
+      rect:
+        serializedVersion: 2
+        x: 1554
+        y: 1242
+        width: 155
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c39360a7eec7ee44a07f1bfcb5f12fe
+      internalID: -781654417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_38
+      rect:
+        serializedVersion: 2
+        x: 1910
+        y: 1239
+        width: 154
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2527088476b99124eaf3fa5e7720aea5
+      internalID: -1124681492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_39
+      rect:
+        serializedVersion: 2
+        x: 2265
+        y: 1235
+        width: 153
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec405b905e63ac429786332fa78d7db
+      internalID: 972480397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_40
+      rect:
+        serializedVersion: 2
+        x: 2637
+        y: 1227
+        width: 127
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd2cde4ac856c74468e254044338eaba
+      internalID: 1417832329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_41
+      rect:
+        serializedVersion: 2
+        x: 2998
+        y: 1228
+        width: 128
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f8f34df7721daa41a09d0e53dd05384
+      internalID: -487734950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_42
+      rect:
+        serializedVersion: 2
+        x: 3358
+        y: 1230
+        width: 129
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1656979dbd6ecb4092d2ae9b1f9e01d
+      internalID: 1788737804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_43
+      rect:
+        serializedVersion: 2
+        x: 3717
+        y: 1231
+        width: 131
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5270ac3dccda7947b7cc7f6c77f1495
+      internalID: -1616419839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_44
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 931
+        width: 131
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61907d827d8b9d4a9a715236fdfc9c8
+      internalID: 2128265713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_45
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 931
+        width: 130
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce5061368875e4488c901ed1d1b6401
+      internalID: 613353416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_46
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 930
+        width: 130
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3211f33d55a6f8640b9b889cfe92cfd2
+      internalID: -1170564739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_47
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 929
+        width: 128
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71d38e40ebb273a46959f863fdf9b521
+      internalID: 685494020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_48
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 928
+        width: 127
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f54de954a6cab4bb377de473deb97d
+      internalID: 229660697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_49
+      rect:
+        serializedVersion: 2
+        x: 1913
+        y: 927
+        width: 128
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a990d06e89b4d243ac171968736ee5b
+      internalID: -1591102479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_50
+      rect:
+        serializedVersion: 2
+        x: 2272
+        y: 928
+        width: 128
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d12a7cd2fdc18344a76df8f702c2542
+      internalID: -1653240356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_51
+      rect:
+        serializedVersion: 2
+        x: 2631
+        y: 928
+        width: 127
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3206421c8558247abd805aea955ad0
+      internalID: -535843185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_52
+      rect:
+        serializedVersion: 2
+        x: 2991
+        y: 929
+        width: 127
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 208e4b8aa46d74248a9e15bacf07d601
+      internalID: 1485207972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_53
+      rect:
+        serializedVersion: 2
+        x: 3351
+        y: 929
+        width: 127
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d671ad522eff3342b276bc168da3cc1
+      internalID: -1185007349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_54
+      rect:
+        serializedVersion: 2
+        x: 3711
+        y: 929
+        width: 127
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd6bf78bd2ed48043917a757ff7197e2
+      internalID: 2007505529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_55
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 629
+        width: 127
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf9fc1b1eb30e2b4b893b6fa9be640e6
+      internalID: -782065804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_56
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 629
+        width: 127
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b97a413439e354f81f7f4e9a18c312
+      internalID: -503263441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_57
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 628
+        width: 127
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a22cea64340c5f41829da3da082168c
+      internalID: -472810156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_58
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 628
+        width: 127
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b2e2dcd4d388c540b6f24b21445c780
+      internalID: 453249308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_59
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 627
+        width: 127
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b6f37927698e945b662d83e82e5371
+      internalID: 1450774897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_60
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 674
+        width: 56
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e3d2db508847c4e99172c2e51b45c7
+      internalID: 1946589116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_61
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 678
+        width: 56
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3969f8081e3a1940839f625e5000fbc
+      internalID: -964307734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_62
+      rect:
+        serializedVersion: 2
+        x: 2665
+        y: 681
+        width: 56
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f87f69b13f1014b92b8fe0ca6153b5
+      internalID: -2066472651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_63
+      rect:
+        serializedVersion: 2
+        x: 3025
+        y: 683
+        width: 57
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 702edce5af9290243b2fa614e4502c74
+      internalID: 568798792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_64
+      rect:
+        serializedVersion: 2
+        x: 3385
+        y: 684
+        width: 57
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a8f92738138c494b8b8bd8b8f3c2072
+      internalID: -1729754430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_65
+      rect:
+        serializedVersion: 2
+        x: 3746
+        y: 683
+        width: 57
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e94e7ed5d2b86794db246cf50c641bd1
+      internalID: 14935850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_66
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 381
+        width: 57
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f034f8a425ad248b41a0efc6a0b6df
+      internalID: 1552467692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_67
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 378
+        width: 57
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f8af7a918b4404fae71f47633b49cb
+      internalID: 1478355543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_68
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 374
+        width: 57
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6188da7b3306cc44485276dc488ba12a
+      internalID: 1503373805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_69
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 370
+        width: 57
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19f3c989dfad5fd49ac54527689e9532
+      internalID: 947132019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_70
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 373
+        width: 57
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eee5671f5e535c45856e2ff7b109d51
+      internalID: 968053098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_71
+      rect:
+        serializedVersion: 2
+        x: 1957
+        y: 376
+        width: 57
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65c5c1be48d8bb642912e5844f5ed491
+      internalID: 1244912756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_72
+      rect:
+        serializedVersion: 2
+        x: 2317
+        y: 377
+        width: 57
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2af8a003e1d1954aaeeac241086ece2
+      internalID: -1693071964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_73
+      rect:
+        serializedVersion: 2
+        x: 2677
+        y: 379
+        width: 56
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7eeecd34a1b7aa4491251a8af037503
+      internalID: 957167625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_74
+      rect:
+        serializedVersion: 2
+        x: 3036
+        y: 379
+        width: 57
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80dd4bb15e7a1584588049c81d96b988
+      internalID: 1914116589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_75
+      rect:
+        serializedVersion: 2
+        x: 3396
+        y: 379
+        width: 56
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7589fc60af1e42489ef22a6b599c175
+      internalID: 1687206338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_76
+      rect:
+        serializedVersion: 2
+        x: 3754
+        y: 378
+        width: 57
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c4d5d7a4411a045afde7e0c04ba6f1
+      internalID: 1912938614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_77
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 77
+        width: 57
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 138d2f4f049a49d488ceb06c7791474b
+      internalID: 772232874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_78
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 76
+        width: 56
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3abbabf5353ef9b46b21bcaf4906481e
+      internalID: 1316614174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: carryBomb_79
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 74
+        width: 57
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f73af4ebff18e43841caf37c0632fb
+      internalID: -1927925959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      carryBomb_0: 1016832925
+      carryBomb_1: 2074862581
+      carryBomb_10: -232420267
+      carryBomb_11: 470717819
+      carryBomb_12: 1568637450
+      carryBomb_13: -1555842963
+      carryBomb_14: -2000199024
+      carryBomb_15: 795951349
+      carryBomb_16: -623100463
+      carryBomb_17: -752226412
+      carryBomb_18: -110436898
+      carryBomb_19: -1588226633
+      carryBomb_2: -1106977371
+      carryBomb_20: -1341586449
+      carryBomb_21: 823713219
+      carryBomb_22: 625418068
+      carryBomb_23: -199163808
+      carryBomb_24: -830454364
+      carryBomb_25: 1675538558
+      carryBomb_26: 453243953
+      carryBomb_27: -2106301766
+      carryBomb_28: 1135489007
+      carryBomb_29: -15197634
+      carryBomb_3: 285242428
+      carryBomb_30: 2133715871
+      carryBomb_31: -1088120109
+      carryBomb_32: 471631348
+      carryBomb_33: 1817074189
+      carryBomb_34: 2048411313
+      carryBomb_35: 228173572
+      carryBomb_36: 698418592
+      carryBomb_37: -781654417
+      carryBomb_38: -1124681492
+      carryBomb_39: 972480397
+      carryBomb_4: -191066488
+      carryBomb_40: 1417832329
+      carryBomb_41: -487734950
+      carryBomb_42: 1788737804
+      carryBomb_43: -1616419839
+      carryBomb_44: 2128265713
+      carryBomb_45: 613353416
+      carryBomb_46: -1170564739
+      carryBomb_47: 685494020
+      carryBomb_48: 229660697
+      carryBomb_49: -1591102479
+      carryBomb_5: -1095113704
+      carryBomb_50: -1653240356
+      carryBomb_51: -535843185
+      carryBomb_52: 1485207972
+      carryBomb_53: -1185007349
+      carryBomb_54: 2007505529
+      carryBomb_55: -782065804
+      carryBomb_56: -503263441
+      carryBomb_57: -472810156
+      carryBomb_58: 453249308
+      carryBomb_59: 1450774897
+      carryBomb_6: 1899189812
+      carryBomb_60: 1946589116
+      carryBomb_61: -964307734
+      carryBomb_62: -2066472651
+      carryBomb_63: 568798792
+      carryBomb_64: -1729754430
+      carryBomb_65: 14935850
+      carryBomb_66: 1552467692
+      carryBomb_67: 1478355543
+      carryBomb_68: 1503373805
+      carryBomb_69: 947132019
+      carryBomb_7: -720562997
+      carryBomb_70: 968053098
+      carryBomb_71: 1244912756
+      carryBomb_72: -1693071964
+      carryBomb_73: 957167625
+      carryBomb_74: 1914116589
+      carryBomb_75: 1687206338
+      carryBomb_76: 1912938614
+      carryBomb_77: 772232874
+      carryBomb_78: 1316614174
+      carryBomb_79: -1927925959
+      carryBomb_8: 2040653179
+      carryBomb_9: 859790623
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
