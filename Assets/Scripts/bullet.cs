@@ -2,16 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class bullet : MonoBehaviour
+public class Bullet : MonoBehaviour
 {
-    [SerializeField]
-    private float deadZone = 10f;
-    private float speed;
+    
+    private BulletItem myBullet;
 
     void Update()
     {
-        this.gameObject.transform.position += new Vector3(1, 0, 0) * speed * Time.deltaTime;
-        if (this.gameObject.transform.position.x > deadZone)
+        if (myBullet == null) {
+            Debug.LogWarning("Bullet item not allocated.");
+            return;
+        }
+
+        transform.Translate(Vector3.right * myBullet.attackSpeed * Time.deltaTime);
+        
+        if (transform.position.x >= myBullet.attackRange)
         {
             Destroy(gameObject);
         }
@@ -19,15 +24,51 @@ public class bullet : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Enemy"))
-        {
-            // enemy 체력 줄어들게
-            Destroy(gameObject);
+        if (collision.CompareTag("Alien")) {
+            Alien alien = collision.GetComponent<Alien>();
+
+            // Get Damage on being hit
+            alien.TakeDamage(myBullet.damage);
+
+            // Dot Damage
+            if (myBullet.isDot) {
+                StartCoroutine(ApplyDotDamage(alien, myBullet.dotTime));
+            }
+
+            // Penetrate -> Not destroy on hit
+            if (!myBullet.isPenetrate) {
+                Destroy(gameObject);
+            }
         }
     }
-    public void SetBullet(float gunSpeed)
-    {
-        speed = gunSpeed;
+
+    private IEnumerator ApplyDotDamage(Alien alien, int dotTime) {
+
+        while (dotTime > 0) {
+            alien.TakeDamage(myBullet.dotDamage);
+            dotTime--;
+            yield return new WaitForSeconds(1f);
+        }
     }
 
+    public void SetBullet(AstronautItem item) {
+
+        myBullet.attackRange = item.attackRange;
+        myBullet.attackSpeed = item.attackSpeed;
+        myBullet.damage = item.damage;
+        myBullet.isPenetrate = item.isPenetrate;
+        myBullet.isDot = item.isDot;
+        myBullet.dotDamage = item.dotDamage;
+        myBullet.dotTime = item.dotTime;
+    }
+}
+
+class BulletItem {
+    public int attackRange;
+    public int attackSpeed;
+    public int damage;
+    public bool isPenetrate;
+    public bool isDot;
+    public int dotDamage;
+    public int dotTime;
 }
