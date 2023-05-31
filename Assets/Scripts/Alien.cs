@@ -71,8 +71,6 @@ public class Alien : MonoBehaviour
         Destroy(gameObject);
     }
 
-    
-
     protected void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Astronaut"))

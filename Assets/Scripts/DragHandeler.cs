@@ -15,7 +15,7 @@ public class DragHandeler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEnd
         itemBeingDragged = gameObject;
         startPosition = transform.position;
         startParent = transform.parent;
-
+       
 
     }
 
