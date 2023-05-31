@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9851bac2cb5afa548aaf336f3ce2e18e
+guid: 1c25bd6f70fc3d54fabe37b3d2b65cea
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: hit_yellow_0
+      name: vanish_red_0
       rect:
         serializedVersion: 2
-        x: 115
-        y: 942
-        width: 123
-        height: 168
+        x: 0
+        y: 600
+        width: 350
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,20 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51994c5fadb29f14787e8fbca77bde09
-      internalID: 2029873234
+      spriteID: 70f81f7cc794f3640967e2d0a2772196
+      internalID: 481825477
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_yellow_1
+      name: vanish_red_1
       rect:
         serializedVersion: 2
-        x: 475
-        y: 955
-        width: 127
-        height: 155
+        x: 364
+        y: 600
+        width: 350
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a6bcc337675e96418a04cbbcb2968d0
-      internalID: 621243199
+      spriteID: b679a76712349084d8365fab579089b8
+      internalID: -181117110
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_yellow_2
+      name: vanish_red_2
       rect:
         serializedVersion: 2
-        x: 836
-        y: 963
-        width: 128
-        height: 155
+        x: 721
+        y: 597
+        width: 350
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,20 +161,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2778d01da6914434bbba730119525c4c
-      internalID: -263257906
+      spriteID: 460baf25af6072d46875c559e7975062
+      internalID: 917582126
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_yellow_3
+      name: vanish_red_3
       rect:
         serializedVersion: 2
-        x: 1198
-        y: 965
-        width: 128
-        height: 160
+        x: 1085
+        y: 600
+        width: 350
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,20 +182,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5433491aeddd6624b991ca612210b750
-      internalID: -1743445622
+      spriteID: 15fba564e5934c04b97218a5aa5a755b
+      internalID: 135765862
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_yellow_4
+      name: vanish_red_4
       rect:
         serializedVersion: 2
-        x: 1558
-        y: 973
-        width: 128
-        height: 157
+        x: 1449
+        y: 600
+        width: 350
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,20 +203,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 98e9a5af452489342babe2c085aa4fc6
-      internalID: 1761229259
+      spriteID: c9c14d69c2d04f34496b23b98bbd1a96
+      internalID: 1906614012
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_yellow_5
+      name: vanish_red_5
       rect:
         serializedVersion: 2
-        x: 1918
-        y: 973
-        width: 129
-        height: 161
+        x: 1802
+        y: 600
+        width: 350
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,20 +224,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47116fdf85a05474db1bebeb9766a7d6
-      internalID: -454731388
+      spriteID: 17c0a61b9c160234e8e2d5b06b93a065
+      internalID: -1123988140
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_yellow_6
+      name: vanish_red_6
       rect:
         serializedVersion: 2
-        x: 2278
-        y: 972
-        width: 129
-        height: 163
+        x: 2167
+        y: 600
+        width: 350
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -245,20 +245,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e341260702b2cf4b8af87e1dac994fd
-      internalID: -1930804923
+      spriteID: b591b63bdd1970b48902a86cc67c9e73
+      internalID: -360039882
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_yellow_7
+      name: vanish_red_7
       rect:
         serializedVersion: 2
-        x: 2638
-        y: 970
-        width: 129
-        height: 164
+        x: 2528
+        y: 600
+        width: 350
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,20 +266,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f157183b301b6d4f8e2799d37f13be2
-      internalID: 310291748
+      spriteID: 195a0ae3975329b4ab10601096639fb4
+      internalID: 137940607
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_yellow_8
+      name: vanish_red_8
       rect:
         serializedVersion: 2
-        x: 2998
-        y: 968
-        width: 129
-        height: 163
+        x: 2887
+        y: 600
+        width: 350
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -287,20 +287,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa77fc26e4539224e9a3a19384fca81d
-      internalID: -1352777821
+      spriteID: b36a1aa93e21fab40ae36a66e1509e85
+      internalID: -1228910910
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_yellow_9
+      name: vanish_red_9
       rect:
         serializedVersion: 2
-        x: 3358
-        y: 965
-        width: 128
-        height: 161
+        x: 3248
+        y: 600
+        width: 350
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -308,20 +308,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de4906e5861de634a81b831bc7b56e3d
-      internalID: -1439186489
+      spriteID: 70bfe2d74dabf1b4c96c175e2bfe50e2
+      internalID: 87920225
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_yellow_10
+      name: vanish_red_10
       rect:
         serializedVersion: 2
-        x: 3717
-        y: 962
-        width: 129
-        height: 159
+        x: 3610
+        y: 597
+        width: 350
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -329,20 +329,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3348aa91390613e4c8f021e023eb58f3
-      internalID: 1138539754
+      spriteID: 1e1d510b204ea644aadf397266df9ebd
+      internalID: 477157011
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_yellow_11
+      name: vanish_red_11
       rect:
         serializedVersion: 2
-        x: 117
-        y: 658
-        width: 128
-        height: 158
+        x: 0
+        y: 300
+        width: 350
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -350,20 +350,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb0f3508fdd75ee4c8ea1cc440ce47bb
-      internalID: 400678801
+      spriteID: 5e5f59fb68808f643ba87c554b0c670f
+      internalID: -1551072484
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_yellow_12
+      name: vanish_red_12
       rect:
         serializedVersion: 2
-        x: 476
-        y: 653
-        width: 128
-        height: 157
+        x: 362
+        y: 300
+        width: 350
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -371,20 +371,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 69b298ca549263049858f1c77d47a6fb
-      internalID: 2070944457
+      spriteID: 9dcf98dd40e28524ea6f4d65ab987881
+      internalID: 280615293
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_yellow_13
+      name: vanish_red_13
       rect:
         serializedVersion: 2
-        x: 836
-        y: 636
-        width: 130
-        height: 169
+        x: 732
+        y: 300
+        width: 350
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -392,20 +392,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4b0217c2bd47b2449b0966ea3b07b07
-      internalID: 1062806995
+      spriteID: 46a8d8a633db6ee4790d84b2507d8bed
+      internalID: 1568857849
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_yellow_14
+      name: vanish_red_14
       rect:
         serializedVersion: 2
-        x: 1196
-        y: 649
-        width: 130
-        height: 164
+        x: 1079
+        y: 303
+        width: 350
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -413,20 +413,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff39d4933692b4a42b7de96ade81b3a8
-      internalID: 504954647
+      spriteID: a63db2ca7d2cde24489dfa3848b56225
+      internalID: -1807884875
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_yellow_15
+      name: vanish_red_15
       rect:
         serializedVersion: 2
-        x: 1556
-        y: 653
-        width: 130
-        height: 166
+        x: 1443
+        y: 306
+        width: 350
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -434,20 +434,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31b2b760f6c480e44bd72d42089e7a11
-      internalID: -796706660
+      spriteID: dda02a43893de3545ae41dab472908c9
+      internalID: -1234699108
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_yellow_16
+      name: vanish_red_16
       rect:
         serializedVersion: 2
-        x: 1916
-        y: 655
-        width: 131
-        height: 169
+        x: 1799
+        y: 300
+        width: 350
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -455,20 +455,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ae95fdc9b0f4354e9df58c1ed8b4bd3
-      internalID: -1891638225
+      spriteID: 41e66965f63d8e44fbe359b66a74879e
+      internalID: 1097286326
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_yellow_17
+      name: vanish_red_17
       rect:
         serializedVersion: 2
-        x: 2276
-        y: 657
-        width: 131
-        height: 171
+        x: 2167
+        y: 300
+        width: 350
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -476,20 +476,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e27a9a8c076ae747834c1828669fbde
-      internalID: -2130122127
+      spriteID: 98ef6b377e2ae2846b277253f0d8a5e8
+      internalID: -1910304733
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_yellow_18
+      name: vanish_red_18
       rect:
         serializedVersion: 2
-        x: 2636
-        y: 658
-        width: 131
-        height: 172
+        x: 2537
+        y: 303
+        width: 350
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -497,20 +497,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a74b627ed2ddf324394c62815aada31f
-      internalID: 1785496613
+      spriteID: e1c2410a1b2b2c64392a00eb0cc131ca
+      internalID: -184292040
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_yellow_19
+      name: vanish_red_19
       rect:
         serializedVersion: 2
-        x: 2997
-        y: 658
-        width: 130
-        height: 172
+        x: 2887
+        y: 300
+        width: 350
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -518,20 +518,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eacd053992d7f8648b17a82d8c702700
-      internalID: -2139326713
+      spriteID: 9cef4ad1bc66327498f00ba3987c7e21
+      internalID: -826483670
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_yellow_20
+      name: vanish_red_20
       rect:
         serializedVersion: 2
-        x: 3357
-        y: 659
-        width: 130
-        height: 170
+        x: 3246
+        y: 303
+        width: 350
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -539,20 +539,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b46930e51ac1074898da5c03c42b8df
-      internalID: 1120595019
+      spriteID: c0a9012e49e9be646a3f962c27501f33
+      internalID: 562769156
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_yellow_21
+      name: vanish_red_21
       rect:
         serializedVersion: 2
-        x: 3716
-        y: 659
-        width: 131
-        height: 168
+        x: 3610
+        y: 300
+        width: 350
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -560,20 +560,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a295489df3b7184287011d2fafd63f3
-      internalID: -1479149459
+      spriteID: 5491cb547ceb5154991873e7d2825d2a
+      internalID: -1134454266
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_yellow_22
+      name: vanish_red_22
       rect:
         serializedVersion: 2
-        x: 117
-        y: 360
-        width: 129
-        height: 163
+        x: 0
+        y: 0
+        width: 350
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -581,20 +581,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61cbfbb0ad37cc5489798e4a49d85c60
-      internalID: 869734376
+      spriteID: 591a7c83ca10da5438b54f7ec5de5b03
+      internalID: -1174922610
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_yellow_23
+      name: vanish_red_23
       rect:
         serializedVersion: 2
-        x: 477
-        y: 357
-        width: 128
-        height: 162
+        x: 350
+        y: 0
+        width: 350
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -602,20 +602,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: acc4e613addb3e942a82f76d1e6ebcd6
-      internalID: 2104140211
+      spriteID: ad515d298c7c82c45a20538f0f93d997
+      internalID: 1350817339
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_yellow_24
+      name: vanish_red_24
       rect:
         serializedVersion: 2
-        x: 838
-        y: 351
-        width: 126
-        height: 163
+        x: 732
+        y: 0
+        width: 350
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -623,20 +623,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c4b41f26ebb5984c8eba83b00dca063
-      internalID: -2082332494
+      spriteID: 942cdcd9dfa435a48895262f42b44abc
+      internalID: 2046329092
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_yellow_25
+      name: vanish_red_25
       rect:
         serializedVersion: 2
-        x: 1197
-        y: 345
-        width: 127
-        height: 163
+        x: 1088
+        y: 0
+        width: 350
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -644,20 +644,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33e6ea1a516b2d64db668750b4ce5129
-      internalID: -1844067664
+      spriteID: 16ca5795a705bca478dec3c7d63de02a
+      internalID: 1854015313
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_yellow_26
+      name: vanish_red_26
       rect:
         serializedVersion: 2
-        x: 1557
-        y: 336
-        width: 123
-        height: 167
+        x: 1452
+        y: 0
+        width: 350
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -665,20 +665,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2206e964bbef43246ae46c555e3fc5c2
-      internalID: 1447524426
+      spriteID: 5e4f2d2c22d28ad499609271f36b18bb
+      internalID: 1707898393
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_yellow_27
+      name: vanish_red_27
       rect:
         serializedVersion: 2
-        x: 1915
-        y: 346
-        width: 126
-        height: 162
+        x: 1808
+        y: 0
+        width: 350
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -686,20 +686,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 293a0a3edddb3ad41ae4b6f1c898b662
-      internalID: 2058143982
+      spriteID: d18a6294b7369cd438d26dd0581d0c81
+      internalID: -624608704
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_yellow_28
+      name: vanish_red_28
       rect:
         serializedVersion: 2
-        x: 2274
-        y: 337
-        width: 128
-        height: 175
+        x: 2169
+        y: 0
+        width: 350
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -707,20 +707,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f1778a2e39745f449e6ea179382ebaa
-      internalID: 1778698891
+      spriteID: eda75b01538686546821e55746555c23
+      internalID: -2035269767
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_yellow_29
+      name: vanish_red_29
       rect:
         serializedVersion: 2
-        x: 2634
-        y: 330
-        width: 128
-        height: 186
+        x: 2534
+        y: 0
+        width: 350
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -728,20 +728,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6761bda34485c941a650472e3d5717d
-      internalID: -926167006
+      spriteID: 309a9a6a73fe22a469106c98294c9cfa
+      internalID: -717677668
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_yellow_30
+      name: vanish_red_30
       rect:
         serializedVersion: 2
-        x: 2995
-        y: 325
-        width: 127
-        height: 194
+        x: 2890
+        y: 0
+        width: 350
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -749,20 +749,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d438f573aa471fd4292c98402df7c3ff
-      internalID: 472472099
+      spriteID: 7a66b2197acc00c42b6e57ee3753d24a
+      internalID: -509177867
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_yellow_31
+      name: vanish_red_31
       rect:
         serializedVersion: 2
-        x: 3355
-        y: 322
-        width: 126
-        height: 199
+        x: 3274
+        y: 3
+        width: 350
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -770,155 +770,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1317bc66eea7d944dacc16797ae22b96
-      internalID: 598716341
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hit_yellow_32
-      rect:
-        serializedVersion: 2
-        x: 3715
-        y: 321
-        width: 126
-        height: 200
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 25dca0f01d44a6d49848f08a196ba00d
-      internalID: 423538095
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hit_yellow_33
-      rect:
-        serializedVersion: 2
-        x: 115
-        y: 22
-        width: 126
-        height: 199
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cb0cacb7856d3b947a6713f2e7b37a3f
-      internalID: 929425401
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hit_yellow_34
-      rect:
-        serializedVersion: 2
-        x: 475
-        y: 24
-        width: 126
-        height: 195
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 64ddb3a75bb711c4c967976bca4394bb
-      internalID: -595230805
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hit_yellow_35
-      rect:
-        serializedVersion: 2
-        x: 836
-        y: 28
-        width: 125
-        height: 188
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 00ffeef5afe8ca949852c581ce1b0f42
-      internalID: 594030995
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hit_yellow_36
-      rect:
-        serializedVersion: 2
-        x: 1196
-        y: 34
-        width: 125
-        height: 178
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ba3d0f9c876ad4d45be8f506c4d6953c
-      internalID: 227503754
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hit_yellow_37
-      rect:
-        serializedVersion: 2
-        x: 1557
-        y: 41
-        width: 125
-        height: 165
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9dbd379d1befaa745848c76ec6e9a38e
-      internalID: -706455999
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hit_yellow_38
-      rect:
-        serializedVersion: 2
-        x: 1917
-        y: 50
-        width: 126
-        height: 150
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 85a662ee19913964fa2739fd6da512e8
-      internalID: -1393404060
+      spriteID: 46737f5098ec59549b01b0f92ddc6e73
+      internalID: 1151816978
       vertices: []
       indices: 
       edges: []
@@ -934,45 +787,38 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      hit_yellow_0: 2029873234
-      hit_yellow_1: 621243199
-      hit_yellow_10: 1138539754
-      hit_yellow_11: 400678801
-      hit_yellow_12: 2070944457
-      hit_yellow_13: 1062806995
-      hit_yellow_14: 504954647
-      hit_yellow_15: -796706660
-      hit_yellow_16: -1891638225
-      hit_yellow_17: -2130122127
-      hit_yellow_18: 1785496613
-      hit_yellow_19: -2139326713
-      hit_yellow_2: -263257906
-      hit_yellow_20: 1120595019
-      hit_yellow_21: -1479149459
-      hit_yellow_22: 869734376
-      hit_yellow_23: 2104140211
-      hit_yellow_24: -2082332494
-      hit_yellow_25: -1844067664
-      hit_yellow_26: 1447524426
-      hit_yellow_27: 2058143982
-      hit_yellow_28: 1778698891
-      hit_yellow_29: -926167006
-      hit_yellow_3: -1743445622
-      hit_yellow_30: 472472099
-      hit_yellow_31: 598716341
-      hit_yellow_32: 423538095
-      hit_yellow_33: 929425401
-      hit_yellow_34: -595230805
-      hit_yellow_35: 594030995
-      hit_yellow_36: 227503754
-      hit_yellow_37: -706455999
-      hit_yellow_38: -1393404060
-      hit_yellow_4: 1761229259
-      hit_yellow_5: -454731388
-      hit_yellow_6: -1930804923
-      hit_yellow_7: 310291748
-      hit_yellow_8: -1352777821
-      hit_yellow_9: -1439186489
+      vanish_red_0: 481825477
+      vanish_red_1: -181117110
+      vanish_red_10: 477157011
+      vanish_red_11: -1551072484
+      vanish_red_12: 280615293
+      vanish_red_13: 1568857849
+      vanish_red_14: -1807884875
+      vanish_red_15: -1234699108
+      vanish_red_16: 1097286326
+      vanish_red_17: -1910304733
+      vanish_red_18: -184292040
+      vanish_red_19: -826483670
+      vanish_red_2: 917582126
+      vanish_red_20: 562769156
+      vanish_red_21: -1134454266
+      vanish_red_22: -1174922610
+      vanish_red_23: 1350817339
+      vanish_red_24: 2046329092
+      vanish_red_25: 1854015313
+      vanish_red_26: 1707898393
+      vanish_red_27: -624608704
+      vanish_red_28: -2035269767
+      vanish_red_29: -717677668
+      vanish_red_3: 135765862
+      vanish_red_30: -509177867
+      vanish_red_31: 1151816978
+      vanish_red_4: 1906614012
+      vanish_red_5: -1123988140
+      vanish_red_6: -360039882
+      vanish_red_7: 137940607
+      vanish_red_8: -1228910910
+      vanish_red_9: 87920225
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
