@@ -15,7 +15,7 @@ public class Spawner : MonoBehaviour, IDropHandler
     [SerializeField]
     private GameObject[] character;
     [SerializeField]
-    private Item[] itemSO;
+    private AstronautItem[] itemSO;
 
     public void OnDrop(PointerEventData eventData)
     {
