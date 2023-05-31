@@ -19,4 +19,9 @@ public class SceneChange : MonoBehaviour
     {
         SceneManager.LoadScene("OptionScene");
     }
+
+    public void OptionToStart()
+    {
+        SceneManager.LoadScene("StartScene");
+    }
 }
