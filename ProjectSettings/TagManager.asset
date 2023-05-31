@@ -7,11 +7,12 @@ TagManager:
   - Astronaut
   - Missile
   - Alien
+  - Enemy
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Image
   - Water
   - UI
   - Missile
