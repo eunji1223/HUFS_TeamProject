@@ -9,6 +9,11 @@ using Debug = UnityEngine.Debug;
 
 public class Astronaut : MonoBehaviour
 {
+
+    public static Astronaut instance { get; private set; }
+
+    void Awake() => instance = this;
+
     private Item myAstronaut;
     private int health;
 
@@ -31,6 +36,7 @@ public class Astronaut : MonoBehaviour
 
     public void AllocateItem(Item item)
     {
+        Debug.Log("½ÇÇà");
         myAstronaut = item;
     }
 
@@ -73,11 +79,9 @@ public class Astronaut : MonoBehaviour
     protected void StopRange()
     {
         RaycastHit2D hit = Physics2D.Raycast(obstacleRay.transform.position, Vector3.right * 10, 15.0f, layermask);
-        Debug.Log(hit);
         if (hit.collider != null)
         {
             Debug.DrawRay(obstacleRay.transform.position, Vector3.right * 10, Color.red);
-            Debug.Log(hit.collider.name);
             float distance = hit.collider.transform.position.x - obstacleRay.transform.position.x;
             if (distance > TestMaxDistance)
             {
