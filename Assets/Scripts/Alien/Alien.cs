@@ -6,97 +6,98 @@ using UnityEngine;
 
 public class Alien : MonoBehaviour
 {
-    [SerializeField]
-    public float moveSpeed;
-    [SerializeField]
-    private int AlienHP;
-    private Vector2 moveDirection = Vector2.left;
 
+    private AlienItem alienItem;
+    private bool isAttacking = false;
+    
+    public int moveSpeed;
+    private int health;
 
     [SerializeField]
     private float Attacktimer;
     private float timer;
     private bool InAttackRange = false;
 
-    private Rigidbody2D rb;
-    public GameObject astronaut;
-    public GameObject AlienAttack;
-
     private Collider attackRangeCollider;
-
 
     protected virtual void Start()
     {
+        health = alienItem.health;
         attackRangeCollider = GetComponentInChildren<Collider>();
     }
 
-    public void SetHP(int newHP)
-    {
-        AlienHP = newHP;
-    }
-
-    public void SetMoveSpeed(float newSpeed)
-    {
-        moveSpeed = newSpeed;
-    }
-
-    public void SetAttackTimer(float newAttackTimer)
-    {
-        Attacktimer = newAttackTimer;
-    }
-
-
     void Update()
     {
-        transform.Translate(moveDirection * moveSpeed * Time.deltaTime);
 
-        rb = GetComponent<Rigidbody2D>();
+        if (InAttackRange) {
+            Stop();
+            Attack();
+        }
+        else {
+            Move();
+        }
+
+        transform.Translate(Vector2.left * moveSpeed * Time.deltaTime);
 
         timer += Time.deltaTime;
 
     }
 
-    public virtual void TakeDamage(int damage)
+    public void TakeDamage(int damage)
     {
-        AlienHP -= damage;
+        health -= damage;
 
-        if (AlienHP <= 0)
+        if (health <= 0)
         {
             Die();
         }
     }
 
-    void Die()
-    {
+    private void Move() {
+        moveSpeed = alienItem.moveSpeed;
+    }
+
+    private void Stop() {
+        moveSpeed = 0;
+    }
+
+    private protected virtual void Die() {
         Destroy(gameObject);
     }
 
-    protected void OnTriggerEnter2D(Collider2D collision)
-    {
+    protected void OnTriggerEnter2D(Collider2D collision) {
         if (collision.gameObject.CompareTag("Astronaut"))
         {
             InAttackRange = true;
-            moveDirection = Vector2.zero;
+            Stop();
 
             if (timer >= Attacktimer)
             {
-                spawnAlienAttack();
+                CreateAttack();
                 timer = 0;
             }
         }
     }
 
-    protected void OnTriggerExit2D(Collider2D collision)
-    {
+    protected void OnTriggerExit2D(Collider2D collision) {
         if (collision.gameObject.CompareTag("Astronaut"))
         {
             InAttackRange = false;
-            moveDirection = Vector2.left;
+            Move();
         }
     }
-    private void spawnAlienAttack()
+
+    private void Attack() {
+
+        if (!isAttacking) {
+            StartCoroutine("CreateAttack", alienItem);
+        }
+    }
+    
+    private void CreateAttack(AlienItem alienItem)
     {
-        Instantiate(AlienAttack, transform.position, transform.rotation);
+        alienItem.AttackPrefab.GetComponent<Attack>().SetAttack(alienItem);
+        Instantiate(alienItem.AttackPrefab, transform.position, transform.rotation);
     }
 
 }
