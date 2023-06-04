@@ -73,7 +73,7 @@ public class Alien : MonoBehaviour
 
             if (timer >= Attacktimer)
             {
-                CreateAttack();
+                // CreateAttack();
                 timer = 0;
             }
         }
@@ -96,7 +96,7 @@ public class Alien : MonoBehaviour
     
     private void CreateAttack(AlienItem alienItem)
     {
-        alienItem.AttackPrefab.GetComponent<Attack>().SetAttack(alienItem);
+        alienItem.AttackPrefab.GetComponent<AlienAttack>().SetAttack(alienItem);
         Instantiate(alienItem.AttackPrefab, transform.position, transform.rotation);
     }
 
