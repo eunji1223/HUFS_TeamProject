@@ -26,7 +26,7 @@ public class CoinManager : MonoBehaviour
 
     private void Start()
     {
-        CoinInitialCreate();
+        // CoinInitialCreate();
     }
 
     private void Update()
