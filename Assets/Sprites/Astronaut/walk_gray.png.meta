@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 130
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -67,7 +67,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -108,10 +108,10 @@ TextureImporter:
       name: walk_gray_0
       rect:
         serializedVersion: 2
-        x: 115
-        y: 930
-        width: 130
-        height: 165
+        x: 117
+        y: 933
+        width: 126
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,8 +119,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6bdbc17e871393d468e80e24090a124f
-      internalID: -292039432
+      spriteID: 355b0929d73543449930d16cc5c668c0
+      internalID: -842485821
       vertices: []
       indices: 
       edges: []
@@ -129,261 +129,9 @@ TextureImporter:
       name: walk_gray_1
       rect:
         serializedVersion: 2
-        x: 469
-        y: 938
-        width: 139
-        height: 167
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 866fde3ff67e5e2498365107bc4cbaa4
-      internalID: 443254401
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_gray_2
-      rect:
-        serializedVersion: 2
-        x: 829
-        y: 944
-        width: 139
-        height: 168
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5d7183644b846774a80ed67bec5307d2
-      internalID: 763609313
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_gray_3
-      rect:
-        serializedVersion: 2
-        x: 1192
-        y: 944
-        width: 137
-        height: 170
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9a63c0c7cf8079a4cb338e7c0dfa2b01
-      internalID: -1308866427
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_gray_4
-      rect:
-        serializedVersion: 2
-        x: 1548
-        y: 942
-        width: 140
-        height: 170
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9f66e08548e2f4a4ea84e4e12ddd7814
-      internalID: -141094283
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_gray_5
-      rect:
-        serializedVersion: 2
-        x: 1915
-        y: 930
-        width: 132
-        height: 178
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 01b13d25e72008a46b010bcf4e98874a
-      internalID: -2020269308
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_gray_6
-      rect:
-        serializedVersion: 2
-        x: 2271
-        y: 930
-        width: 131
-        height: 172
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a4c2ecbfd0f77c64391aa6bcfa38593f
-      internalID: 921031167
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_gray_7
-      rect:
-        serializedVersion: 2
-        x: 2633
-        y: 936
-        width: 141
-        height: 172
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 392bc6b731fdc184291a2da45a302a4d
-      internalID: 1332267243
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_gray_8
-      rect:
-        serializedVersion: 2
-        x: 2994
-        y: 942
-        width: 143
-        height: 170
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 09fc1a5597bc217439e2e5209b5e54ba
-      internalID: -1726914825
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_gray_9
-      rect:
-        serializedVersion: 2
-        x: 3354
-        y: 944
-        width: 143
-        height: 170
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0275fc52d4ef62d46ba8c4dad8fcc2f9
-      internalID: 1051207486
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_gray_10
-      rect:
-        serializedVersion: 2
-        x: 3715
-        y: 944
-        width: 142
-        height: 170
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3b6d3820f57500649bf1f86a8613e4d4
-      internalID: -1893547851
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_gray_11
-      rect:
-        serializedVersion: 2
-        x: 115
-        y: 644
-        width: 143
-        height: 167
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4bbf2dd7085970b4a9b7586884578317
-      internalID: -2087014338
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_gray_12
-      rect:
-        serializedVersion: 2
-        x: 475
-        y: 639
-        width: 141
-        height: 166
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7279111892342854d81630a1e7765311
-      internalID: -772412539
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_gray_13
-      rect:
-        serializedVersion: 2
-        x: 834
-        y: 631
-        width: 132
+        x: 471
+        y: 941
+        width: 134
         height: 162
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -392,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9378497f7cc3d44d97d6607263d367d
-      internalID: -1726739441
+      spriteID: e1c0d73c0ff1fa64fb2aa3182eca2c43
+      internalID: -394008273
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk_gray_14
+      name: walk_gray_2
       rect:
         serializedVersion: 2
-        x: 1180
-        y: 633
-        width: 144
-        height: 176
+        x: 831
+        y: 946
+        width: 135
+        height: 163
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -413,250 +161,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9abf6e73d1960e942a12b80677f1f49f
-      internalID: 562303285
+      spriteID: a55d2e8f35f54f24480215c0f4c71757
+      internalID: -1396015622
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk_gray_15
+      name: walk_gray_3
       rect:
         serializedVersion: 2
-        x: 1540
-        y: 643
-        width: 143
-        height: 175
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 875aeaa3329fb8f45bf263fe74eab0f8
-      internalID: -1108163323
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_gray_16
-      rect:
-        serializedVersion: 2
-        x: 1900
-        y: 648
-        width: 149
-        height: 176
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 04ab06999765442459f815342f5100f9
-      internalID: 923513282
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_gray_17
-      rect:
-        serializedVersion: 2
-        x: 2259
-        y: 650
-        width: 153
-        height: 176
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 25d3523a0f7488c43baa3d07407e59b9
-      internalID: -449913943
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_gray_18
-      rect:
-        serializedVersion: 2
-        x: 2623
-        y: 648
-        width: 143
-        height: 174
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: adbeb1b2f1b68b44f80f9535f2a1b0b6
-      internalID: -1661168319
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_gray_19
-      rect:
-        serializedVersion: 2
-        x: 2994
-        y: 641
-        width: 136
-        height: 173
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9da224aa32e1a744c9dc75a171593f86
-      internalID: 1231876701
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_gray_20
-      rect:
-        serializedVersion: 2
-        x: 3364
-        y: 635
-        width: 133
-        height: 166
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a045474af15eba545996a1ca13c1647b
-      internalID: -733349427
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_gray_21
-      rect:
-        serializedVersion: 2
-        x: 3723
-        y: 643
-        width: 134
-        height: 166
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 151ab1c3ec4027347964d071dfc5b23c
-      internalID: 196468061
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_gray_22
-      rect:
-        serializedVersion: 2
-        x: 125
-        y: 349
-        width: 133
-        height: 166
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7c972a36f0969cb498939ba1e40eefc4
-      internalID: -1598427033
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_gray_23
-      rect:
-        serializedVersion: 2
-        x: 484
-        y: 353
-        width: 134
-        height: 166
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 678bbdd6b4faa4b4199ab0025032b3d8
-      internalID: 828804773
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_gray_24
-      rect:
-        serializedVersion: 2
-        x: 844
-        y: 355
-        width: 133
-        height: 166
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0780c1597a537134fba7407f5175d28d
-      internalID: 1235964689
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_gray_25
-      rect:
-        serializedVersion: 2
-        x: 1203
-        y: 353
-        width: 134
-        height: 166
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 89f16af0481c25e4983ca5bae364ea87
-      internalID: -1955445889
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_gray_26
-      rect:
-        serializedVersion: 2
-        x: 1558
-        y: 349
-        width: 133
+        x: 1194
+        y: 947
+        width: 132
         height: 164
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -665,8 +182,491 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 35d56df9e38ba5e4ba74279eb08c0c2e
-      internalID: -541028787
+      spriteID: c1668cf30b3f5e04898f19cccf573264
+      internalID: -1635962920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_gray_4
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 944
+        width: 135
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 300d4f253975dcb4b9d650cd6f1d78e1
+      internalID: -1928486331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_gray_5
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 933
+        width: 127
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 774c517a0663d5b45a833e74b578a413
+      internalID: 49741849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_gray_6
+      rect:
+        serializedVersion: 2
+        x: 2273
+        y: 933
+        width: 127
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 280530c692533fe4eab4c1bd361ebc18
+      internalID: 1482230534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_gray_7
+      rect:
+        serializedVersion: 2
+        x: 2635
+        y: 939
+        width: 137
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 621090a1a1492cf47a993a77973396cb
+      internalID: -1859156706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_gray_8
+      rect:
+        serializedVersion: 2
+        x: 2996
+        y: 944
+        width: 139
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c23e35ce7e97b7245b508c9b37de7787
+      internalID: -31533999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_gray_9
+      rect:
+        serializedVersion: 2
+        x: 3357
+        y: 946
+        width: 138
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483118c07cadde545930bcaf47c82bd6
+      internalID: 1884888238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_gray_10
+      rect:
+        serializedVersion: 2
+        x: 3717
+        y: 947
+        width: 137
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54538ef8e4d609248a6f5b43d53d02f5
+      internalID: -1472963342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_gray_11
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 646
+        width: 138
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b144416d9e3aa4ea564a5c3dcd2126
+      internalID: 2116318435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_gray_12
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 641
+        width: 137
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce6934892dbb04a41aa0cf5e1e4f27c8
+      internalID: 104393962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_gray_13
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 633
+        width: 127
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4fd1b8c6ddcd1248a1b96bd72d48c09
+      internalID: 1930983598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_gray_14
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 636
+        width: 139
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c50a251f770264418a49e2c603ec0aa
+      internalID: -864775324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_gray_15
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 645
+        width: 139
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1bcd0c5fa9639545b9c4c22c8a4f966
+      internalID: 840108838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_gray_16
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 650
+        width: 144
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe8d4749157a1c47a21f32ccfa3a9a5
+      internalID: 1433049825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_gray_17
+      rect:
+        serializedVersion: 2
+        x: 2262
+        y: 652
+        width: 147
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa092ff1b7af5664e9ef6ee999843be2
+      internalID: 2123485687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_gray_18
+      rect:
+        serializedVersion: 2
+        x: 2626
+        y: 650
+        width: 137
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a14d90d3bfc4a7843b9a567f2ce1466f
+      internalID: 2122308268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_gray_19
+      rect:
+        serializedVersion: 2
+        x: 2996
+        y: 643
+        width: 131
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3f3b93331dea3c4594d63ed8f5077e4
+      internalID: -885453514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_gray_20
+      rect:
+        serializedVersion: 2
+        x: 3366
+        y: 637
+        width: 129
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 575231814c78b7f4db861eccdddd129a
+      internalID: -991144383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_gray_21
+      rect:
+        serializedVersion: 2
+        x: 3726
+        y: 645
+        width: 129
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbdb58c87a5d6ca419bd5b75e7b7c2df
+      internalID: -1859235345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_gray_22
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 352
+        width: 129
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4edc9d90692690249b8b527ccf0adf1e
+      internalID: 1422734139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_gray_23
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 355
+        width: 129
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3040f7632e26f1345b5895bf8b6353d6
+      internalID: -1481762404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_gray_24
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 357
+        width: 129
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85d4b52479f59f840b13b2d6195ede24
+      internalID: 1114449894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_gray_25
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 355
+        width: 129
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 940481ecfa505014995ede8cd2a09a52
+      internalID: 536835426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_gray_26
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 351
+        width: 129
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de9867ff82ec9fe4291340990a5c4185
+      internalID: -1456126445
       vertices: []
       indices: 
       edges: []
@@ -675,10 +675,10 @@ TextureImporter:
       name: walk_gray_27
       rect:
         serializedVersion: 2
-        x: 1900
-        y: 329
-        width: 143
-        height: 176
+        x: 1902
+        y: 332
+        width: 139
+        height: 171
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -686,8 +686,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fadf83725bcc53840bcbedd2b4144444
-      internalID: -1293176611
+      spriteID: 3dbf93b600c048d4890253ab6195db5d
+      internalID: 2108197665
       vertices: []
       indices: 
       edges: []
@@ -696,10 +696,10 @@ TextureImporter:
       name: walk_gray_28
       rect:
         serializedVersion: 2
-        x: 2275
-        y: 331
-        width: 133
-        height: 172
+        x: 2278
+        y: 333
+        width: 127
+        height: 169
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -707,8 +707,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c4ea53465d9f85418fa357b840af473
-      internalID: 1440502643
+      spriteID: 24a0a99303ed31f4d85b1441710434a8
+      internalID: -329081420
       vertices: []
       indices: 
       edges: []
@@ -717,10 +717,10 @@ TextureImporter:
       name: walk_gray_29
       rect:
         serializedVersion: 2
-        x: 2629
-        y: 337
-        width: 139
-        height: 172
+        x: 2631
+        y: 339
+        width: 135
+        height: 167
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -728,8 +728,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a6d166e7d81e2f4fa36d8719d0590df
-      internalID: -1976453756
+      spriteID: 68f677bf2e47f7144a941948fce6c8cb
+      internalID: 980378743
       vertices: []
       indices: 
       edges: []
@@ -738,10 +738,10 @@ TextureImporter:
       name: walk_gray_30
       rect:
         serializedVersion: 2
-        x: 2990
-        y: 341
-        width: 138
-        height: 172
+        x: 2991
+        y: 343
+        width: 135
+        height: 168
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -749,8 +749,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f8194ab330db6b4c96eee3f0fb8271c
-      internalID: -1002541701
+      spriteID: fbc797026b1bb9f4eb2115625ef596ec
+      internalID: -1899324522
       vertices: []
       indices: 
       edges: []
@@ -759,10 +759,10 @@ TextureImporter:
       name: walk_gray_31
       rect:
         serializedVersion: 2
-        x: 3352
-        y: 345
-        width: 137
-        height: 174
+        x: 3354
+        y: 347
+        width: 132
+        height: 170
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -770,8 +770,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9a143c2a9454b747b99954ebc5ac468
-      internalID: 87114043
+      spriteID: f42540c098e72e34bbc411e3f13151d7
+      internalID: 647656058
       vertices: []
       indices: 
       edges: []
@@ -780,10 +780,10 @@ TextureImporter:
       name: walk_gray_32
       rect:
         serializedVersion: 2
-        x: 3710
-        y: 341
-        width: 139
-        height: 176
+        x: 3711
+        y: 344
+        width: 135
+        height: 171
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -791,8 +791,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b2c0ef0cc4d1254b9c2947aa4752d5f
-      internalID: -582532099
+      spriteID: 1019bfaa568103e43883eb92ad82c452
+      internalID: -2034174571
       vertices: []
       indices: 
       edges: []
@@ -801,177 +801,9 @@ TextureImporter:
       name: walk_gray_33
       rect:
         serializedVersion: 2
-        x: 115
-        y: 30
-        width: 131
-        height: 182
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a996765f37c5a5a46afd0cc3b3f58746
-      internalID: 1519884084
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_gray_34
-      rect:
-        serializedVersion: 2
-        x: 471
-        y: 30
-        width: 131
-        height: 172
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d59690422f849464ba7cb8304203a7b6
-      internalID: -1180057808
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_gray_35
-      rect:
-        serializedVersion: 2
-        x: 829
-        y: 37
-        width: 145
-        height: 171
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 77ed90b9ddc3db94a8b57785a5d4888f
-      internalID: 832647582
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_gray_36
-      rect:
-        serializedVersion: 2
-        x: 1188
-        y: 42
-        width: 149
-        height: 172
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5e37d95afbe55b74fa81fbdb37d77d95
-      internalID: 516857446
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_gray_37
-      rect:
-        serializedVersion: 2
-        x: 1546
-        y: 44
-        width: 151
-        height: 171
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fc5302c8b6a54f44bb5aa4f76d2be804
-      internalID: 860202497
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_gray_38
-      rect:
-        serializedVersion: 2
-        x: 1907
-        y: 45
-        width: 149
-        height: 172
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: efdd9eb4e69377e44b547f26176b270e
-      internalID: 256238813
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_gray_39
-      rect:
-        serializedVersion: 2
-        x: 2267
-        y: 42
-        width: 151
-        height: 173
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dd519642e2e451a4b920270b2c45a3f6
-      internalID: 273038642
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_gray_40
-      rect:
-        serializedVersion: 2
-        x: 2631
-        y: 34
-        width: 145
-        height: 174
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 480e2b878a868864fa679f9949f124ad
-      internalID: 746233075
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk_gray_41
-      rect:
-        serializedVersion: 2
-        x: 2994
-        y: 20
-        width: 132
+        x: 117
+        y: 33
+        width: 127
         height: 176
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -980,8 +812,176 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a050570749aa5d4e865768d2acb4844
-      internalID: -683528458
+      spriteID: 57e2f6f6fa412f94ebbb834bd9985674
+      internalID: -94398203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_gray_34
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 33
+        width: 127
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 840b9c7086e4c21488222fc97aed80a8
+      internalID: 172563727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_gray_35
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 39
+        width: 141
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fbb22e499fb65748b32223358c94b15
+      internalID: 2012884513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_gray_36
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 44
+        width: 145
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d002746bad7694cb1ea185e57b8b13
+      internalID: -829890455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_gray_37
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 46
+        width: 146
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f80aa250cce504da17fbf6f9aaf77a
+      internalID: -35731260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_gray_38
+      rect:
+        serializedVersion: 2
+        x: 1909
+        y: 47
+        width: 145
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0793a45426c898b4d857c87484b052dd
+      internalID: 1450797363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_gray_39
+      rect:
+        serializedVersion: 2
+        x: 2270
+        y: 44
+        width: 145
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a4a8f2cef28554e9ce3bd4bdfe4423
+      internalID: 2120251481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_gray_40
+      rect:
+        serializedVersion: 2
+        x: 2633
+        y: 36
+        width: 141
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a096b921cfad92049964e3604a156cb2
+      internalID: -827801641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_gray_41
+      rect:
+        serializedVersion: 2
+        x: 2997
+        y: 22
+        width: 127
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa2e8fdbcb818c248aa0537d6d27a8f2
+      internalID: -1085890944
       vertices: []
       indices: 
       edges: []
@@ -997,48 +997,48 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      walk_gray_0: -292039432
-      walk_gray_1: 443254401
-      walk_gray_10: -1893547851
-      walk_gray_11: -2087014338
-      walk_gray_12: -772412539
-      walk_gray_13: -1726739441
-      walk_gray_14: 562303285
-      walk_gray_15: -1108163323
-      walk_gray_16: 923513282
-      walk_gray_17: -449913943
-      walk_gray_18: -1661168319
-      walk_gray_19: 1231876701
-      walk_gray_2: 763609313
-      walk_gray_20: -733349427
-      walk_gray_21: 196468061
-      walk_gray_22: -1598427033
-      walk_gray_23: 828804773
-      walk_gray_24: 1235964689
-      walk_gray_25: -1955445889
-      walk_gray_26: -541028787
-      walk_gray_27: -1293176611
-      walk_gray_28: 1440502643
-      walk_gray_29: -1976453756
-      walk_gray_3: -1308866427
-      walk_gray_30: -1002541701
-      walk_gray_31: 87114043
-      walk_gray_32: -582532099
-      walk_gray_33: 1519884084
-      walk_gray_34: -1180057808
-      walk_gray_35: 832647582
-      walk_gray_36: 516857446
-      walk_gray_37: 860202497
-      walk_gray_38: 256238813
-      walk_gray_39: 273038642
-      walk_gray_4: -141094283
-      walk_gray_40: 746233075
-      walk_gray_41: -683528458
-      walk_gray_5: -2020269308
-      walk_gray_6: 921031167
-      walk_gray_7: 1332267243
-      walk_gray_8: -1726914825
-      walk_gray_9: 1051207486
+      walk_gray_0: -842485821
+      walk_gray_1: -394008273
+      walk_gray_10: -1472963342
+      walk_gray_11: 2116318435
+      walk_gray_12: 104393962
+      walk_gray_13: 1930983598
+      walk_gray_14: -864775324
+      walk_gray_15: 840108838
+      walk_gray_16: 1433049825
+      walk_gray_17: 2123485687
+      walk_gray_18: 2122308268
+      walk_gray_19: -885453514
+      walk_gray_2: -1396015622
+      walk_gray_20: -991144383
+      walk_gray_21: -1859235345
+      walk_gray_22: 1422734139
+      walk_gray_23: -1481762404
+      walk_gray_24: 1114449894
+      walk_gray_25: 536835426
+      walk_gray_26: -1456126445
+      walk_gray_27: 2108197665
+      walk_gray_28: -329081420
+      walk_gray_29: 980378743
+      walk_gray_3: -1635962920
+      walk_gray_30: -1899324522
+      walk_gray_31: 647656058
+      walk_gray_32: -2034174571
+      walk_gray_33: -94398203
+      walk_gray_34: 172563727
+      walk_gray_35: 2012884513
+      walk_gray_36: -829890455
+      walk_gray_37: -35731260
+      walk_gray_38: 1450797363
+      walk_gray_39: 2120251481
+      walk_gray_4: -1928486331
+      walk_gray_40: -827801641
+      walk_gray_41: -1085890944
+      walk_gray_5: 49741849
+      walk_gray_6: 1482230534
+      walk_gray_7: -1859156706
+      walk_gray_8: -31533999
+      walk_gray_9: 1884888238
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -42,12 +42,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 130
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -67,7 +67,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -103,7 +103,679 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: vanish_yellow_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 350
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42562a89a4b03bd4fa1f551646b3a948
+      internalID: 444171377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vanish_yellow_1
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 600
+        width: 350
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fba426ba9fc76f45b7fe9eb2d74a5b0
+      internalID: 354766656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vanish_yellow_2
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 600
+        width: 350
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40f75723a290e54893ccb0ed59011c5
+      internalID: -803342932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vanish_yellow_3
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 600
+        width: 350
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5203f538a0c922a40a4665964089953a
+      internalID: -435020665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vanish_yellow_4
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 600
+        width: 350
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b78d88640a17c4ba3b77a3d7b1ff6c
+      internalID: -1829821281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vanish_yellow_5
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 600
+        width: 350
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce0490f2562b2fb4d8dce125a2b52fb5
+      internalID: 39273474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vanish_yellow_6
+      rect:
+        serializedVersion: 2
+        x: 2164
+        y: 600
+        width: 350
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beb3873352f60314aafbb9237366a01a
+      internalID: -1678409601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vanish_yellow_7
+      rect:
+        serializedVersion: 2
+        x: 2531
+        y: 600
+        width: 350
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa45ed30439bbf4483a44aca2652734
+      internalID: -297644146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vanish_yellow_8
+      rect:
+        serializedVersion: 2
+        x: 2884
+        y: 600
+        width: 350
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fbd8a4528f028846881be4147993f3a
+      internalID: 935725750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vanish_yellow_9
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 600
+        width: 350
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a1b0a8319283be47a90747db6c41790
+      internalID: -1888042619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vanish_yellow_10
+      rect:
+        serializedVersion: 2
+        x: 3604
+        y: 600
+        width: 350
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ad08dadb06ca94eb2d3e061c899b67
+      internalID: 2073198600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vanish_yellow_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 350
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc5d334b9d1bff149b5c1f9d48f79b8c
+      internalID: 1994771115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vanish_yellow_12
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 300
+        width: 350
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43e60b9ae96173942bd587d9130ea250
+      internalID: 2128660337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vanish_yellow_13
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 297
+        width: 350
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a32efb82d5689c64999549c73fe9cab7
+      internalID: -1094388159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vanish_yellow_14
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 300
+        width: 350
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8a516e0cfae5484c9de5210f0180b90
+      internalID: -931560858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vanish_yellow_15
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 300
+        width: 350
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3aa1c3dd4ea5854490a67a9bae80fe9
+      internalID: 47248481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vanish_yellow_16
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 303
+        width: 350
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55d54f093e759e6469cba8e138ceb144
+      internalID: -222771217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vanish_yellow_17
+      rect:
+        serializedVersion: 2
+        x: 2164
+        y: 312
+        width: 350
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ba6d3957548e74eb4f8b4a76dc34cf
+      internalID: 1946881669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vanish_yellow_18
+      rect:
+        serializedVersion: 2
+        x: 2528
+        y: 300
+        width: 350
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d1ba571a51eb0641a08137863b52721
+      internalID: -1910465638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vanish_yellow_19
+      rect:
+        serializedVersion: 2
+        x: 2881
+        y: 297
+        width: 350
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3564f9526455db47b0ff4992ea7809a
+      internalID: -1340274043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vanish_yellow_20
+      rect:
+        serializedVersion: 2
+        x: 3248
+        y: 297
+        width: 350
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcda0a679bba4b9458a4a1c5b8ed0857
+      internalID: -384596864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vanish_yellow_21
+      rect:
+        serializedVersion: 2
+        x: 3604
+        y: 297
+        width: 350
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc2dc67906f42549a8f0513f623f8ed
+      internalID: -2076463111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vanish_yellow_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 350
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 161cd040a85efec46b3cbe2fc1331237
+      internalID: -820881739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vanish_yellow_23
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 0
+        width: 350
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9093f323be0aa674c8a33dc6ac7070af
+      internalID: -1010004408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vanish_yellow_24
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 0
+        width: 350
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2d38e13b29a1b44d86e4c7891b1e1fc
+      internalID: 750046456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vanish_yellow_25
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 0
+        width: 350
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ebd77f826b031540817e2582c0df472
+      internalID: -746376435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vanish_yellow_26
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 0
+        width: 350
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c0002186f5ab5a46b812fac11211a84
+      internalID: -1774509944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vanish_yellow_27
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 3
+        width: 350
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7cec6dd79fccc548aaa2b3e10ee6de0
+      internalID: 1259736464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vanish_yellow_28
+      rect:
+        serializedVersion: 2
+        x: 2181
+        y: 0
+        width: 350
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6acbb9cb7bbd0a940a5e9b6a346a970d
+      internalID: -803131870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vanish_yellow_29
+      rect:
+        serializedVersion: 2
+        x: 2525
+        y: 3
+        width: 350
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5a2333630609ab4f9a85213b5d5d955
+      internalID: -392042158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vanish_yellow_30
+      rect:
+        serializedVersion: 2
+        x: 2887
+        y: 0
+        width: 350
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb417a0436a3887439df4d8762a1da1d
+      internalID: -819684351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vanish_yellow_31
+      rect:
+        serializedVersion: 2
+        x: 3248
+        y: 0
+        width: 350
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d1dd923ace7b5c41a13a4921984b180
+      internalID: -1592345557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -114,7 +786,39 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      vanish_yellow_0: 444171377
+      vanish_yellow_1: 354766656
+      vanish_yellow_10: 2073198600
+      vanish_yellow_11: 1994771115
+      vanish_yellow_12: 2128660337
+      vanish_yellow_13: -1094388159
+      vanish_yellow_14: -931560858
+      vanish_yellow_15: 47248481
+      vanish_yellow_16: -222771217
+      vanish_yellow_17: 1946881669
+      vanish_yellow_18: -1910465638
+      vanish_yellow_19: -1340274043
+      vanish_yellow_2: -803342932
+      vanish_yellow_20: -384596864
+      vanish_yellow_21: -2076463111
+      vanish_yellow_22: -820881739
+      vanish_yellow_23: -1010004408
+      vanish_yellow_24: 750046456
+      vanish_yellow_25: -746376435
+      vanish_yellow_26: -1774509944
+      vanish_yellow_27: 1259736464
+      vanish_yellow_28: -803131870
+      vanish_yellow_29: -392042158
+      vanish_yellow_3: -435020665
+      vanish_yellow_30: -819684351
+      vanish_yellow_31: -1592345557
+      vanish_yellow_4: -1829821281
+      vanish_yellow_5: 39273474
+      vanish_yellow_6: -1678409601
+      vanish_yellow_7: -297644146
+      vanish_yellow_8: 935725750
+      vanish_yellow_9: -1888042619
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

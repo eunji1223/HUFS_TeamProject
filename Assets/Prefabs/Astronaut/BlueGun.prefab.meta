@@ -1,5 +1,9 @@
 fileFormatVersion: 2
-guid: d14904e3ad2a6f24799515f166d3ba99
+<<<<<<< HEAD:Assets/Prefabs/Astronaut/BlueGun.prefab.meta
+guid: ebb04f057241efb478009fa2ba01dd75
+=======
+guid: 681a306d6348b4ef4ace770d9ee06626
+>>>>>>> 7ef65e6d5d1489d39625e645a3fc0619b76b9451:Assets/Prefabs/BlueGun.prefab.meta
 PrefabImporter:
   externalObjects: {}
   userData: 
