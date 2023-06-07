@@ -24,6 +24,9 @@ MonoBehaviour:
     isDot: 0
     dotDamage: 0
     dotTime: 0
+    isSlow: 0
+    slowTime: 0
+    slowRate: 0
     Prefab: {fileID: 6175062691105584322, guid: ebb04f057241efb478009fa2ba01dd75, type: 3}
     BulletPrefab: {fileID: 1704398192900371868, guid: 4b4fde32f962a49acbc54a4cf9acc47d, type: 3}
   - name: GreenGun
@@ -37,6 +40,9 @@ MonoBehaviour:
     isDot: 0
     dotDamage: 0
     dotTime: 0
+    isSlow: 0
+    slowTime: 0
+    slowRate: 0
     Prefab: {fileID: 965787380030766410, guid: ca3470b6f2494dd41ad91732757264d4, type: 3}
     BulletPrefab: {fileID: 1704398192900371868, guid: 4b4fde32f962a49acbc54a4cf9acc47d, type: 3}
   - name: YellowGun
@@ -50,7 +56,10 @@ MonoBehaviour:
     isDot: 0
     dotDamage: 0
     dotTime: 0
-    Prefab: {fileID: 0}
+    isSlow: 0
+    slowTime: 0
+    slowRate: 0
+    Prefab: {fileID: 740730864157784868, guid: 8265fbe440dabf74ea783bb64c1f2a7c, type: 3}
     BulletPrefab: {fileID: 1704398192900371868, guid: 4b4fde32f962a49acbc54a4cf9acc47d, type: 3}
   - name: RedGun
     health: 10
@@ -63,9 +72,44 @@ MonoBehaviour:
     isDot: 1
     dotDamage: 5
     dotTime: 10
-    Prefab: {fileID: 0}
+    isSlow: 0
+    slowTime: 0
+    slowRate: 0
+    Prefab: {fileID: 4095815707142973580, guid: d54a293797ccd9242b9499f795237101, type: 3}
     BulletPrefab: {fileID: 1704398192900371868, guid: 4b4fde32f962a49acbc54a4cf9acc47d, type: 3}
-  - name: GreyGun
+  - name: PinkGun
+    health: 10
+    cost: 60
+    moveSpeed: 1
+    attackRange: 10
+    attackSpeed: 1
+    damage: 9
+    isPenetrate: 0
+    isDot: 0
+    dotDamage: 0
+    dotTime: 0
+    isSlow: 1
+    slowTime: 5
+    slowRate: 50
+    Prefab: {fileID: 675850761713818293, guid: df720bda4c233034592b6eb765ece2b3, type: 3}
+    BulletPrefab: {fileID: 1704398192900371868, guid: 4b4fde32f962a49acbc54a4cf9acc47d, type: 3}
+  - name: BlackGun
+    health: 5
+    cost: 40
+    moveSpeed: 3
+    attackRange: 1
+    attackSpeed: 1
+    damage: 100
+    isPenetrate: 1
+    isDot: 0
+    dotDamage: 0
+    dotTime: 0
+    isSlow: 0
+    slowTime: 0
+    slowRate: 0
+    Prefab: {fileID: 0}
+    BulletPrefab: {fileID: 0}
+  - name: GrayGun
     health: 100
     cost: 60
     moveSpeed: 1
@@ -76,5 +120,8 @@ MonoBehaviour:
     isDot: 0
     dotDamage: 0
     dotTime: 0
-    Prefab: {fileID: 0}
-    BulletPrefab: {fileID: 0}
+    isSlow: 0
+    slowTime: 0
+    slowRate: 0
+    Prefab: {fileID: 3727163249031441289, guid: bdd0080b378a9514babb0bcb69f0bf81, type: 3}
+    BulletPrefab: {fileID: 1704398192900371868, guid: 4b4fde32f962a49acbc54a4cf9acc47d, type: 3}

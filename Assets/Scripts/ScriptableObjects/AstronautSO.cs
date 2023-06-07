@@ -16,6 +16,9 @@ public class AstronautItem
     public bool isDot;
     public int dotDamage;
     public int dotTime;
+    public bool isSlow;
+    public int slowTime;
+    public int slowRate;
     public GameObject Prefab; // Prefab
     public GameObject BulletPrefab; // Bullet Prefab
 }

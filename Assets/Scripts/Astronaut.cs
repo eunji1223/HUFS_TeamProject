@@ -13,12 +13,22 @@ public class Astronaut : MonoBehaviour
 
     [SerializeField]
     private LayerMask layermask;
+    [SerializeField]
+    private AstronautSO astronautSO;
+    [SerializeField]
+    private int characterIndex;
+    [SerializeField]
+    private float maxDistance;
 
     void Start()
     {
+        myAstronaut = astronautSO.astronautItems[characterIndex];
+        
         if (myAstronaut != null)
         {
             health = myAstronaut.health;
+            Debug.Log("Astronaut Start: " + myAstronaut.moveSpeed + ".");
+            moveSpeed = myAstronaut.moveSpeed;
         }
     }
 
@@ -27,26 +37,26 @@ public class Astronaut : MonoBehaviour
     {
         RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector3.right, myAstronaut.attackRange, layermask);
 
-        /* moveSpeed = 0: Stop, !0: Move */
-        transform.Translate(Vector3.right * moveSpeed * Time.deltaTime);
-
         if (hit.collider != null)
         {
             Stop();
             Attack();
         }
+        else if (transform.position.x >= maxDistance) {
+            Stop();
+        }
         else
         {
             Move();
         }
+
+        /* moveSpeed = 0: Stop, !0: Move */
+        transform.Translate(Vector3.right * moveSpeed * Time.deltaTime);
     }
 
-    public void AllocateItem(AstronautItem item)
-    {
-        myAstronaut = item;
-        Debug.Log(item.name + " allocated to " + gameObject.name + ".");
-        Debug.Log(myAstronaut.name + " allocated2 to " + gameObject.name + ".");
-    }
+    // public void AllocateItem(AstronautItem item) {
+        // myAstronaut = item;
+    // }
 
     private void Attack()
     {

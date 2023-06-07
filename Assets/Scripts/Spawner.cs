@@ -30,7 +30,7 @@ public class Spawner : MonoBehaviour, IDropHandler
                     {
 
                         GameObject astronautPrefab = astronautSO.astronautItems[i].Prefab;
-                        astronautPrefab.GetComponent<Astronaut>().AllocateItem(astronautSO.astronautItems[i]);
+                        // astronautPrefab.GetComponent<Astronaut>().AllocateItem(astronautSO.astronautItems[i]);
                         
                         int cost = astronautSO.astronautItems[i].cost;
                         CoinManager.instance.DecreaseCoin(cost);

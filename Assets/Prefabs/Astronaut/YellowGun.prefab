@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 740730864157784870}
   - component: {fileID: 740730864157784871}
   - component: {fileID: -8711540087679267749}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: YellowGun
   m_TagString: Astronaut
   m_Icon: {fileID: 0}
@@ -77,7 +77,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: -193716642, guid: 412b89665a6727b48acd2c49286f8ddf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1.0153847, y: 1.3307692}
@@ -122,3 +122,6 @@ MonoBehaviour:
   layermask:
     serializedVersion: 2
     m_Bits: 256
+  astronautSO: {fileID: 11400000, guid: 82b1420753d9d4bbcaf18d93a9bf5406, type: 2}
+  characterIndex: 2
+  maxDistance: 0.5

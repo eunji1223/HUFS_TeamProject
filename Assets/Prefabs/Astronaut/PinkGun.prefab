@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 675850761713818295}
   - component: {fileID: 675850761713818294}
   - component: {fileID: -2383911782856481008}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PinkGun
   m_TagString: Astronaut
   m_Icon: {fileID: 0}
@@ -77,7 +77,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 102563382, guid: dd5170ebcfefaf046a7889018d1fb481, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1.0153847, y: 1.3307692}
@@ -122,3 +122,6 @@ MonoBehaviour:
   layermask:
     serializedVersion: 2
     m_Bits: 256
+  astronautSO: {fileID: 11400000, guid: 82b1420753d9d4bbcaf18d93a9bf5406, type: 2}
+  characterIndex: 0
+  maxDistance: 0.5

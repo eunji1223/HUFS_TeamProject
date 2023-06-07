@@ -375,6 +375,11 @@ MonoBehaviour:
   CoinPre: {fileID: 975715265015564232, guid: eace3a2b70d418347a693231f35f1beb, type: 3}
   coinText: {fileID: 1270975555}
   coinActiveCount: 0
+--- !u!1 &265512100 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8404125845747382435, guid: bafb3c27044a6f648a353c72eb9d1a0b, type: 3}
+  m_PrefabInstance: {fileID: 585617666}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &342803704
 GameObject:
   m_ObjectHideFlags: 0
@@ -3023,6 +3028,11 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!1 &569172644 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 117622548391496543, guid: bade42af485c9cd4789dfa8470d82e7f, type: 3}
+  m_PrefabInstance: {fileID: 135501571}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &585617666
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4418,7 +4428,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b3f1843cc3413143b0af9c569d2b4cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  astronautSO: {fileID: 0}
+  astronautSO: {fileID: 11400000, guid: 82b1420753d9d4bbcaf18d93a9bf5406, type: 2}
 --- !u!114 &1332671601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4877,6 +4887,19 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 145065357013520334, guid: bade42af485c9cd4789dfa8470d82e7f, type: 3}
   m_PrefabInstance: {fileID: 135501571}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1654163209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 569172644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dff0e635b31d81b43b07a76051903646, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  astronautSO: {fileID: 11400000, guid: 82b1420753d9d4bbcaf18d93a9bf5406, type: 2}
 --- !u!1 &1671597906
 GameObject:
   m_ObjectHideFlags: 0
@@ -5086,7 +5109,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b3f1843cc3413143b0af9c569d2b4cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  astronautSO: {fileID: 0}
+  astronautSO: {fileID: 11400000, guid: 82b1420753d9d4bbcaf18d93a9bf5406, type: 2}
 --- !u!114 &1786097576
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5154,6 +5177,19 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 5967738252722441728, guid: bafb3c27044a6f648a353c72eb9d1a0b, type: 3}
   m_PrefabInstance: {fileID: 585617666}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1982312414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 265512100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dff0e635b31d81b43b07a76051903646, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  astronautSO: {fileID: 11400000, guid: 82b1420753d9d4bbcaf18d93a9bf5406, type: 2}
 --- !u!1 &1993977737
 GameObject:
   m_ObjectHideFlags: 0
@@ -5274,7 +5310,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b3f1843cc3413143b0af9c569d2b4cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  astronautSO: {fileID: 0}
+  astronautSO: {fileID: 11400000, guid: 82b1420753d9d4bbcaf18d93a9bf5406, type: 2}
 --- !u!114 &2130181413
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5681,7 +5717,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff0e635b31d81b43b07a76051903646, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  astronautSO: {fileID: 0}
+  astronautSO: {fileID: 11400000, guid: 82b1420753d9d4bbcaf18d93a9bf5406, type: 2}
 --- !u!1001 &8694990287063213344
 PrefabInstance:
   m_ObjectHideFlags: 0
