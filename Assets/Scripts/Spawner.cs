@@ -14,12 +14,9 @@ public class Spawner : MonoBehaviour, IDropHandler
     public AstronautSO astronautSO;
     public GameObject[] character;
 
-    public CoinManager coinManager;
-
     private void Awake()
     {
         instance = this;
-        coinManager = GameObject.Find("CoinManager").GetComponent<CoinManager>();
     }
 
     public void OnDrop(PointerEventData eventData)
@@ -35,7 +32,7 @@ public class Spawner : MonoBehaviour, IDropHandler
                         //Debug.Log(itemSO[i].name);
                         character[i].GetComponent<Astronaut>().AllocateItem(astronautSO.astronautItems[i]);
                         int cost = astronautSO.astronautItems[i].cost;
-                        coinManager.DecreaseCoin(cost);
+                        CoinManager.instance.DecreaseCoin(cost);
                         Instantiate(character[i], new Vector3(-8, 0, 0), transform.rotation);
                     }
                         
