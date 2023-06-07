@@ -18,24 +18,22 @@ public class DragHandeler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEnd
         itemBeingDragged = gameObject;
         startPosition = transform.position;
         startParent = transform.parent;
-      
-        
     }
 
     public void OnDrag(PointerEventData eventData)
     {
         for (int i = 0; i < astronautSO.astronautItems.Length; i++)
         {
-            Debug.Log(astronautSO.astronautItems[i].name);
             if (astronautSO.astronautItems[i].name == itemBeingDragged.name)
-            {   
+            {
                 int cost = astronautSO.astronautItems[i].cost;
                 if (CoinManager.instance.Coin >= cost)
-                { 
+                {
                     transform.position = eventData.position;
                 }
             }
         }
+        
     }
 
     public void OnEndDrag(PointerEventData eventData)
