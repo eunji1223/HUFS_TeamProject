@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6175062691105584320}
   - component: {fileID: 6175062691105584321}
   - component: {fileID: 229016324599595902}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BlueGun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -77,7 +77,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: -296399811, guid: 9b31565e25ef604489ef55b0daf3f780, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1.0153847, y: 1.3307692}

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8945945267714466938}
   - component: {fileID: 6894516868312184148}
   m_Layer: 5
-  m_Name: Wall
+  m_Name: GrayGun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
