@@ -11,15 +11,15 @@ public class AlienSpawn : MonoBehaviour
     public GameObject LongRangeAlien;
     public GameObject CloseRangeAlien;
 
-    [SerializeField]
-    private float spawnRate;
-    private float timer = 0;
+    public float spawnRate = 2.0f;
+    private float timer;
 
     public Transform spawnParent;
     public Transform[] createAlienLine;
 
     void Awake()
     {
+        timer = 0;
         RandomSpawnState();
         spawnAlien();
     }

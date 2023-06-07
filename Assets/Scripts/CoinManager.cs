@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class CoinManager : MonoBehaviour
 {
     public static CoinManager instance { get; private set; }
-    private int coin = 0;
+    private int coin = 30;
 
     void Awake() => instance = this;
 
@@ -26,8 +26,7 @@ public class CoinManager : MonoBehaviour
 
     private void Start()
     {
-        CoinInitialCreate();
-        coin = 10; 
+        CoinInitialCreate(); 
     }
 
     private void Update()

@@ -148,6 +148,37 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d58a714be4d79244685ad402c0f7401c, type: 3}
+--- !u!1 &322032125839424243 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 721211080642044649, guid: d58a714be4d79244685ad402c0f7401c, type: 3}
+  m_PrefabInstance: {fileID: 1043242106947278874}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &6088856969839009993
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 322032125839424243}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.09701905, y: -0.13583222}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.32360175, y: 0.7383021}
+    oldSize: {x: 0.55, y: 0.57}
+    newSize: {x: 1.18, y: 0.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.55, y: 0.57}
+  m_EdgeRadius: 0
 --- !u!4 &322032126554493872 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 721211082069887914, guid: d58a714be4d79244685ad402c0f7401c, type: 3}
