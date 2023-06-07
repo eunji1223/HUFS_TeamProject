@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+guid: 9a462bbcc27b4416da47f04f1b88270d
+=======
 guid: 079de05b18cd4334a845fecb84abece5
+>>>>>>> refs/remotes/origin/main
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 0
