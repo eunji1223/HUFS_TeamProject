@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 965787380030766409}
   - component: {fileID: 965787380030766408}
   - component: {fileID: 965787380030766411}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GreenGun
   m_TagString: Untagged
   m_Icon: {fileID: 0}

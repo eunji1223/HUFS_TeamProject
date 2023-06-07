@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 740730864157784793}
   - component: {fileID: 740730864157784870}
   - component: {fileID: 740730864157784871}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: YellowGun
   m_TagString: Untagged
   m_Icon: {fileID: 0}

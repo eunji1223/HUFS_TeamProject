@@ -50,3 +50,6 @@ TagManager:
   - name: Title
     uniqueID: 2312768999
     locked: 0
+  - name: Astronaut
+    uniqueID: 92655751
+    locked: 0

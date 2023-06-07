@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &35053747 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 928201696509001218, guid: 12cc13a17617ae24a96fccc76c0b939d, type: 3}
+  m_PrefabInstance: {fileID: 423025999}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &71550586
 GameObject:
   m_ObjectHideFlags: 0
@@ -3167,11 +3172,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b3f1843cc3413143b0af9c569d2b4cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  astronautSO: {fileID: 0}
-  character:
-  - {fileID: 8212434481552080516, guid: c206e53d21ab5d847b2c3143a71d3967, type: 3}
-  - {fileID: 0}
-  - {fileID: 0}
+  astronautSO: {fileID: 11400000, guid: 82b1420753d9d4bbcaf18d93a9bf5406, type: 2}
 --- !u!114 &643235223
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3282,7 +3283,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -900, y: 0}
+  m_AnchoredPosition: {x: -899.99994, y: 0}
   m_SizeDelta: {x: -1800, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &715017119
@@ -3601,7 +3602,7 @@ Canvas:
   m_GameObject: {fileID: 835992866}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_Camera: {fileID: 519420031}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -3611,7 +3612,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!224 &835992870
 RectTransform:
@@ -4418,10 +4419,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   astronautSO: {fileID: 0}
-  character:
-  - {fileID: 8212434481552080516, guid: c206e53d21ab5d847b2c3143a71d3967, type: 3}
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!114 &1332671601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5024,6 +5021,19 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 2972638713859225074, guid: 12cc13a17617ae24a96fccc76c0b939d, type: 3}
   m_PrefabInstance: {fileID: 423025999}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1783893985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 35053747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dff0e635b31d81b43b07a76051903646, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  astronautSO: {fileID: 0}
 --- !u!1 &1786097573
 GameObject:
   m_ObjectHideFlags: 0
@@ -5077,10 +5087,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   astronautSO: {fileID: 0}
-  character:
-  - {fileID: 8212434481552080516, guid: c206e53d21ab5d847b2c3143a71d3967, type: 3}
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!114 &1786097576
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5269,10 +5275,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   astronautSO: {fileID: 0}
-  character:
-  - {fileID: 8212434481552080516, guid: c206e53d21ab5d847b2c3143a71d3967, type: 3}
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!114 &2130181413
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5449,7 +5451,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff0e635b31d81b43b07a76051903646, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  astronautSO: {fileID: 0}
+  astronautSO: {fileID: 11400000, guid: 82b1420753d9d4bbcaf18d93a9bf5406, type: 2}
 --- !u!1001 &5580351110206990953
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6175062691105584320}
   - component: {fileID: 6175062691105584321}
   - component: {fileID: 229016324599595902}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BlueGun
   m_TagString: Untagged
   m_Icon: {fileID: 0}

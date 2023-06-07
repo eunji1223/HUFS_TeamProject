@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4095815707142973571}
   - component: {fileID: 4095815707142973570}
   - component: {fileID: 4095815707142973581}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: RedGun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
