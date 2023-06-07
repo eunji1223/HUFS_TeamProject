@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using UnityEngine;
 using UnityEngine.EventSystems;
-using static UnityEditor.Progress;
 
 using Debug = UnityEngine.Debug;
 
@@ -30,10 +29,16 @@ public class Spawner : MonoBehaviour, IDropHandler
                     if (astronautSO.astronautItems[i].name == item.name)
                     {
                         //Debug.Log(itemSO[i].name);
-                        // astronautSO.astronautItems[i].GetComponent<Astronaut>().AllocateItem(astronautSO.astronautItems[i]);
-                        int cost = astronautSO.astronautItems[i].cost;
-                        CoinManager.instance.DecreaseCoin(cost);
-                        Instantiate(astronautSO.astronautItems[i].Prefab, transform.position, transform.rotation);
+                        GameObject astronautPrefab = astronautSO.astronautItems[i].Prefab.GetComponent<Astronaut>().gameObject;
+                        if (astronautPrefab != null) {
+                            astronautPrefab.AllocateItem(astronautSO.astronautItems[i]);
+                            
+                            int cost = astronautSO.astronautItems[i].cost;
+                            CoinManager.instance.DecreaseCoin(cost);
+                            Instantiate(astronautPrefab, transform.position, transform.rotation);
+
+                        }
+                        
                     }
                         
                 }

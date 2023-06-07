@@ -12,27 +12,27 @@ public class Astronaut : MonoBehaviour
     private bool isAttacking;
 
     [SerializeField]
-    private GameObject obstacleRay;
     private LayerMask layermask;
 
-    private void Start() {
+    private void Awake() {
         health = myAstronaut.health;
     }
 
     private void Update() {
+        Move();
 
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector3.right, myAstronaut.attackRange, layermask);
+        // RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector3.right, myAstronaut.attackRange, layermask);
 
-        /* moveSpeed = 0: Stop, !0: Move */
-        transform.Translate(Vector3.right * moveSpeed * Time.deltaTime);
+        // /* moveSpeed = 0: Stop, !0: Move */
+        // transform.Translate(Vector3.right * moveSpeed * Time.deltaTime);
 
-        if (hit.collider != null) {
-            Stop();
-            Attack();
-        }
-        else {
-            Move();
-        }
+        // if (hit.collider != null) {
+        //     Stop();
+        //     Attack();
+        // }
+        // else {
+        //     Move();
+        // }
     }
 
     public void AllocateItem(AstronautItem item) {

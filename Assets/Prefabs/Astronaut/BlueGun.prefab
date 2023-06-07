@@ -119,4 +119,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 490ccbf5036d91545b2b2ef70014f212, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obstacleRay: {fileID: 0}
+  layermask:
+    serializedVersion: 2
+    m_Bits: 256
