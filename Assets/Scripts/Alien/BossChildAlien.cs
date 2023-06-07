@@ -16,4 +16,14 @@ public class BossChildAlien : Alien
     {
         bossAlien = boss;
     }
+    public override void TakeDamage(int damage)
+    {
+        BossChildAlienHP -= damage;
+
+        if (BossChildAlienHP <= 0)
+        {
+            Debug.Log("Astronaut's Attack");
+            Destroy(gameObject);
+        }
+    }
 }

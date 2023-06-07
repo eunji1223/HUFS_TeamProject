@@ -4,6 +4,7 @@ using UnityEngine;
 
 [System.Serializable]
 public class AstronautItem
+
 {
     public string name;
     public int health;

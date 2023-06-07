@@ -42,12 +42,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 130
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -67,7 +67,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -103,7 +103,889 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: walk_pink_0
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 933
+        width: 126
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8402ce9a98cde4fb1ec5372a0ee667
+      internalID: 234160503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_pink_1
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 941
+        width: 134
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4da126360150f6247850ba865933c916
+      internalID: 938253938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_pink_2
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 946
+        width: 135
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72fdad77ad8951348944fcfc35d57e53
+      internalID: 1880059746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_pink_3
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 947
+        width: 132
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf585210e0919a84db8bfeb2d54e6bac
+      internalID: 1241986333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_pink_4
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 944
+        width: 135
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b49240fd6bea624cb8217312a4a0737
+      internalID: 52085222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_pink_5
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 933
+        width: 127
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c86e95338d46ad42bb4d1bcbd5e8257
+      internalID: -731454125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_pink_6
+      rect:
+        serializedVersion: 2
+        x: 2273
+        y: 933
+        width: 127
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 615e785c841078b44b7aed7461624375
+      internalID: -612850444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_pink_7
+      rect:
+        serializedVersion: 2
+        x: 2635
+        y: 939
+        width: 137
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc67285dd77a8ce4abc101ddff2eb847
+      internalID: 1042541839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_pink_8
+      rect:
+        serializedVersion: 2
+        x: 2996
+        y: 944
+        width: 139
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c10d4f900b82b2478107d80a67dfad1
+      internalID: 2046939049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_pink_9
+      rect:
+        serializedVersion: 2
+        x: 3357
+        y: 946
+        width: 138
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c35db756c94fe34e839c2a990ceee61
+      internalID: -2076377468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_pink_10
+      rect:
+        serializedVersion: 2
+        x: 3717
+        y: 947
+        width: 137
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29da0c99155bd14469f31467a52f9636
+      internalID: -2014388977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_pink_11
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 646
+        width: 138
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1da2f634869c5846b8b44bd49e1d5d8
+      internalID: -655042084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_pink_12
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 641
+        width: 137
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e2617fef6856b4eb4beaeb56c0bf54
+      internalID: 795211280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_pink_13
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 633
+        width: 127
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9922a7e61db3e9e42b0725566182db49
+      internalID: -1538905944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_pink_14
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 636
+        width: 139
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fff96f4848a59f4f8ffb8d9b173a9af
+      internalID: 1192210572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_pink_15
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 645
+        width: 139
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df1212ec9dcd9e4b88ddb340fca3e70
+      internalID: -1424440310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_pink_16
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 650
+        width: 144
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e78341cc8ccea8349b3a80c1ed2a5ec2
+      internalID: 1950845437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_pink_17
+      rect:
+        serializedVersion: 2
+        x: 2262
+        y: 652
+        width: 147
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d53bcba619b1914e8034eaa365d5eae
+      internalID: -2088859379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_pink_18
+      rect:
+        serializedVersion: 2
+        x: 2626
+        y: 650
+        width: 137
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef989481f070fdc41a3852b40564d41e
+      internalID: -1633688268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_pink_19
+      rect:
+        serializedVersion: 2
+        x: 2996
+        y: 643
+        width: 131
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 040f1f48c7821c140b9db9569c6122ce
+      internalID: -1364823483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_pink_20
+      rect:
+        serializedVersion: 2
+        x: 3366
+        y: 637
+        width: 129
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9348baf3c1589244e851900a20cd6518
+      internalID: -1320517715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_pink_21
+      rect:
+        serializedVersion: 2
+        x: 3726
+        y: 645
+        width: 129
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed5773a74943d034e982fdd1b72abb2a
+      internalID: -931713825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_pink_22
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 352
+        width: 129
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f96ca03a5f81f14aaf018ab12074102
+      internalID: 1174654013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_pink_23
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 355
+        width: 129
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85d028eaf564d1b40a3a0200973445ae
+      internalID: 510960870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_pink_24
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 357
+        width: 129
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1e3d751264d6fd4b91d14ea32a3c958
+      internalID: 1032546519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_pink_25
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 355
+        width: 129
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 542834bc96d9c14418115e59db772cd8
+      internalID: -1916622840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_pink_26
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 351
+        width: 129
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb7be30e2482e44fbd3055e5676789b
+      internalID: -1267881756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_pink_27
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 332
+        width: 139
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46af10ddd59910b458576495b0f1b718
+      internalID: 1590448123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_pink_28
+      rect:
+        serializedVersion: 2
+        x: 2278
+        y: 333
+        width: 127
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cb8d3d22febf764a8a88154bda0a1bd
+      internalID: -625873323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_pink_29
+      rect:
+        serializedVersion: 2
+        x: 2631
+        y: 339
+        width: 135
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f8b35fa3398a50488d65c831e14e018
+      internalID: -739750529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_pink_30
+      rect:
+        serializedVersion: 2
+        x: 2991
+        y: 343
+        width: 135
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd502fd9ea8858d4294d6427b7d55371
+      internalID: 1792260660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_pink_31
+      rect:
+        serializedVersion: 2
+        x: 3354
+        y: 347
+        width: 132
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff6b1cf12dc27e046bb6780a44092f8a
+      internalID: 1782445723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_pink_32
+      rect:
+        serializedVersion: 2
+        x: 3711
+        y: 344
+        width: 135
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff820538e3e03d449df0631481f2a1f
+      internalID: 1167152720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_pink_33
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 33
+        width: 127
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d718117a3f80e246afae2dc11805b39
+      internalID: 159648093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_pink_34
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 33
+        width: 127
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4c48d6bf5752fb439c3efc0ad05fc4f
+      internalID: -124236232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_pink_35
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 39
+        width: 141
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba8583f131cdca488484615a97cb7b2
+      internalID: 1704842591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_pink_36
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 44
+        width: 145
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52956cbfe490d294a812b84ccdca54c5
+      internalID: -604504055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_pink_37
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 46
+        width: 146
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5012f778252e664bb07776eb116ce37
+      internalID: 140381227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_pink_38
+      rect:
+        serializedVersion: 2
+        x: 1909
+        y: 47
+        width: 145
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1609518ca3d32774782ef340e89caf5a
+      internalID: -2128049166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_pink_39
+      rect:
+        serializedVersion: 2
+        x: 2270
+        y: 44
+        width: 145
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d717ea5732fe0a9499cf859a58a71b13
+      internalID: -867249110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_pink_40
+      rect:
+        serializedVersion: 2
+        x: 2633
+        y: 36
+        width: 141
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a888b6140d79043a0f243df3c459fd
+      internalID: 982310898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_pink_41
+      rect:
+        serializedVersion: 2
+        x: 2997
+        y: 22
+        width: 127
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87206c4e24de5ad4a87b96724deec721
+      internalID: 1417916140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -114,7 +996,49 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      walk_pink_0: 234160503
+      walk_pink_1: 938253938
+      walk_pink_10: -2014388977
+      walk_pink_11: -655042084
+      walk_pink_12: 795211280
+      walk_pink_13: -1538905944
+      walk_pink_14: 1192210572
+      walk_pink_15: -1424440310
+      walk_pink_16: 1950845437
+      walk_pink_17: -2088859379
+      walk_pink_18: -1633688268
+      walk_pink_19: -1364823483
+      walk_pink_2: 1880059746
+      walk_pink_20: -1320517715
+      walk_pink_21: -931713825
+      walk_pink_22: 1174654013
+      walk_pink_23: 510960870
+      walk_pink_24: 1032546519
+      walk_pink_25: -1916622840
+      walk_pink_26: -1267881756
+      walk_pink_27: 1590448123
+      walk_pink_28: -625873323
+      walk_pink_29: -739750529
+      walk_pink_3: 1241986333
+      walk_pink_30: 1792260660
+      walk_pink_31: 1782445723
+      walk_pink_32: 1167152720
+      walk_pink_33: 159648093
+      walk_pink_34: -124236232
+      walk_pink_35: 1704842591
+      walk_pink_36: -604504055
+      walk_pink_37: 140381227
+      walk_pink_38: -2128049166
+      walk_pink_39: -867249110
+      walk_pink_4: 52085222
+      walk_pink_40: 982310898
+      walk_pink_41: 1417916140
+      walk_pink_5: -731454125
+      walk_pink_6: -612850444
+      walk_pink_7: 1042541839
+      walk_pink_8: 2046939049
+      walk_pink_9: -2076377468
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
