@@ -14,29 +14,38 @@ public class Astronaut : MonoBehaviour
     [SerializeField]
     private LayerMask layermask;
 
-    private void Awake() {
-        health = myAstronaut.health;
+    void Start()
+    {
+        if (myAstronaut != null)
+        {
+            health = myAstronaut.health;
+        }
     }
 
-    private void Update() {
-        Move();
 
-        // RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector3.right, myAstronaut.attackRange, layermask);
+    void Update()
+    {
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector3.right, myAstronaut.attackRange, layermask);
 
-        // /* moveSpeed = 0: Stop, !0: Move */
-        // transform.Translate(Vector3.right * moveSpeed * Time.deltaTime);
+        /* moveSpeed = 0: Stop, !0: Move */
+        transform.Translate(Vector3.right * moveSpeed * Time.deltaTime);
 
-        // if (hit.collider != null) {
-        //     Stop();
-        //     Attack();
-        // }
-        // else {
-        //     Move();
-        // }
+        if (hit.collider != null)
+        {
+            Stop();
+            Attack();
+        }
+        else
+        {
+            Move();
+        }
     }
 
-    public void AllocateItem(AstronautItem item) {
+    public void AllocateItem(AstronautItem item)
+    {
         myAstronaut = item;
+        Debug.Log(item.name + " allocated to " + gameObject.name + ".");
+        Debug.Log(myAstronaut.name + " allocated2 to " + gameObject.name + ".");
     }
 
     private void Attack()
@@ -44,32 +53,41 @@ public class Astronaut : MonoBehaviour
         if (!isAttacking)
         {
             isAttacking = true;
-            StartCoroutine("CreateBullet", myAstronaut);
+            StartCoroutine(CreateBullet());
         }
     }
 
-    private void CreateBullet() {
+    private IEnumerator CreateBullet()
+    {
         myAstronaut.BulletPrefab.GetComponent<Bullet>().SetBullet(myAstronaut);
         Instantiate(myAstronaut.BulletPrefab, transform.position, transform.rotation);
+        
+        // Wait for a short duration before allowing another attack
+        yield return new WaitForSeconds(myAstronaut.attackSpeed);
+        isAttacking = false;
     }
 
-    private void Move() {
+    private void Move()
+    {
         moveSpeed = myAstronaut.moveSpeed;
     }
 
-    private void Stop() {
+    private void Stop()
+    {
         moveSpeed = 0;
     }
 
-    private void Die() {
+    private void Die()
+    {
         Destroy(gameObject);
     }
+
     public void TakeDamage(int damage)
     {
         health -= damage;
-        if (health <= 0) {
+        if (health <= 0)
+        {
             Die();
         }
-
     }
 }
