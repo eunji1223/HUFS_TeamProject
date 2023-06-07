@@ -11,8 +11,8 @@ public class Spawner : MonoBehaviour, IDropHandler
 {
     public static Spawner instance { get; private set; }
 
-    public AstronautSO astronautSO;
-    public GameObject[] character;
+    [SerializeField]
+    private AstronautSO astronautSO;
 
     private void Awake()
     {
@@ -30,10 +30,10 @@ public class Spawner : MonoBehaviour, IDropHandler
                     if (astronautSO.astronautItems[i].name == item.name)
                     {
                         //Debug.Log(itemSO[i].name);
-                        character[i].GetComponent<Astronaut>().AllocateItem(astronautSO.astronautItems[i]);
+                        // astronautSO.astronautItems[i].GetComponent<Astronaut>().AllocateItem(astronautSO.astronautItems[i]);
                         int cost = astronautSO.astronautItems[i].cost;
                         CoinManager.instance.DecreaseCoin(cost);
-                        Instantiate(character[i], new Vector3(-8, 0, 0), transform.rotation);
+                        Instantiate(astronautSO.astronautItems[i].Prefab, transform.position, transform.rotation);
                     }
                         
                 }

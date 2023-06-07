@@ -24,7 +24,7 @@ MonoBehaviour:
     isDot: 0
     dotDamage: 0
     dotTime: 0
-    Prefab: {fileID: 3595661160076259352, guid: 681a306d6348b4ef4ace770d9ee06626, type: 3}
+    Prefab: {fileID: 6205734610727276248, guid: 6aeefff5d83350945a375bfe89b8d46c, type: 3}
     BulletPrefab: {fileID: 1704398192900371868, guid: 4b4fde32f962a49acbc54a4cf9acc47d, type: 3}
   - name: GreenGun
     health: 10
@@ -37,7 +37,7 @@ MonoBehaviour:
     isDot: 0
     dotDamage: 0
     dotTime: 0
-    Prefab: {fileID: 8212434481552080516, guid: c206e53d21ab5d847b2c3143a71d3967, type: 3}
+    Prefab: {fileID: 965787380030766410, guid: ca3470b6f2494dd41ad91732757264d4, type: 3}
     BulletPrefab: {fileID: 1704398192900371868, guid: 4b4fde32f962a49acbc54a4cf9acc47d, type: 3}
   - name: YellowGun
     health: 10
