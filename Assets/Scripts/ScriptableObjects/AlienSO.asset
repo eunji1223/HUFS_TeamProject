@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64586339c94204c2798ef4f35966e9e1, type: 3}
+  m_Name: AlienSO
+  m_EditorClassIdentifier: 
+  astronautItems:
+  - name: AlienShort
+    health: 100
+    moveSpeed: 1
+    attackRange: 1
+    attackSpeed: 2
+    damage: 2
+    isStun: 0
+    stunTime: 0
+    Prefab: {fileID: 8976616659649537793, guid: 7e1d231a4dbb60a45922bda6191ab35a, type: 3}
+    AttackPrefab: {fileID: 0}
+  - name: AlienLong
+    health: 100
+    moveSpeed: 1
+    attackRange: 5
+    attackSpeed: 2
+    damage: 1
+    isStun: 0
+    stunTime: 0
+    Prefab: {fileID: 0}
+    AttackPrefab: {fileID: 0}
+  - name: AlienBoss
+    health: 250
+    moveSpeed: 1
+    attackRange: 5
+    attackSpeed: 4
+    damage: 4
+    isStun: 0
+    stunTime: 0
+    Prefab: {fileID: 719137348946708807, guid: 72eed46cfda025041a7369648b70f7b7, type: 3}
+    AttackPrefab: {fileID: 0}
+  - name: AlienChild
+    health: 50
+    moveSpeed: 2
+    attackRange: 1
+    attackSpeed: 1
+    damage: 1
+    isStun: 0
+    stunTime: 0
+    Prefab: {fileID: 2163760489978715279, guid: d42227ffe352e294f8e26983ba465880, type: 3}
+    AttackPrefab: {fileID: 0}
+  - name: AlienStun
+    health: 100
+    moveSpeed: 1
+    attackRange: 5
+    attackSpeed: 5
+    damage: 2
+    isStun: 1
+    stunTime: 3
+    Prefab: {fileID: 8539688656674983731, guid: f2ab1cbc2de172f4db5e52b16f38a53b, type: 3}
+    AttackPrefab: {fileID: 0}
