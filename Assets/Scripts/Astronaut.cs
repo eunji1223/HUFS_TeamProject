@@ -10,10 +10,14 @@ public class Astronaut : MonoBehaviour
     private int health;
     private int moveSpeed; // 0: Stop, !0: Move
     private bool isAttacking;
+    private bool isStop;
     private Animator astronautAnim;
+    private float astronautDistance = 2.0f;
 
     [SerializeField]
     private LayerMask layermask;
+    [SerializeField]
+    private LayerMask astroLayerMask;
     [SerializeField]
     private AstronautSO astronautSO;
     [SerializeField]
@@ -47,12 +51,12 @@ public class Astronaut : MonoBehaviour
             Stop();
             Attack();
         }
-        else if (transform.position.x >= maxDistance) {
+        else if(isStop == true || transform.position.x >= maxDistance)
+        {
             astronautAnim.SetBool("isFight", false);
             Stop();
         }
-        else
-        {
+        else {
             Move();
         }
 
@@ -60,8 +64,21 @@ public class Astronaut : MonoBehaviour
         transform.Translate(Vector3.right * moveSpeed * Time.deltaTime);
     }
 
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Astronaut") && this.transform.position.x < collision.transform.position.x)
+        {
+            isStop = true;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        isStop = false;
+    }
+
     // public void AllocateItem(AstronautItem item) {
-        // myAstronaut = item;
+    // myAstronaut = item;
     // }
 
     private void Attack()
