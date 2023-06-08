@@ -20,7 +20,6 @@ public class BossAlien : Alien
         maxChildAlien = 4;
     }
 
-
     public override void TakeDamage(int damage)
     {
         BossAlienHP -= damage;
