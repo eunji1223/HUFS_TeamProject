@@ -10,8 +10,11 @@ public class Bullet : MonoBehaviour
     [SerializeField]
     private int bulletIndex;
 
+    private Rigidbody2D rb;
+
     void Start() {
         myBullet = astronautSO.astronautItems[bulletIndex];
+        rb = GetComponent<Rigidbody2D>();
     }
 
     void Update()
