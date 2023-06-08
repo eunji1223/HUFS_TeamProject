@@ -10,6 +10,7 @@ public class Astronaut : MonoBehaviour
     private int health;
     private int moveSpeed; // 0: Stop, !0: Move
     private bool isAttacking;
+    private Animator astronautAnim;
 
     [SerializeField]
     private LayerMask layermask;
@@ -20,8 +21,14 @@ public class Astronaut : MonoBehaviour
     [SerializeField]
     private float maxDistance;
 
+    public Animator GetAstronautAnim
+    {
+        get { return astronautAnim; }
+    }
+
     void Start()
     {
+        astronautAnim = this.GetComponent<Animator>();
         myAstronaut = astronautSO.astronautItems[characterIndex];
         
         if (myAstronaut != null)
@@ -30,7 +37,6 @@ public class Astronaut : MonoBehaviour
             moveSpeed = myAstronaut.moveSpeed;
         }
     }
-
 
     void Update()
     {
@@ -42,6 +48,7 @@ public class Astronaut : MonoBehaviour
             Attack();
         }
         else if (transform.position.x >= maxDistance) {
+            astronautAnim.SetBool("isFight", false);
             Stop();
         }
         else
@@ -62,6 +69,7 @@ public class Astronaut : MonoBehaviour
         if (!isAttacking)
         {
             isAttacking = true;
+            astronautAnim.SetBool("isFight", true);
             StartCoroutine("CreateBullet");
         }
     }
@@ -78,11 +86,14 @@ public class Astronaut : MonoBehaviour
 
     private void Move()
     {
+        astronautAnim.SetBool("isWalk", true);
+        astronautAnim.SetBool("isFight", false);
         moveSpeed = myAstronaut.moveSpeed;
     }
 
     private void Stop()
     {
+        astronautAnim.SetBool("isWalk", false);
         moveSpeed = 0;
     }
 
@@ -91,11 +102,22 @@ public class Astronaut : MonoBehaviour
         Destroy(gameObject);
     }
 
+    IEnumerator DieAnimation()
+    {
+        astronautAnim.SetBool("isVanish", true);
+        yield return new WaitForSeconds(3.0f);
+    }
+
     public void TakeDamage(int damage)
     {
         health -= damage;
+        if (astronautAnim.GetBool("isFight") == false) 
+        {   
+            astronautAnim.SetBool("isHit", true);
+        }
         if (health <= 0)
         {
+            StartCoroutine(DieAnimation());
             Die();
         }
     }
