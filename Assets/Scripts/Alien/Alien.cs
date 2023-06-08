@@ -22,9 +22,18 @@ public class Alien : MonoBehaviour
 
     private float timer;
     private bool InAttackRange = false;
+    private Animator AlienAnim;
+
+
+
+    public Animator GetAlienAnim
+    {
+        get { return AlienAnim; }
+    }
 
     protected virtual void Start()
     {
+        AlienAnim = GetComponent<Animator>();
         myAlien = alienSO.alienItems[alienID];
         
         health = myAlien.health;
@@ -35,7 +44,6 @@ public class Alien : MonoBehaviour
     void Update()
     {
         RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector3.left, myAlien.attackRange, targetLayermask);
-
         if (hit.collider != null)
         {
             Stop();
@@ -48,7 +56,6 @@ public class Alien : MonoBehaviour
 
         /* moveSpeed = 0: Stop, !0: Move */
         transform.Translate(moveDirection * moveSpeed * Time.deltaTime);
-
     }
 
     public virtual void TakeDamage(int damage)
@@ -64,11 +71,13 @@ public class Alien : MonoBehaviour
     protected void Move()
     {
         moveSpeed = myAlien.moveSpeed;
+        AlienAnim.SetBool("isMoving", true);
     }
 
     protected void Stop()
     {
         moveSpeed = 0;
+        AlienAnim.SetBool("isMoving",false);
     }
 
     protected void Die()
@@ -83,6 +92,8 @@ public class Alien : MonoBehaviour
         {
             isAttacking = true;
             StartCoroutine("CreateAttack");
+            AlienAnim.SetBool("isAttack",true);
+
         }
     }
 
