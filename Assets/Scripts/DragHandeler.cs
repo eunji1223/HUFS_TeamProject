@@ -13,15 +13,12 @@ public class DragHandeler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEnd
 
     public AstronautSO astronautSO;
 
-    private static Canvas canvas;
-    RectTransform rt = (RectTransform)canvas.transform; 
 
     public void OnBeginDrag(PointerEventData eventData)
     {
         itemBeingDragged = gameObject;
         startPosition = transform.position;
         startParent = transform.parent;
-        itemBeingDragged.transform.SetParent(GameObject.FindGameObjectWithTag("UI Canvas").transform); 
     }
 
     public void OnDrag(PointerEventData eventData)
