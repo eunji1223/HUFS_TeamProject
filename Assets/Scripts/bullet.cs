@@ -23,7 +23,7 @@ public class Bullet : MonoBehaviour
             Destroy(gameObject);
         }
 
-        transform.Translate(Vector3.right * myBullet.attackSpeed * Time.deltaTime);
+        transform.Translate(Vector3.right * 5 * Time.deltaTime);
         
     }
 
