@@ -20,17 +20,15 @@ public class BossAlien : Alien
         maxChildAlien = 4;
     }
 
-
     public override void TakeDamage(int damage)
     {
         BossAlienHP -= damage;
 
         if (BossAlienHP <= 0)
         {
-            spawnPoint = new Vector2(transform.position.x, transform.position.y + ControlPosition);
+            // spawnPoint = new Vector2(transform.position.x, transform.position.y + ControlPosition);
             SplitIntoSmallMonsters();
-            Destroy(gameObject);
-
+            Die();
         }
 
     }

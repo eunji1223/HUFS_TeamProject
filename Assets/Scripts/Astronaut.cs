@@ -10,66 +10,115 @@ public class Astronaut : MonoBehaviour
     private int health;
     private int moveSpeed; // 0: Stop, !0: Move
     private bool isAttacking;
+    private Animator astronautAnim;
 
     [SerializeField]
-    private GameObject obstacleRay;
     private LayerMask layermask;
+    [SerializeField]
+    private AstronautSO astronautSO;
+    [SerializeField]
+    private int characterIndex;
+    [SerializeField]
+    private float maxDistance;
 
-    private void Start() {
-        health = myAstronaut.health;
+    public Animator GetAstronautAnim
+    {
+        get { return astronautAnim; }
     }
 
-    private void Update() {
+    void Start()
+    {
+        astronautAnim = this.GetComponent<Animator>();
+        myAstronaut = astronautSO.astronautItems[characterIndex];
+        
+        if (myAstronaut != null)
+        {
+            health = myAstronaut.health;
+            moveSpeed = myAstronaut.moveSpeed;
+        }
+    }
 
+    void Update()
+    {
         RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector3.right, myAstronaut.attackRange, layermask);
 
-        /* moveSpeed = 0: Stop, !0: Move */
-        transform.Translate(Vector3.right * moveSpeed * Time.deltaTime);
-
-        if (hit.collider != null) {
+        if (hit.collider != null)
+        {
             Stop();
             Attack();
         }
-        else {
+        else if (transform.position.x >= maxDistance) {
+            astronautAnim.SetBool("isFight", false);
+            Stop();
+        }
+        else
+        {
             Move();
         }
+
+        /* moveSpeed = 0: Stop, !0: Move */
+        transform.Translate(Vector3.right * moveSpeed * Time.deltaTime);
     }
 
-    public void AllocateItem(AstronautItem item) {
-        myAstronaut = item;
-    }
+    // public void AllocateItem(AstronautItem item) {
+        // myAstronaut = item;
+    // }
 
     private void Attack()
     {
         if (!isAttacking)
         {
             isAttacking = true;
-            StartCoroutine("CreateBullet", myAstronaut);
+            astronautAnim.SetBool("isFight", true);
+            StartCoroutine("CreateBullet");
         }
     }
 
-    private void CreateBullet() {
-        myAstronaut.BulletPrefab.GetComponent<Bullet>().SetBullet(myAstronaut);
-        Instantiate(myAstronaut.BulletPrefab, transform.position, transform.rotation);
+    private IEnumerator CreateBullet()
+    {
+        GameObject bullet = myAstronaut.BulletPrefab;
+        Instantiate(bullet, transform.position, transform.rotation);
+        
+        // Wait for a short duration before allowing another attack
+        yield return new WaitForSeconds(myAstronaut.attackSpeed);
+        isAttacking = false;
     }
 
-    private void Move() {
+    private void Move()
+    {
+        astronautAnim.SetBool("isWalk", true);
+        astronautAnim.SetBool("isFight", false);
         moveSpeed = myAstronaut.moveSpeed;
     }
 
-    private void Stop() {
+    private void Stop()
+    {
+        astronautAnim.SetBool("isWalk", false);
         moveSpeed = 0;
     }
 
-    private void Die() {
+    private void Die()
+    {
         Destroy(gameObject);
     }
+
+    IEnumerator DieAnimation()
+    {
+        astronautAnim.SetBool("isVanish", true);
+        yield return new WaitForSeconds(3.0f);
+    }
+
     public void TakeDamage(int damage)
     {
         health -= damage;
-        if (health <= 0) {
+        if (astronautAnim.GetBool("isFight") == false) 
+        {   
+            astronautAnim.SetBool("isHit", true);
+        }
+        if (health <= 0)
+        {
+            StartCoroutine(DieAnimation());
             Die();
         }
-
     }
 }

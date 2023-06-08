@@ -7,96 +7,116 @@ using UnityEngine;
 public class Alien : MonoBehaviour
 {
     [SerializeField]
-    public float moveSpeed;
+    private AlienSO alienSO;
     [SerializeField]
-    private int AlienHP;
+    private int alienID;
+    private AlienItem myAlien;
+
+    [SerializeField]
+    private LayerMask targetLayermask;
+
+    private int health;
+    private int moveSpeed;
+    private bool isAttacking = false;
     private Vector2 moveDirection = Vector2.left;
 
-
-    [SerializeField]
-    private float Attacktimer;
     private float timer;
     private bool InAttackRange = false;
 
-    private Rigidbody2D rb;
-    public GameObject astronaut;
-    public GameObject AlienAttack;
-
-    private Collider attackRangeCollider;
-
-
     protected virtual void Start()
     {
-        attackRangeCollider = GetComponentInChildren<Collider>();
+        myAlien = alienSO.alienItems[alienID];
+        
+        health = myAlien.health;
+        moveSpeed = myAlien.moveSpeed;
+        timer = 0;
     }
-
-    public void SetHP(int newHP)
-    {
-        AlienHP = newHP;
-    }
-
-    public void SetMoveSpeed(float newSpeed)
-    {
-        moveSpeed = newSpeed;
-    }
-
-    public void SetAttackTimer(float newAttackTimer)
-    {
-        Attacktimer = newAttackTimer;
-    }
-
 
     void Update()
     {
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector3.left, myAlien.attackRange, targetLayermask);
+
+        if (hit.collider != null)
+        {
+            Stop();
+            Attack();
+        }
+        else
+        {
+            Move();
+        }
+
+        /* moveSpeed = 0: Stop, !0: Move */
         transform.Translate(moveDirection * moveSpeed * Time.deltaTime);
-
-        rb = GetComponent<Rigidbody2D>();
-
-        timer += Time.deltaTime;
 
     }
 
     public virtual void TakeDamage(int damage)
     {
-        AlienHP -= damage;
+        health -= damage;
 
-        if (AlienHP <= 0)
+        if (health <= 0)
         {
             Die();
         }
     }
 
-    void Die()
+    protected void Move()
+    {
+        moveSpeed = myAlien.moveSpeed;
+    }
+
+    protected void Stop()
+    {
+        moveSpeed = 0;
+    }
+
+    protected void Die()
     {
         Destroy(gameObject);
     }
 
-    protected void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.CompareTag("Astronaut"))
-        {
-            InAttackRange = true;
-            moveDirection = Vector2.zero;
 
-            if (timer >= Attacktimer)
-            {
-                spawnAlienAttack();
-                timer = 0;
-            }
+    private void Attack()
+    {
+        if (!isAttacking)
+        {
+            isAttacking = true;
+            StartCoroutine("CreateAttack");
         }
     }
 
-    protected void OnTriggerExit2D(Collider2D collision)
+    private IEnumerator CreateAttack()
     {
-        if (collision.gameObject.CompareTag("Astronaut"))
-        {
-            InAttackRange = false;
-            moveDirection = Vector2.left;
-        }
+        Instantiate(myAlien.AttackPrefab, new Vector3(transform.position.x, transform.position.y, transform.position.z-1), transform.rotation);
+        
+        // Wait for a short duration before allowing another attack
+        yield return new WaitForSeconds(myAlien.attackSpeed);
+        isAttacking = false;
     }
-    private void spawnAlienAttack()
-    {
-        Instantiate(AlienAttack, transform.position, transform.rotation);
-    }
+
+    // protected void OnTriggerEnter2D(Collider2D collision)
+    // {
+    //     if (collision.gameObject.CompareTag("Astronaut"))
+    //     {
+    //         InAttackRange = true;
+    //         moveDirection = Vector2.zero;
+
+    //         if (timer >= myAlien.attackSpeed)
+    //         {
+    //             createAlienAttack();
+    //             timer = 0;
+    //         }
+    //     }
+    // }
+
+    // protected void OnTriggerExit2D(Collider2D collision)
+    // {
+    //     if (collision.gameObject.CompareTag("Astronaut"))
+    //     {
+    //         InAttackRange = false;
+    //         moveDirection = Vector2.left;
+    //     }
+    // }
 
 }

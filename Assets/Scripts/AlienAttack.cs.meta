@@ -1,11 +1,9 @@
 fileFormatVersion: 2
-guid: 08dc67ec526a70648acba61d97445958
+guid: 896e6875a00384c21a834a4b978f3338
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences:
-  - alienSO: {fileID: 11400000, guid: 17163bdc758ba425f8eb5659095a2e1b, type: 2}
-  - spawnParent: {instanceID: 0}
+  defaultReferences: []
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
