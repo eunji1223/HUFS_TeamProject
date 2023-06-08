@@ -181,7 +181,7 @@ GameObject:
   - component: {fileID: -4024908976338895935}
   - component: {fileID: -8017246394184151453}
   m_Layer: 7
-  m_Name: AlienStun1
+  m_Name: AlienStun
   m_TagString: Alien
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

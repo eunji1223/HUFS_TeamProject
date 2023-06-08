@@ -71,6 +71,7 @@ public class Alien : MonoBehaviour
     protected void Move()
     {
         moveSpeed = myAlien.moveSpeed;
+        AlienAnim.SetBool("isAttack",false);
         AlienAnim.SetBool("isMoving", true);
     }
 
