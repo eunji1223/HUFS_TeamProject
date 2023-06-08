@@ -22,7 +22,7 @@ MonoBehaviour:
     isStun: 0
     stunTime: 0
     Prefab: {fileID: 8976616659649537793, guid: 7e1d231a4dbb60a45922bda6191ab35a, type: 3}
-    AttackPrefab: {fileID: 4237712118297938584, guid: ddb4e76cffc43ce4191b3a256d1b814e, type: 3}
+    AttackPrefab: {fileID: 4237712118297938584, guid: 0f733114dbfc2479c8ac5fc1e267e18e, type: 3}
   - name: AlienLong
     health: 50
     moveSpeed: 1
@@ -42,7 +42,7 @@ MonoBehaviour:
     isStun: 0
     stunTime: 0
     Prefab: {fileID: 719137348946708807, guid: 72eed46cfda025041a7369648b70f7b7, type: 3}
-    AttackPrefab: {fileID: 4237712118297938584, guid: ddb4e76cffc43ce4191b3a256d1b814e, type: 3}
+    AttackPrefab: {fileID: 4237712118297938584, guid: 85289627529444b2b9995026fc88dc5d, type: 3}
   - name: AlienChild
     health: 25
     moveSpeed: 2
@@ -52,7 +52,7 @@ MonoBehaviour:
     isStun: 0
     stunTime: 0
     Prefab: {fileID: 2163760489978715279, guid: d42227ffe352e294f8e26983ba465880, type: 3}
-    AttackPrefab: {fileID: 4237712118297938584, guid: ddb4e76cffc43ce4191b3a256d1b814e, type: 3}
+    AttackPrefab: {fileID: 4237712118297938584, guid: d4fdfab9c7b8e4d6db41ac1e4bcad8d8, type: 3}
   - name: AlienStun
     health: 100
     moveSpeed: 1
@@ -62,4 +62,4 @@ MonoBehaviour:
     isStun: 1
     stunTime: 3
     Prefab: {fileID: 8539688656674983731, guid: f2ab1cbc2de172f4db5e52b16f38a53b, type: 3}
-    AttackPrefab: {fileID: 0}
+    AttackPrefab: {fileID: 4237712118297938584, guid: 49c6f34fd37de408b9dd8f148ae71b93, type: 3}

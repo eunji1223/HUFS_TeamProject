@@ -70,7 +70,6 @@ public class Astronaut : MonoBehaviour
     {
         GameObject bullet = myAstronaut.BulletPrefab;
         Instantiate(bullet, transform.position, transform.rotation);
-        bullet.GetComponent<Bullet>().SetBullet(myAstronaut);
         
         // Wait for a short duration before allowing another attack
         yield return new WaitForSeconds(myAstronaut.attackSpeed);

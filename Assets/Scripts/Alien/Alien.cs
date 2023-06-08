@@ -76,6 +76,7 @@ public class Alien : MonoBehaviour
         Destroy(gameObject);
     }
 
+
     private void Attack()
     {
         if (!isAttacking)
@@ -87,7 +88,6 @@ public class Alien : MonoBehaviour
 
     private IEnumerator CreateAttack()
     {
-        // myAlien.AttackPrefab.GetComponent<Bullet>().SetAttack(myAlien);
         Instantiate(myAlien.AttackPrefab, new Vector3(transform.position.x, transform.position.y, transform.position.z-1), transform.rotation);
         
         // Wait for a short duration before allowing another attack
