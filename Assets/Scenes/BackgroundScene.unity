@@ -255,7 +255,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &240073867
 MonoBehaviour:
@@ -269,7 +269,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d40d6d8658a3ae0418fa0c10702c2faf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WaitTime: 20
+  WaitTime: 5
   CoinPre: {fileID: 975715265015564232, guid: eace3a2b70d418347a693231f35f1beb, type: 3}
   coinText: {fileID: 1270975555}
   coinActiveCount: 0
@@ -557,6 +557,37 @@ RectTransform:
   m_AnchoredPosition: {x: -87.00003, y: 462}
   m_SizeDelta: {x: 130, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &513777080
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 513777081}
+  m_Layer: 0
+  m_Name: CoinArr
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &513777081
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 513777080}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -2877,11 +2908,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   astronautSO: {fileID: 0}
-  character:
-  - {fileID: 8212434481552080516, guid: c206e53d21ab5d847b2c3143a71d3967, type: 3}
-  - {fileID: 0}
-  - {fileID: 0}
-  coinManager: {fileID: 0}
 --- !u!114 &643235223
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2992,7 +3018,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -900, y: 0}
+  m_AnchoredPosition: {x: -899.99994, y: 0}
   m_SizeDelta: {x: -1800, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &715017119
@@ -3241,7 +3267,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &835992866
 GameObject:
@@ -3311,9 +3337,9 @@ Canvas:
   m_GameObject: {fileID: 835992866}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_Camera: {fileID: 519420031}
-  m_PlaneDistance: 100
+  m_PlaneDistance: 10
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
@@ -3659,7 +3685,7 @@ Transform:
   m_Children:
   - {fileID: 536245671}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1108435602
 GameObject:
@@ -4138,11 +4164,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   astronautSO: {fileID: 0}
-  character:
-  - {fileID: 8212434481552080516, guid: c206e53d21ab5d847b2c3143a71d3967, type: 3}
-  - {fileID: 0}
-  - {fileID: 0}
-  coinManager: {fileID: 0}
 --- !u!114 &1332671601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4793,11 +4814,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   astronautSO: {fileID: 0}
-  character:
-  - {fileID: 8212434481552080516, guid: c206e53d21ab5d847b2c3143a71d3967, type: 3}
-  - {fileID: 0}
-  - {fileID: 0}
-  coinManager: {fileID: 0}
 --- !u!114 &1786097576
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4981,11 +4997,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   astronautSO: {fileID: 0}
-  character:
-  - {fileID: 8212434481552080516, guid: c206e53d21ab5d847b2c3143a71d3967, type: 3}
-  - {fileID: 0}
-  - {fileID: 0}
-  coinManager: {fileID: 0}
 --- !u!114 &2130181413
 MonoBehaviour:
   m_ObjectHideFlags: 0

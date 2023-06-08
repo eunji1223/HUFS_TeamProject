@@ -22,8 +22,8 @@ public class Timer : MonoBehaviour
     {
         timeText[0].text = "03";
         timeText[1].text = "00";
-        WinScene.SetActive(false);
-        LossScene.SetActive(false);
+        //WinScene.SetActive(false);
+        //LossScene.SetActive(false);
     }
 
     void Update()

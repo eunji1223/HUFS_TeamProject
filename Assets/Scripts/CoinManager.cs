@@ -26,7 +26,7 @@ public class CoinManager : MonoBehaviour
 
     private void Start()
     {
-        // CoinInitialCreate();
+        CoinInitialCreate();
     }
 
     private void Update()
@@ -63,7 +63,7 @@ public class CoinManager : MonoBehaviour
             if (coins[i].gameObject.activeSelf == false)
             {
                 coins[i].gameObject.SetActive(true);
-                coins[i].gameObject.transform.position = new Vector2(CoinX, CoinY);
+                coins[i].gameObject.transform.position = new Vector3(CoinX, CoinY, -1);
                 coinActiveCount += 1;
                 return;
             }
