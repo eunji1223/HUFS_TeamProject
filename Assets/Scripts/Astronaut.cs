@@ -128,9 +128,10 @@ public class Astronaut : MonoBehaviour
     public void TakeDamage(int damage)
     {
         health -= damage;
-        if (astronautAnim.GetBool("isFight") == false) 
+        if (astronautAnim.GetBool("isFight") == false && moveSpeed == 0) 
         {   
             astronautAnim.SetBool("isHit", true);
+            //astronautAnim.SetBool("isHit", false);
         }
         if (health <= 0)
         {

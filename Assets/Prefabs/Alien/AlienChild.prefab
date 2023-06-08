@@ -97,7 +97,7 @@ GameObject:
   - component: {fileID: 5245741019398047348}
   - component: {fileID: -7650315888614033792}
   m_Layer: 7
-  m_Name: AlienChild1
+  m_Name: AlienChild
   m_TagString: Alien
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
