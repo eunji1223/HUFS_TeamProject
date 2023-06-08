@@ -10,9 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 500227482219028826}
   - component: {fileID: 8517830729764102939}
-  m_Layer: 0
+  - component: {fileID: 7517363013518646907}
+  m_Layer: 7
   m_Name: AlienBoss
-  m_TagString: Untagged
+  m_TagString: Alien
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59,6 +60,26 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.5, y: 1.4}
   m_EdgeRadius: 0
+--- !u!114 &7517363013518646907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 719137348946708807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5336e151f2f89e74c9a3accd2ac5cab4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  alienSO: {fileID: 11400000, guid: 17163bdc758ba425f8eb5659095a2e1b, type: 2}
+  alienID: 2
+  targetLayermask:
+    serializedVersion: 2
+    m_Bits: 256
+  maxChildAlien: 0
+  ControlPosition: 0.5
+  ChildAlien: {fileID: 2163760489978715279, guid: d42227ffe352e294f8e26983ba465880, type: 3}
 --- !u!1001 &8314837990771605987
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -66,6 +87,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 500227482219028826}
     m_Modifications:
+    - target: {fileID: 1116872534434656612, guid: a107feb0bdde46a4b86e7f7166c1028c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1116872534654227602, guid: a107feb0bdde46a4b86e7f7166c1028c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1116872535428462588, guid: a107feb0bdde46a4b86e7f7166c1028c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1116872535594905646, guid: a107feb0bdde46a4b86e7f7166c1028c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1116872535639143797, guid: a107feb0bdde46a4b86e7f7166c1028c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1116872535684603013, guid: a107feb0bdde46a4b86e7f7166c1028c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1116872536202529134, guid: a107feb0bdde46a4b86e7f7166c1028c, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -113,6 +158,10 @@ PrefabInstance:
     - target: {fileID: 1116872536202529135, guid: a107feb0bdde46a4b86e7f7166c1028c, type: 3}
       propertyPath: m_Name
       value: Character (84)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1116872536202529135, guid: a107feb0bdde46a4b86e7f7166c1028c, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a107feb0bdde46a4b86e7f7166c1028c, type: 3}

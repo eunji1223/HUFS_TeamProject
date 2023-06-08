@@ -5,7 +5,6 @@ TagManager:
   serializedVersion: 2
   tags:
   - Astronaut
-  - Missile
   - Alien
   - Enemy
   - Bullet
@@ -17,7 +16,7 @@ TagManager:
   - Image
   - Water
   - UI
-  - Missile
+  - Bullet
   - Alien
   - Astronaut
   - Attack
@@ -49,7 +48,4 @@ TagManager:
     locked: 0
   - name: Title
     uniqueID: 2312768999
-    locked: 0
-  - name: Astronaut
-    uniqueID: 92655751
     locked: 0

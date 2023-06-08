@@ -27,7 +27,6 @@ public class Astronaut : MonoBehaviour
         if (myAstronaut != null)
         {
             health = myAstronaut.health;
-            Debug.Log("Astronaut Start: " + myAstronaut.moveSpeed + ".");
             moveSpeed = myAstronaut.moveSpeed;
         }
     }
@@ -63,14 +62,15 @@ public class Astronaut : MonoBehaviour
         if (!isAttacking)
         {
             isAttacking = true;
-            StartCoroutine(CreateBullet());
+            StartCoroutine("CreateBullet");
         }
     }
 
     private IEnumerator CreateBullet()
     {
-        myAstronaut.BulletPrefab.GetComponent<Bullet>().SetBullet(myAstronaut);
-        Instantiate(myAstronaut.BulletPrefab, transform.position, transform.rotation);
+        GameObject bullet = myAstronaut.BulletPrefab;
+        Instantiate(bullet, transform.position, transform.rotation);
+        bullet.GetComponent<Bullet>().SetBullet(myAstronaut);
         
         // Wait for a short duration before allowing another attack
         yield return new WaitForSeconds(myAstronaut.attackSpeed);

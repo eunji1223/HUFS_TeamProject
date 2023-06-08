@@ -4,20 +4,24 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    private BulletItem myBullet;
+    [SerializeField]
+    private AstronautSO astronautSO;
+    private AstronautItem myBullet;
+    [SerializeField]
+    private int bulletIndex;
+
+    void Start() {
+        myBullet = astronautSO.astronautItems[bulletIndex];
+    }
 
     void Update()
     {
-        if (myBullet == null) {
-            Debug.LogWarning("Bullet item not allocated.");
-            return;
+        if (transform.position.x >= myBullet.attackRange) {
+            Destroy(gameObject);
         }
 
         transform.Translate(Vector3.right * myBullet.attackSpeed * Time.deltaTime);
         
-        if (transform.position.x >= myBullet.attackRange) {
-            Destroy(gameObject);
-        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -61,12 +65,3 @@ public class Bullet : MonoBehaviour
     }
 }
 
-class BulletItem {
-    public int attackRange;
-    public int attackSpeed;
-    public int damage;
-    public bool isPenetrate;
-    public bool isDot;
-    public int dotDamage;
-    public int dotTime;
-}

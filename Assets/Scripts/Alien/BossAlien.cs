@@ -27,10 +27,9 @@ public class BossAlien : Alien
 
         if (BossAlienHP <= 0)
         {
-            spawnPoint = new Vector2(transform.position.x, transform.position.y + ControlPosition);
+            // spawnPoint = new Vector2(transform.position.x, transform.position.y + ControlPosition);
             SplitIntoSmallMonsters();
-            Destroy(gameObject);
-
+            Die();
         }
 
     }

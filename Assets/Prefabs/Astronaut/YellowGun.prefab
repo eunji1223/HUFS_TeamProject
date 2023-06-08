@@ -121,7 +121,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   layermask:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 128
   astronautSO: {fileID: 11400000, guid: 82b1420753d9d4bbcaf18d93a9bf5406, type: 2}
-  characterIndex: 2
+  characterIndex: 3
   maxDistance: 0.5

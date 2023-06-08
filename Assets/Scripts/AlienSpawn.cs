@@ -7,15 +7,19 @@ using UnityEngine.UIElements;
 
 public class AlienSpawn : MonoBehaviour
 {
-    public GameObject Alien;
-    public GameObject LongRangeAlien;
-    public GameObject CloseRangeAlien;
+    [SerializeField]
+    private AlienSO alienSO;
+    private GameObject Alien; // Randomly selected Alien
 
-    public float spawnRate = 2.0f;
+    // public GameObject LongRangeAlien;
+    // public GameObject CloseRangeAlien;
+
+    [SerializeField]
+    private float spawnRate;
     private float timer;
 
     public Transform spawnParent;
-    public Transform[] createAlienLine;
+    private Transform[] createAlienLine;
 
     void Awake()
     {
@@ -40,28 +44,26 @@ public class AlienSpawn : MonoBehaviour
 
     void spawnAlien()
     {
-        int randomIndex = Random.Range(0, createAlienLine.Length);
+        int randomIndex = Random.Range(0, createAlienLine.Length-1);
+        if (randomIndex == 3) {
+            randomIndex = 4;
+        }
         Transform selectedSpawn = createAlienLine[randomIndex];
 
         Vector3 spawnPosition = selectedSpawn.position;
+        spawnPosition.z -= 1;
         Quaternion spawnRotation = selectedSpawn.rotation;
 
         AlienType();
-        Instantiate(Alien, spawnPosition, spawnRotation, spawnParent);
+        // Instantiate(Alien, spawnPosition, spawnRotation, spawnParent);
+        Instantiate(Alien, spawnPosition, spawnRotation);
     }
 
     void AlienType()
     {
-        int randomAlien = Random.Range(0, 2);
+        int randomAlien = Random.Range(0, alienSO.alienItems.Length);
 
-        if (randomAlien == 0)
-        {
-            Alien = LongRangeAlien;
-        }
-        else
-        {
-            Alien = CloseRangeAlien;
-        }
+        Alien = alienSO.alienItems[randomAlien].Prefab;
     }
 
     void RandomSpawnState()
