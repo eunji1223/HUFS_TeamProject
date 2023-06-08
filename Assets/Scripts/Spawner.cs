@@ -33,7 +33,7 @@ public class Spawner : MonoBehaviour, IDropHandler
                         // astronautSO.astronautItems[i].GetComponent<Astronaut>().AllocateItem(astronautSO.astronautItems[i]);
                         int cost = astronautSO.astronautItems[i].cost;
                         CoinManager.instance.DecreaseCoin(cost);
-                        Instantiate(astronautSO.astronautItems[i].Prefab, transform.position, transform.rotation);
+                        Instantiate(astronautSO.astronautItems[i].Prefab, new Vector3(transform.position.x, transform.position.y, transform.position.z-1), transform.rotation);
                     }
                         
                 }
