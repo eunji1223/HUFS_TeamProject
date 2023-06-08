@@ -13,11 +13,15 @@ public class DragHandeler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEnd
 
     public AstronautSO astronautSO;
 
+    private static Canvas canvas;
+    RectTransform rt = (RectTransform)canvas.transform; 
+
     public void OnBeginDrag(PointerEventData eventData)
     {
         itemBeingDragged = gameObject;
         startPosition = transform.position;
         startParent = transform.parent;
+        itemBeingDragged.transform.SetParent(GameObject.FindGameObjectWithTag("UI Canvas").transform); 
     }
 
     public void OnDrag(PointerEventData eventData)
@@ -29,7 +33,8 @@ public class DragHandeler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEnd
                 int cost = astronautSO.astronautItems[i].cost;
                 if (CoinManager.instance.Coin >= cost)
                 {
-                    transform.position = eventData.position;
+                    
+                    transform.position = Input.mousePosition;  
                 }
             }
         }

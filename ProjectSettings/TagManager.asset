@@ -9,6 +9,7 @@ TagManager:
   - Enemy
   - Bullet
   - AlienAttack
+  - UI Canvas
   layers:
   - Default
   - TransparentFX
