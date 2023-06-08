@@ -14,7 +14,7 @@ public class CoinManager : MonoBehaviour
     private float CoinX;
     private float CoinY;
     [SerializeField]
-    private float WaitTime = 20.0f;
+    private float WaitTime = 5.0f;
     private float timer = 0;
     [SerializeField]
     private GameObject CoinPre;
@@ -56,7 +56,7 @@ public class CoinManager : MonoBehaviour
     private void RandomCoinAvailable()
     {
         // -6 <= x <= 6, -2 <= y <= 2
-        CoinX = Random.Range(-8.0f, 8.0f);
+        CoinX = Random.Range(-6.0f, 8.0f);
         CoinY = Random.Range(-3.0f, 3.0f);
         for (int i = 0; i < coins.Length; i++)
         {
