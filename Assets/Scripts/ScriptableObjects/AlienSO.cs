@@ -20,5 +20,5 @@ public class AlienItem
 [CreateAssetMenu(fileName = "AlienSO", menuName = "Scriptable Object/Alien Item")]
 public class AlienSO : ScriptableObject
 {
-    public AlienItem[] astronautItems;
+    public AlienItem[] alienItems;
 }

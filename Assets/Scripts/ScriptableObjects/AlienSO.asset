@@ -12,53 +12,53 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64586339c94204c2798ef4f35966e9e1, type: 3}
   m_Name: AlienSO
   m_EditorClassIdentifier: 
-  astronautItems:
+  alienItems:
   - name: AlienShort
     health: 100
     moveSpeed: 1
     attackRange: 1
     attackSpeed: 2
-    damage: 2
-    isStun: 0
-    stunTime: 0
-    Prefab: {fileID: 8976616659649537793, guid: 7e1d231a4dbb60a45922bda6191ab35a, type: 3}
-    AttackPrefab: {fileID: 0}
-  - name: AlienLong
-    health: 100
-    moveSpeed: 1
-    attackRange: 5
-    attackSpeed: 2
-    damage: 1
-    isStun: 0
-    stunTime: 0
-    Prefab: {fileID: 0}
-    AttackPrefab: {fileID: 0}
-  - name: AlienBoss
-    health: 250
-    moveSpeed: 1
-    attackRange: 5
-    attackSpeed: 4
     damage: 4
     isStun: 0
     stunTime: 0
-    Prefab: {fileID: 719137348946708807, guid: 72eed46cfda025041a7369648b70f7b7, type: 3}
-    AttackPrefab: {fileID: 0}
-  - name: AlienChild
+    Prefab: {fileID: 8976616659649537793, guid: 7e1d231a4dbb60a45922bda6191ab35a, type: 3}
+    AttackPrefab: {fileID: 4237712118297938584, guid: ddb4e76cffc43ce4191b3a256d1b814e, type: 3}
+  - name: AlienLong
     health: 50
+    moveSpeed: 1
+    attackRange: 5
+    attackSpeed: 2
+    damage: 2
+    isStun: 0
+    stunTime: 0
+    Prefab: {fileID: 6815977140515941807, guid: 133f356debf08504fb84d4c53f757e62, type: 3}
+    AttackPrefab: {fileID: 4237712118297938584, guid: ddb4e76cffc43ce4191b3a256d1b814e, type: 3}
+  - name: AlienBoss
+    health: 300
+    moveSpeed: 1
+    attackRange: 10
+    attackSpeed: 5
+    damage: 10
+    isStun: 0
+    stunTime: 0
+    Prefab: {fileID: 719137348946708807, guid: 72eed46cfda025041a7369648b70f7b7, type: 3}
+    AttackPrefab: {fileID: 4237712118297938584, guid: ddb4e76cffc43ce4191b3a256d1b814e, type: 3}
+  - name: AlienChild
+    health: 25
     moveSpeed: 2
-    attackRange: 1
+    attackRange: 2
     attackSpeed: 1
-    damage: 1
+    damage: 2
     isStun: 0
     stunTime: 0
     Prefab: {fileID: 2163760489978715279, guid: d42227ffe352e294f8e26983ba465880, type: 3}
-    AttackPrefab: {fileID: 0}
+    AttackPrefab: {fileID: 4237712118297938584, guid: ddb4e76cffc43ce4191b3a256d1b814e, type: 3}
   - name: AlienStun
     health: 100
     moveSpeed: 1
     attackRange: 5
     attackSpeed: 5
-    damage: 2
+    damage: 3
     isStun: 1
     stunTime: 3
     Prefab: {fileID: 8539688656674983731, guid: f2ab1cbc2de172f4db5e52b16f38a53b, type: 3}

@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8212434480859770546}
   - component: {fileID: 8212434480859770545}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95,7 +95,7 @@ GameObject:
   - component: {fileID: 8212434481130363735}
   - component: {fileID: 8212434481130363736}
   - component: {fileID: 8212434481130363734}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: muzzleflash_gun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -199,7 +199,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8212434481552080514}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GreenGun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -236,7 +236,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8212434481882157420}
   - component: {fileID: 8212434481882157419}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: weapon_gun_side
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -307,7 +307,7 @@ SpriteRenderer:
   m_Size: {x: 3.4461539, y: 3.323077}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &8212434481912023057
@@ -320,7 +320,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8212434481912023055}
   - component: {fileID: 8212434481912023056}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: gun_side_cover
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -404,7 +404,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8212434482184020574}
   - component: {fileID: 8212434482184020573}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: gun_side
   m_TagString: Untagged
   m_Icon: {fileID: 0}

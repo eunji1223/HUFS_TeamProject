@@ -5,7 +5,6 @@ TagManager:
   serializedVersion: 2
   tags:
   - Astronaut
-  - Missile
   - Alien
   - Enemy
   - Bullet
@@ -17,7 +16,7 @@ TagManager:
   - Image
   - Water
   - UI
-  - Missile
+  - Bullet
   - Alien
   - Astronaut
   - Attack
