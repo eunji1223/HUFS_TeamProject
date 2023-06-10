@@ -112,12 +112,12 @@ public class Alien : MonoBehaviour
 
     private IEnumerator CreateAttack()
     {
-        yield return new WaitForSeconds(myAlien.attackSpeed);
         GameObject attackPrefab = myAlien.AttackPrefab;
         Instantiate(attackPrefab, new Vector3(transform.position.x, transform.position.y-0.5f, transform.position.z-2), transform.rotation);
         AlienAnim.SetBool("isAttack",true);
         
         // Wait for a short duration before allowing another attack
+        yield return new WaitForSeconds(myAlien.attackSpeed);
         isAttacking = false;
     }
 

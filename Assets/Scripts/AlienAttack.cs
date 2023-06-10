@@ -32,12 +32,12 @@ public class AlienAttack : MonoBehaviour
         if (collision.CompareTag("Astronaut")) {
             Astronaut astronaut = collision.GetComponent<Astronaut>();
 
+            if (myAttack.isStun == true) {
+                astronaut.Stun(myAttack.stunTime);
+            }
             // Get Damage on being hit
             astronaut.TakeDamage(myAttack.damage);
 
-            if (myAttack.isStun) {
-                astronaut.Stun(myAttack.stunTime);
-            }
             Destroy(gameObject);
         }
     }

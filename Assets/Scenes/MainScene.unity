@@ -9327,6 +9327,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   alienSO: {fileID: 11400000, guid: 17163bdc758ba425f8eb5659095a2e1b, type: 2}
   spawnRate: 10
+  timer_min: {fileID: 506930627}
   spawnParent: {fileID: 1785633454}
 --- !u!1 &1831438591 stripped
 GameObject:

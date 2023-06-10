@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainScene.unity
     guid: 117271e99ef5c8b4d9deecae2e19c771
+  - enabled: 1
+    path: Assets/Scenes/AlienExplainScene.unity
+    guid: 9198f49c870725c41be7f2031beb833d
+  - enabled: 1
+    path: Assets/Scenes/AstronautExplainScene.unity
+    guid: 9c0395dd994731e4e8faac0157a78a5d
   m_configObjects: {}

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -12,6 +13,7 @@ public class Astronaut : MonoBehaviour
     private bool isAttacking;
     private bool isStop;
     private bool isStunned = false;
+    private float stunTime = 0;
     private Animator astronautAnim;
 
     [SerializeField]
@@ -44,8 +46,8 @@ public class Astronaut : MonoBehaviour
     {
         RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector3.right, myAstronaut.attackRange, layermask);
 
-        if (isStunned == true) {
-            // Got Stun
+        if (stunTime > 0) {
+            stunTime -= Time.deltaTime;
             Stop();
         }
         else if (hit.collider != null)
@@ -85,7 +87,7 @@ public class Astronaut : MonoBehaviour
 
     private void Attack()
     {
-        if (!isAttacking)
+        if (!isAttacking && !isStunned)
         {
             isAttacking = true;
             astronautAnim.SetBool("isFight", true);
@@ -123,16 +125,9 @@ public class Astronaut : MonoBehaviour
 
     public void Stun(float stunTime)
     {
+        this.stunTime = Math.Max(stunTime, this.stunTime);
         isStunned = true;
-        offStun(stunTime);
 
-    }
-    private void offStun(float stunTime)
-    {
-        while (stunTime > 0) {
-            stunTime -= Time.deltaTime;
-        }
-        isStunned = false;
     }
 
     private void Die()

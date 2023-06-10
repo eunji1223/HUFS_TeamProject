@@ -1,8 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Threading;
 using UnityEngine;
 using UnityEngine.UIElements;
+using UnityEngine.UI;
+using System;
+using Random = UnityEngine.Random;
 
 
 public class AlienSpawn : MonoBehaviour
@@ -14,6 +16,9 @@ public class AlienSpawn : MonoBehaviour
     [SerializeField]
     private float spawnRate;
     private float timer;
+
+    [SerializeField]
+    private Text timer_min;
 
     public Transform spawnParent;
     private Transform[] createAlienLine;
@@ -36,14 +41,14 @@ public class AlienSpawn : MonoBehaviour
             spawnAlien();
             timer = 0;
         }
+
+        spawnRate -= Time.deltaTime * 0.02f;
     }
 
     void spawnAlien()
     {
-        int randomIndex = Random.Range(0, createAlienLine.Length-1);
-        if (randomIndex == 3) {
-            randomIndex = 4;
-        }
+        int randomIndex = Random.Range(0, createAlienLine.Length);
+
         Transform selectedSpawn = createAlienLine[randomIndex];
 
         Vector3 spawnPosition = selectedSpawn.position;
@@ -57,6 +62,9 @@ public class AlienSpawn : MonoBehaviour
     void AlienType()
     {
         int randomAlien = Random.Range(0, alienSO.alienItems.Length-1);
+        if (Int32.Parse(timer_min.text) >= 2 && randomAlien==2) {
+            randomAlien = 0;
+        }
         if (randomAlien>=3) {
             randomAlien+= 1;
         }
