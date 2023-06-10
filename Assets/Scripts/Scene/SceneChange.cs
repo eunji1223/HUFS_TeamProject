@@ -24,4 +24,14 @@ public class SceneChange : MonoBehaviour
     {
         SceneManager.LoadScene("StartScene");
     }
+
+    public void ToAstronaut()
+    {
+        SceneManager.LoadScene("AstronautExplainScene");
+    }
+
+    public void ToAlien()
+    {
+        SceneManager.LoadScene("AlienExplainScene");
+    }
 }
