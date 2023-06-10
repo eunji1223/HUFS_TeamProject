@@ -18,7 +18,6 @@ public class CoinManager : MonoBehaviour
     private float timer = 0;
     [SerializeField]
     private GameObject CoinPre;
-    private int LimitCoin = 10;
     [SerializeField]
     private TMP_Text coinText;
     private GameObject[] coins = new GameObject[10];

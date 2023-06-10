@@ -22,7 +22,6 @@ public class BossChildAlien : Alien
 
         if (BossChildAlienHP <= 0)
         {
-            Debug.Log("Astronaut's Attack");
             Destroy(gameObject);
         }
     }

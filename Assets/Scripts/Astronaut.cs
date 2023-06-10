@@ -12,7 +12,6 @@ public class Astronaut : MonoBehaviour
     private bool isAttacking;
     private bool isStop;
     private Animator astronautAnim;
-    private float astronautDistance = 2.0f;
 
     [SerializeField]
     private LayerMask layermask;
@@ -22,8 +21,6 @@ public class Astronaut : MonoBehaviour
     private AstronautSO astronautSO;
     [SerializeField]
     private int characterIndex;
-    [SerializeField]
-    private float maxDistance;
 
     public Animator GetAstronautAnim
     {
@@ -46,12 +43,16 @@ public class Astronaut : MonoBehaviour
     {
         RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector3.right, myAstronaut.attackRange, layermask);
 
-        if (hit.collider != null)
+        if (myAstronaut.isStunned) {
+            // Got Stun
+            Stop();
+        }
+        else if (hit.collider != null)
         {
             Stop();
             Attack();
         }
-        else if(isStop == true || transform.position.x >= maxDistance)
+        else if(isStop == true || transform.position.x >= myAstronaut.maxDistance)
         {
             astronautAnim.SetBool("isFight", false);
             Stop();
@@ -114,6 +115,20 @@ public class Astronaut : MonoBehaviour
         moveSpeed = 0;
     }
 
+    public void Stun(float stunTime)
+    {
+        myAstronaut.isStunned = true;
+        offStun(stunTime);
+
+    }
+    private void offStun(float stunTime)
+    {
+        while (stunTime > 0) {
+            stunTime -= Time.deltaTime;
+        }
+        myAstronaut.isStunned = false;
+    }
+
     private void Die()
     {
         Destroy(gameObject);
@@ -131,12 +146,21 @@ public class Astronaut : MonoBehaviour
         if (astronautAnim.GetBool("isFight") == false && moveSpeed == 0) 
         {   
             astronautAnim.SetBool("isHit", true);
-            //astronautAnim.SetBool("isHit", false);
+            hitAnimOff(astronautAnim);
         }
+        
         if (health <= 0)
         {
             StartCoroutine(DieAnimation());
             Die();
+        }   
+    }
+
+    public void hitAnimOff(Animator astronautAnim) {
+        float sleepTime = 2;
+        while (sleepTime > 0) {
+            sleepTime -= Time.deltaTime;
         }
+        astronautAnim.SetBool("isHit", false);
     }
 }

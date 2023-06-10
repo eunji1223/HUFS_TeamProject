@@ -7,6 +7,7 @@ public class AlienItem
 {
     public string name;
     public int health;
+    public int coin;
     public int moveSpeed;
     public int attackRange;
     public int attackSpeed;

@@ -11,6 +11,8 @@ public class AstronautItem
     public int moveSpeed;
     public int attackRange;
     public int attackSpeed;
+    public float maxDistance;
+    public bool isStunned;
     public int damage;
     public bool isPenetrate;
     public bool isDot;

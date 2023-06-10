@@ -15,6 +15,7 @@ MonoBehaviour:
   alienItems:
   - name: AlienShort
     health: 100
+    coin: 5
     moveSpeed: 1
     attackRange: 1
     attackSpeed: 2
@@ -25,8 +26,9 @@ MonoBehaviour:
     AttackPrefab: {fileID: 4237712118297938584, guid: 0f733114dbfc2479c8ac5fc1e267e18e, type: 3}
   - name: AlienLong
     health: 50
+    coin: 5
     moveSpeed: 1
-    attackRange: 5
+    attackRange: 6
     attackSpeed: 2
     damage: 2
     isStun: 0
@@ -35,8 +37,9 @@ MonoBehaviour:
     AttackPrefab: {fileID: 4237712118297938584, guid: 34951717e45c21a47b632d48b6f33388, type: 3}
   - name: AlienBoss
     health: 300
+    coin: 20
     moveSpeed: 1
-    attackRange: 10
+    attackRange: 2
     attackSpeed: 5
     damage: 10
     isStun: 0
@@ -45,6 +48,7 @@ MonoBehaviour:
     AttackPrefab: {fileID: 4237712118297938584, guid: 85289627529444b2b9995026fc88dc5d, type: 3}
   - name: AlienChild
     health: 25
+    coin: 1
     moveSpeed: 2
     attackRange: 2
     attackSpeed: 1
@@ -55,11 +59,12 @@ MonoBehaviour:
     AttackPrefab: {fileID: 4237712118297938584, guid: d4fdfab9c7b8e4d6db41ac1e4bcad8d8, type: 3}
   - name: AlienStun
     health: 100
+    coin: 5
     moveSpeed: 1
-    attackRange: 5
-    attackSpeed: 5
+    attackRange: 1
+    attackSpeed: 4
     damage: 3
     isStun: 1
     stunTime: 3
     Prefab: {fileID: 6923228288935167858, guid: 66d6b25677cc926438be05a46d880c14, type: 3}
-    AttackPrefab: {fileID: 4237712118297938584, guid: 49c6f34fd37de408b9dd8f148ae71b93, type: 3}
+    AttackPrefab: {fileID: 8994622742378177567, guid: 49c6f34fd37de408b9dd8f148ae71b93, type: 3}

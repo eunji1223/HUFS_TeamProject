@@ -20,11 +20,7 @@ public class Alien : MonoBehaviour
     private bool isAttacking = false;
     private Vector2 moveDirection = Vector2.left;
 
-    private float timer;
-    private bool InAttackRange = false;
     private Animator AlienAnim;
-
-
 
     public Animator GetAlienAnim
     {
@@ -38,7 +34,6 @@ public class Alien : MonoBehaviour
         
         health = myAlien.health;
         moveSpeed = myAlien.moveSpeed;
-        timer = 0;
     }
 
     void Update()
@@ -84,6 +79,8 @@ public class Alien : MonoBehaviour
     protected void Die()
     {
         Destroy(gameObject);
+        
+        CoinManager.instance.IncreaseCoin(myAlien.coin);
     }
 
 
@@ -93,42 +90,17 @@ public class Alien : MonoBehaviour
         {
             isAttacking = true;
             StartCoroutine("CreateAttack");
-            AlienAnim.SetBool("isAttack",true);
-
         }
     }
 
     private IEnumerator CreateAttack()
     {
-        Instantiate(myAlien.AttackPrefab, new Vector3(transform.position.x, transform.position.y, transform.position.z-1), transform.rotation);
+        Instantiate(myAlien.AttackPrefab, new Vector3(transform.position.x, transform.position.y-0.5f, transform.position.z-2), transform.rotation);
+        AlienAnim.SetBool("isAttack",true);
         
         // Wait for a short duration before allowing another attack
         yield return new WaitForSeconds(myAlien.attackSpeed);
         isAttacking = false;
     }
-
-    // protected void OnTriggerEnter2D(Collider2D collision)
-    // {
-    //     if (collision.gameObject.CompareTag("Astronaut"))
-    //     {
-    //         InAttackRange = true;
-    //         moveDirection = Vector2.zero;
-
-    //         if (timer >= myAlien.attackSpeed)
-    //         {
-    //             createAlienAttack();
-    //             timer = 0;
-    //         }
-    //     }
-    // }
-
-    // protected void OnTriggerExit2D(Collider2D collision)
-    // {
-    //     if (collision.gameObject.CompareTag("Astronaut"))
-    //     {
-    //         InAttackRange = false;
-    //         moveDirection = Vector2.left;
-    //     }
-    // }
 
 }

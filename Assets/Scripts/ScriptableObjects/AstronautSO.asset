@@ -19,6 +19,8 @@ MonoBehaviour:
     moveSpeed: 2
     attackRange: 10
     attackSpeed: 1
+    maxDistance: 0
+    isStunned: 0
     damage: 10
     isPenetrate: 0
     isDot: 0
@@ -35,6 +37,8 @@ MonoBehaviour:
     moveSpeed: 2
     attackRange: 10
     attackSpeed: 2
+    maxDistance: 0
+    isStunned: 0
     damage: 10
     isPenetrate: 0
     isDot: 0
@@ -51,6 +55,8 @@ MonoBehaviour:
     moveSpeed: 2
     attackRange: 10
     attackSpeed: 1
+    maxDistance: 0
+    isStunned: 0
     damage: 8
     isPenetrate: 1
     isDot: 0
@@ -67,6 +73,8 @@ MonoBehaviour:
     moveSpeed: 2
     attackRange: 6
     attackSpeed: 1
+    maxDistance: 0
+    isStunned: 0
     damage: 20
     isPenetrate: 0
     isDot: 1
@@ -83,6 +91,8 @@ MonoBehaviour:
     moveSpeed: 1
     attackRange: 10
     attackSpeed: 1
+    maxDistance: 0
+    isStunned: 0
     damage: 9
     isPenetrate: 0
     isDot: 0
@@ -99,6 +109,8 @@ MonoBehaviour:
     moveSpeed: 3
     attackRange: 1
     attackSpeed: 1
+    maxDistance: 0
+    isStunned: 0
     damage: 100
     isPenetrate: 1
     isDot: 0
@@ -107,7 +119,7 @@ MonoBehaviour:
     isSlow: 0
     slowTime: 0
     slowRate: 0
-    Prefab: {fileID: 0}
+    Prefab: {fileID: 8404125845747382435, guid: bafb3c27044a6f648a353c72eb9d1a0b, type: 3}
     BulletPrefab: {fileID: 0}
   - name: GrayGun
     health: 100
@@ -115,6 +127,8 @@ MonoBehaviour:
     moveSpeed: 1
     attackRange: 0
     attackSpeed: 0
+    maxDistance: 0
+    isStunned: 0
     damage: 0
     isPenetrate: 0
     isDot: 0

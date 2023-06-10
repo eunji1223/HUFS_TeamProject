@@ -11,9 +11,6 @@ public class AlienSpawn : MonoBehaviour
     private AlienSO alienSO;
     private GameObject Alien; // Randomly selected Alien
 
-    // public GameObject LongRangeAlien;
-    // public GameObject CloseRangeAlien;
-
     [SerializeField]
     private float spawnRate;
     private float timer;
@@ -25,7 +22,6 @@ public class AlienSpawn : MonoBehaviour
     {
         timer = 0;
         RandomSpawnState();
-        spawnAlien();
     }
 
 
@@ -55,13 +51,15 @@ public class AlienSpawn : MonoBehaviour
         Quaternion spawnRotation = selectedSpawn.rotation;
 
         AlienType();
-        // Instantiate(Alien, spawnPosition, spawnRotation, spawnParent);
         Instantiate(Alien, spawnPosition, spawnRotation);
     }
 
     void AlienType()
     {
-        int randomAlien = Random.Range(0, alienSO.alienItems.Length);
+        int randomAlien = Random.Range(0, alienSO.alienItems.Length-1);
+        if (randomAlien>=3) {
+            randomAlien+= 1;
+        }
 
         Alien = alienSO.alienItems[randomAlien].Prefab;
     }

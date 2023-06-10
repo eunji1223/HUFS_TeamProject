@@ -34,6 +34,11 @@ public class AlienAttack : MonoBehaviour
 
             // Get Damage on being hit
             astronaut.TakeDamage(myAttack.damage);
+
+            if (myAttack.isStun) {
+                astronaut.Stun(myAttack.stunTime);
+            }
+            Destroy(gameObject);
         }
     }
 }
