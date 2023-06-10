@@ -15,7 +15,7 @@ MonoBehaviour:
   astronautItems:
   - name: BlueGun
     health: 10
-    cost: 30
+    cost: 50
     moveSpeed: 2
     attackRange: 10
     attackSpeed: 1
@@ -33,7 +33,7 @@ MonoBehaviour:
     BulletPrefab: {fileID: 1704398192900371868, guid: 4b4fde32f962a49acbc54a4cf9acc47d, type: 3}
   - name: GreenGun
     health: 10
-    cost: 50
+    cost: 100
     moveSpeed: 2
     attackRange: 10
     attackSpeed: 2
@@ -51,7 +51,7 @@ MonoBehaviour:
     BulletPrefab: {fileID: 1704398192900371868, guid: 2305f5d18c591415e9b572aa084c0933, type: 3}
   - name: YellowGun
     health: 10
-    cost: 50
+    cost: 100
     moveSpeed: 2
     attackRange: 10
     attackSpeed: 1
@@ -69,7 +69,7 @@ MonoBehaviour:
     BulletPrefab: {fileID: 1704398192900371868, guid: f12165b9e97514a0397473947f0e1b83, type: 3}
   - name: RedGun
     health: 10
-    cost: 50
+    cost: 100
     moveSpeed: 2
     attackRange: 6
     attackSpeed: 1
@@ -87,7 +87,7 @@ MonoBehaviour:
     BulletPrefab: {fileID: 1704398192900371868, guid: c9bd53fb7235c4bfda76cbe61f7a597a, type: 3}
   - name: PinkGun
     health: 10
-    cost: 60
+    cost: 100
     moveSpeed: 1
     attackRange: 10
     attackSpeed: 1
@@ -105,7 +105,7 @@ MonoBehaviour:
     BulletPrefab: {fileID: 1704398192900371868, guid: 4c63df5d62e2b4bbabf674f7880b67e2, type: 3}
   - name: BlackGun
     health: 5
-    cost: 40
+    cost: 10000
     moveSpeed: 3
     attackRange: 1
     attackSpeed: 1
@@ -122,8 +122,8 @@ MonoBehaviour:
     Prefab: {fileID: 8404125845747382435, guid: bafb3c27044a6f648a353c72eb9d1a0b, type: 3}
     BulletPrefab: {fileID: 0}
   - name: GrayGun
-    health: 100
-    cost: 60
+    health: 30
+    cost: 120
     moveSpeed: 1
     attackRange: 0
     attackSpeed: 0

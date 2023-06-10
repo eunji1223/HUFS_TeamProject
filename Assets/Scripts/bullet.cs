@@ -40,6 +40,10 @@ public class Bullet : MonoBehaviour
                 StartCoroutine(ApplyDotDamage(alien, myBullet.dotTime));
             }
 
+            if (myBullet.isSlow) {
+                alien.getSlow(myBullet.slowTime);
+            }
+
             // Penetrate -> Not destroy on hit
             if (!myBullet.isPenetrate) {
                 Destroy(gameObject);

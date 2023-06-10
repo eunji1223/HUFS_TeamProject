@@ -65,7 +65,12 @@ public class Alien : MonoBehaviour
 
     protected void Move()
     {
-        moveSpeed = myAlien.moveSpeed;
+        if (gotSlow) {
+            moveSpeed = myAlien.moveSpeed / 2;
+        }
+        else {
+            moveSpeed = myAlien.moveSpeed;
+        }
         AlienAnim.SetBool("isAttack",false);
         AlienAnim.SetBool("isMoving", true);
     }
@@ -81,6 +86,14 @@ public class Alien : MonoBehaviour
         Destroy(gameObject);
         
         CoinManager.instance.IncreaseCoin(myAlien.coin);
+    }
+
+    public void getSlow(float slowTime) {
+        while (slowTime > 0) {
+            gotSlow = true;
+            slowTime -= Time.deltaTime;
+        }
+        gotSlow = false;
     }
 
 

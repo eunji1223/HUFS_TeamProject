@@ -94,11 +94,15 @@ public class Astronaut : MonoBehaviour
 
     private IEnumerator CreateBullet()
     {
+        yield return new WaitForSeconds(myAstronaut.attackSpeed);
         GameObject bullet = myAstronaut.BulletPrefab;
-        Instantiate(bullet, transform.position, transform.rotation);
+
+        for (int i=0; i<myAstronaut.attackSpeed; i++) {
+            Instantiate(bullet, transform.position, transform.rotation);
+        }
+
         
         // Wait for a short duration before allowing another attack
-        yield return new WaitForSeconds(myAstronaut.attackSpeed);
         isAttacking = false;
     }
 
