@@ -5584,7 +5584,7 @@ MonoBehaviour:
   endingScene: {fileID: 285686706}
   winOption: {fileID: 161946430}
   loseOption: {fileID: 1892826412}
-  remainTime: {fileID: 0}
+  remainTime: {fileID: 1761438845}
 --- !u!61 &891712539
 BoxCollider2D:
   m_ObjectHideFlags: 0

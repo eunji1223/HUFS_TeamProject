@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.UIElements;
+using TMPro;
 
 public class Timer : MonoBehaviour
 {
@@ -15,7 +16,7 @@ public class Timer : MonoBehaviour
     [SerializeField]
     private GameObject loseOption;
     [SerializeField]
-    private Text remainTime;
+    private TMP_Text remainTime;
 
     private bool gameCondition = true; 
     private float time = 180;
@@ -29,6 +30,8 @@ public class Timer : MonoBehaviour
         endingScene.SetActive(false);
         winOption.SetActive(false);
         loseOption.SetActive(false);   
+
+        Time.timeScale = 1;
     }
 
     void Update()
@@ -52,6 +55,7 @@ public class Timer : MonoBehaviour
             timeText[1].text = 0.ToString();
             endingScene.SetActive(true);
             winOption.SetActive(true);
+            Time.timeScale = 0;
             //spawnerCondition = false; 
         }
         else
@@ -91,6 +95,7 @@ public class Timer : MonoBehaviour
                 remainTime.text = "0" + min.ToString() + ":" + sec.ToString();
             }
             loseOption.SetActive(true);
+            Time.timeScale = 0;
            // spawnerCondition = false; 
         }
     }
