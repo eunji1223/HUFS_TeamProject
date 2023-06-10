@@ -47,7 +47,7 @@ MonoBehaviour:
     Prefab: {fileID: 1116872536202529135, guid: a107feb0bdde46a4b86e7f7166c1028c, type: 3}
     AttackPrefab: {fileID: 8994622742378177567, guid: a932f96644dbf4aa99441a88992644f0, type: 3}
   - name: AlienChild
-    health: 50
+    health: 200
     coin: 1
     moveSpeed: 2
     attackRange: 2
