@@ -371,7 +371,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d40d6d8658a3ae0418fa0c10702c2faf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WaitTime: 20
+  WaitTime: 5
   CoinPre: {fileID: 975715265015564232, guid: eace3a2b70d418347a693231f35f1beb, type: 3}
   coinText: {fileID: 1270975555}
   coinActiveCount: 0
@@ -3183,6 +3183,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   astronautSO: {fileID: 11400000, guid: 82b1420753d9d4bbcaf18d93a9bf5406, type: 2}
+  PositionObject: {fileID: 0}
 --- !u!114 &643235223
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4522,6 +4523,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   astronautSO: {fileID: 11400000, guid: 82b1420753d9d4bbcaf18d93a9bf5406, type: 2}
+  PositionObject: {fileID: 0}
 --- !u!114 &1332671601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5234,6 +5236,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   astronautSO: {fileID: 11400000, guid: 82b1420753d9d4bbcaf18d93a9bf5406, type: 2}
+  PositionObject: {fileID: 0}
 --- !u!114 &1786097576
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5296,6 +5299,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1786097573}
   m_CullTransparentMesh: 1
+--- !u!1 &1857467750
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1857467751}
+  m_Layer: 0
+  m_Name: CoinArr
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1857467751
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1857467750}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!224 &1982312411 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5967738252722441728, guid: bafb3c27044a6f648a353c72eb9d1a0b, type: 3}
@@ -5435,6 +5469,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   astronautSO: {fileID: 11400000, guid: 82b1420753d9d4bbcaf18d93a9bf5406, type: 2}
+  PositionObject: {fileID: 0}
 --- !u!114 &2130181413
 MonoBehaviour:
   m_ObjectHideFlags: 0

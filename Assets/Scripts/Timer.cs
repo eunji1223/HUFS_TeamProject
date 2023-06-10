@@ -9,9 +9,13 @@ public class Timer : MonoBehaviour
     [SerializeField]
     private Text[] timeText;
     [SerializeField]
-    private GameObject WinScene;
+    private GameObject endingScene;
     [SerializeField]
-    private GameObject LossScene; 
+    private GameObject winOption;
+    [SerializeField]
+    private GameObject loseOption;
+    [SerializeField]
+    private Text remainTime;
 
     private bool gameCondition = true; 
     private float time = 180;
@@ -22,8 +26,9 @@ public class Timer : MonoBehaviour
     {
         timeText[0].text = "03";
         timeText[1].text = "00";
-        //WinScene.SetActive(false);
-        //LossScene.SetActive(false);
+        endingScene.SetActive(false);
+        winOption.SetActive(false);
+        loseOption.SetActive(false);   
     }
 
     void Update()
@@ -45,7 +50,8 @@ public class Timer : MonoBehaviour
         {
             timeText[0].text = 0.ToString();
             timeText[1].text = 0.ToString();
-            WinScene.SetActive(true);
+            endingScene.SetActive(true);
+            winOption.SetActive(true);
             //spawnerCondition = false; 
         }
         else
@@ -57,8 +63,15 @@ public class Timer : MonoBehaviour
             }
             else
             {
-                timeText[0].text = min.ToString();
-                timeText[1].text = sec.ToString();
+                timeText[0].text = "0" + min.ToString();
+                if(sec < 10)
+                {
+                    timeText[1].text = "0" + sec.ToString();
+                }
+                else
+                {
+                    timeText[1].text = sec.ToString();
+                }
             }
         }
     }
@@ -68,7 +81,16 @@ public class Timer : MonoBehaviour
         if(collision.tag == "Alien")
         {
             gameCondition = false;
-            LossScene.SetActive(true);
+            endingScene.SetActive(true);
+            if (sec < 10)
+            {
+                remainTime.text = "0" + min.ToString() + ":0" + sec.ToString();
+            }
+            else
+            {
+                remainTime.text = "0" + min.ToString() + ":" + sec.ToString();
+            }
+            loseOption.SetActive(true);
            // spawnerCondition = false; 
         }
     }

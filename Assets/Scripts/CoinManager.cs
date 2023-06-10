@@ -46,7 +46,7 @@ public class CoinManager : MonoBehaviour
     {
         for (int i = 0; i < coins.Length; i++)
         {
-            GameObject coin = Instantiate(CoinPre);
+            GameObject coin = Instantiate(CoinPre, new Vector3(0,0,-7), Quaternion.identity);
             coin.gameObject.SetActive(false);
             coins[i] = coin;
             coin.transform.parent = GameObject.Find("CoinArr").transform;
@@ -63,7 +63,7 @@ public class CoinManager : MonoBehaviour
             if (coins[i].gameObject.activeSelf == false)
             {
                 coins[i].gameObject.SetActive(true);
-                coins[i].gameObject.transform.position = new Vector2(CoinX, CoinY);
+                coins[i].gameObject.transform.position = new Vector3(CoinX, CoinY, -7);
                 coinActiveCount += 1;
                 return;
             }
