@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7238672420112863739}
   - component: {fileID: 4901357267802688069}
   m_Layer: 0
-  m_Name: ChildAttack
+  m_Name: BossAttack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -84,4 +84,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   alienSO: {fileID: 11400000, guid: 17163bdc758ba425f8eb5659095a2e1b, type: 2}
-  attackIndex: 3
+  attackIndex: 2

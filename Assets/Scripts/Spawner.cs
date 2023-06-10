@@ -4,7 +4,6 @@ using System.Diagnostics;
 using System.Xml.Schema;
 using UnityEngine;
 using UnityEngine.EventSystems;
-using static UnityEditor.Progress;
 
 using Debug = UnityEngine.Debug;
 

@@ -11,6 +11,7 @@ public class Astronaut : MonoBehaviour
     private int moveSpeed; // 0: Stop, !0: Move
     private bool isAttacking;
     private bool isStop;
+    private bool isStunned = false;
     private Animator astronautAnim;
 
     [SerializeField]
@@ -43,7 +44,7 @@ public class Astronaut : MonoBehaviour
     {
         RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector3.right, myAstronaut.attackRange, layermask);
 
-        if (myAstronaut.isStunned) {
+        if (isStunned == true) {
             // Got Stun
             Stop();
         }
@@ -95,9 +96,10 @@ public class Astronaut : MonoBehaviour
     private IEnumerator CreateBullet()
     {
         yield return new WaitForSeconds(myAstronaut.attackSpeed);
-        GameObject bullet = myAstronaut.BulletPrefab;
 
+        GameObject bullet;
         for (int i=0; i<myAstronaut.attackSpeed; i++) {
+            bullet = myAstronaut.BulletPrefab;
             Instantiate(bullet, transform.position, transform.rotation);
         }
 
@@ -121,7 +123,7 @@ public class Astronaut : MonoBehaviour
 
     public void Stun(float stunTime)
     {
-        myAstronaut.isStunned = true;
+        isStunned = true;
         offStun(stunTime);
 
     }
@@ -130,7 +132,7 @@ public class Astronaut : MonoBehaviour
         while (stunTime > 0) {
             stunTime -= Time.deltaTime;
         }
-        myAstronaut.isStunned = false;
+        isStunned = false;
     }
 
     private void Die()

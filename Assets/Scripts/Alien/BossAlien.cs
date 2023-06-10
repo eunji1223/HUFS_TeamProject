@@ -6,7 +6,6 @@ public class BossAlien : Alien
 {
     [SerializeField]
     private int maxChildAlien;
-    private int BossAlienHP;
 
     //Boss Rocation , division Rocation Control , Child object
     private Vector2 spawnPoint;
@@ -15,15 +14,14 @@ public class BossAlien : Alien
     protected override void Start()
     {
         base.Start();
-        BossAlienHP = 4;
-        maxChildAlien = 4;
+        maxChildAlien = 6;
     }
 
     public override void TakeDamage(int damage)
     {
-        BossAlienHP -= damage;
+        base.TakeDamage(damage);
 
-        if (BossAlienHP <= 0)
+        if (health <= 0)
         {
             // spawnPoint = new Vector2(transform.position.x, transform.position.y + ControlPosition);
             SplitIntoSmallMonsters();

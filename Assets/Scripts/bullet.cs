@@ -45,7 +45,7 @@ public class Bullet : MonoBehaviour
             }
 
             // Penetrate -> Not destroy on hit
-            if (!myBullet.isPenetrate) {
+            if (myBullet.isPenetrate == false) {
                 Destroy(gameObject);
             }
         }

@@ -116,7 +116,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   astronautSO: {fileID: 11400000, guid: 82b1420753d9d4bbcaf18d93a9bf5406, type: 2}
-  bulletIndex: 3
+  bulletIndex: 2
 --- !u!50 &-1941712021284986535
 Rigidbody2D:
   serializedVersion: 4

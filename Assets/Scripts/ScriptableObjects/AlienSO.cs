@@ -13,7 +13,7 @@ public class AlienItem
     public int attackSpeed;
     public int damage;
     public bool isStun;
-    public int stunTime;
+    public float stunTime;
     public GameObject Prefab; // Prefab
     public GameObject AttackPrefab; // Attack Prefab
 }

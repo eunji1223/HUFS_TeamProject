@@ -15,9 +15,10 @@ public class Alien : MonoBehaviour
     [SerializeField]
     private LayerMask targetLayermask;
 
-    private int health;
+    protected int health;
     private int moveSpeed;
-    private bool isAttacking = false;
+    private bool isAttacking;
+    private bool gotSlow;
     private Vector2 moveDirection = Vector2.left;
 
     private Animator AlienAnim;
@@ -34,7 +35,10 @@ public class Alien : MonoBehaviour
         
         health = myAlien.health;
         moveSpeed = myAlien.moveSpeed;
+        isAttacking = false;
+        gotSlow = false;
     }
+    
 
     void Update()
     {
@@ -108,11 +112,12 @@ public class Alien : MonoBehaviour
 
     private IEnumerator CreateAttack()
     {
-        Instantiate(myAlien.AttackPrefab, new Vector3(transform.position.x, transform.position.y-0.5f, transform.position.z-2), transform.rotation);
+        yield return new WaitForSeconds(myAlien.attackSpeed);
+        GameObject attackPrefab = myAlien.AttackPrefab;
+        Instantiate(attackPrefab, new Vector3(transform.position.x, transform.position.y-0.5f, transform.position.z-2), transform.rotation);
         AlienAnim.SetBool("isAttack",true);
         
         // Wait for a short duration before allowing another attack
-        yield return new WaitForSeconds(myAlien.attackSpeed);
         isAttacking = false;
     }
 

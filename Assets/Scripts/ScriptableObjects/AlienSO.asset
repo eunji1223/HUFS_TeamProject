@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   alienItems:
   - name: AlienShort
-    health: 100
+    health: 150
     coin: 5
     moveSpeed: 1
     attackRange: 1
@@ -23,9 +23,9 @@ MonoBehaviour:
     isStun: 0
     stunTime: 0
     Prefab: {fileID: 721211082069887915, guid: d58a714be4d79244685ad402c0f7401c, type: 3}
-    AttackPrefab: {fileID: 4237712118297938584, guid: 0f733114dbfc2479c8ac5fc1e267e18e, type: 3}
+    AttackPrefab: {fileID: 8994622742378177567, guid: 6ac0787dec749422b88862987ef0b274, type: 3}
   - name: AlienLong
-    health: 50
+    health: 100
     coin: 5
     moveSpeed: 1
     attackRange: 6
@@ -36,7 +36,7 @@ MonoBehaviour:
     Prefab: {fileID: 8422276864327897534, guid: 5d1ab9b0228d05a40832b62ab4035c82, type: 3}
     AttackPrefab: {fileID: 4237712118297938584, guid: 34951717e45c21a47b632d48b6f33388, type: 3}
   - name: AlienBoss
-    health: 300
+    health: 400
     coin: 20
     moveSpeed: 1
     attackRange: 2
@@ -45,9 +45,9 @@ MonoBehaviour:
     isStun: 0
     stunTime: 0
     Prefab: {fileID: 1116872536202529135, guid: a107feb0bdde46a4b86e7f7166c1028c, type: 3}
-    AttackPrefab: {fileID: 4237712118297938584, guid: 85289627529444b2b9995026fc88dc5d, type: 3}
+    AttackPrefab: {fileID: 8994622742378177567, guid: a932f96644dbf4aa99441a88992644f0, type: 3}
   - name: AlienChild
-    health: 25
+    health: 50
     coin: 1
     moveSpeed: 2
     attackRange: 2
@@ -56,15 +56,15 @@ MonoBehaviour:
     isStun: 0
     stunTime: 0
     Prefab: {fileID: 3890010291066187801, guid: f17b7cc498268f94aa53eebff02daaa3, type: 3}
-    AttackPrefab: {fileID: 4237712118297938584, guid: d4fdfab9c7b8e4d6db41ac1e4bcad8d8, type: 3}
+    AttackPrefab: {fileID: 8994622742378177567, guid: f35effc46edb6425285b845858fd734c, type: 3}
   - name: AlienStun
-    health: 100
+    health: 200
     coin: 5
     moveSpeed: 1
-    attackRange: 1
+    attackRange: 2
     attackSpeed: 4
     damage: 3
     isStun: 1
-    stunTime: 3
+    stunTime: 5
     Prefab: {fileID: 6923228288935167858, guid: 66d6b25677cc926438be05a46d880c14, type: 3}
     AttackPrefab: {fileID: 8994622742378177567, guid: 49c6f34fd37de408b9dd8f148ae71b93, type: 3}

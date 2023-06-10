@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &8994622742378177567
+--- !u!1 &8135801889530252010
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,40 +8,55 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6282605228021144536}
-  - component: {fileID: 8506885065084546343}
-  - component: {fileID: 7238672420112863739}
-  - component: {fileID: 4901357267802688069}
+  - component: {fileID: 3473513520368609938}
+  - component: {fileID: 120028986468603711}
+  - component: {fileID: 4512696968289582663}
+  - component: {fileID: 8067235547143667410}
+  - component: {fileID: 5653502959621020339}
   m_Layer: 0
-  m_Name: ChildAttack
+  m_Name: GrayBullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6282605228021144536
+--- !u!4 &3473513520368609938
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8994622742378177567}
+  m_GameObject: {fileID: 8135801889530252010}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -15.787365, y: 82.96929, z: -3.7885413}
+  m_LocalPosition: {x: 960, y: 440, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!50 &8506885065084546343
+--- !u!114 &120028986468603711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8135801889530252010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 521560aa762164a42951f783e48ba176, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  astronautSO: {fileID: 11400000, guid: 82b1420753d9d4bbcaf18d93a9bf5406, type: 2}
+  bulletIndex: 6
+--- !u!50 &4512696968289582663
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8994622742378177567}
+  m_GameObject: {fileID: 8135801889530252010}
   m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
@@ -49,39 +64,39 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!70 &7238672420112863739
+--- !u!70 &8067235547143667410
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8994622742378177567}
+  m_GameObject: {fileID: 8135801889530252010}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -1, y: 0}
-  m_Size: {x: 1, y: 3}
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.2, y: 0.2}
   m_Direction: 0
---- !u!114 &4901357267802688069
+--- !u!114 &5653502959621020339
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8994622742378177567}
+  m_GameObject: {fileID: 8135801889530252010}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 896e6875a00384c21a834a4b978f3338, type: 3}
+  m_Script: {fileID: 11500000, guid: 521560aa762164a42951f783e48ba176, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  alienSO: {fileID: 11400000, guid: 17163bdc758ba425f8eb5659095a2e1b, type: 2}
-  attackIndex: 3
+  astronautSO: {fileID: 11400000, guid: 82b1420753d9d4bbcaf18d93a9bf5406, type: 2}
+  bulletIndex: 6

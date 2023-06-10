@@ -15,9 +15,9 @@ MonoBehaviour:
   astronautItems:
   - name: BlueGun
     health: 10
-    cost: 50
+    cost: 30
     moveSpeed: 2
-    attackRange: 10
+    attackRange: 8
     attackSpeed: 1
     maxDistance: 0
     isStunned: 0
@@ -33,9 +33,9 @@ MonoBehaviour:
     BulletPrefab: {fileID: 1704398192900371868, guid: 4b4fde32f962a49acbc54a4cf9acc47d, type: 3}
   - name: GreenGun
     health: 10
-    cost: 100
+    cost: 80
     moveSpeed: 2
-    attackRange: 10
+    attackRange: 8
     attackSpeed: 2
     maxDistance: 0
     isStunned: 0
@@ -51,9 +51,9 @@ MonoBehaviour:
     BulletPrefab: {fileID: 1704398192900371868, guid: 2305f5d18c591415e9b572aa084c0933, type: 3}
   - name: YellowGun
     health: 10
-    cost: 100
+    cost: 80
     moveSpeed: 2
-    attackRange: 10
+    attackRange: 8
     attackSpeed: 1
     maxDistance: 0
     isStunned: 0
@@ -69,9 +69,9 @@ MonoBehaviour:
     BulletPrefab: {fileID: 1704398192900371868, guid: f12165b9e97514a0397473947f0e1b83, type: 3}
   - name: RedGun
     health: 10
-    cost: 100
+    cost: 50
     moveSpeed: 2
-    attackRange: 6
+    attackRange: 8
     attackSpeed: 1
     maxDistance: 0
     isStunned: 0
@@ -87,9 +87,9 @@ MonoBehaviour:
     BulletPrefab: {fileID: 1704398192900371868, guid: c9bd53fb7235c4bfda76cbe61f7a597a, type: 3}
   - name: PinkGun
     health: 10
-    cost: 100
+    cost: 80
     moveSpeed: 1
-    attackRange: 10
+    attackRange: 8
     attackSpeed: 1
     maxDistance: 0
     isStunned: 0
@@ -122,10 +122,10 @@ MonoBehaviour:
     Prefab: {fileID: 8404125845747382435, guid: bafb3c27044a6f648a353c72eb9d1a0b, type: 3}
     BulletPrefab: {fileID: 0}
   - name: GrayGun
-    health: 30
+    health: 60
     cost: 120
     moveSpeed: 1
-    attackRange: 0
+    attackRange: 1
     attackSpeed: 0
     maxDistance: 0
     isStunned: 0
@@ -138,4 +138,4 @@ MonoBehaviour:
     slowTime: 0
     slowRate: 0
     Prefab: {fileID: 3727163249031441289, guid: bdd0080b378a9514babb0bcb69f0bf81, type: 3}
-    BulletPrefab: {fileID: 0}
+    BulletPrefab: {fileID: 8135801889530252010, guid: 119d60a00b1604bb69ad2f22e5ceb567, type: 3}
